@@ -35,11 +35,27 @@ user_parts_list = {
 
 mobos = {
   gigabyte_ga: {
-    name:
-    socket:
-    form_factor:
-    ram_slots:
-    max_ram:
-    price:
+    name: "Gigabyte GA-H110M-A"
+    socket: "LGA1151"
+    form_factor: "Micro ATX"
+    ram_slots: 2
+    max_ram: 32
+    price: 35.88
+  },
+  msi_pro_vd: {
+    name: "MSI B250M PRO-VD"
+    socket: "LGA1151"
+    form_factor: "Micro ATX"
+    ram_slots: 2
+    max_ram: 32
+    price: 45.89
+  },
+  asus_prime: {
+    name: "Asus Prime Z270-A"
+    socket: "LGA1151"
+    form_factor: ATX
+    ram_slots: 4
+    max_ram: 64
+    price:  299
   }
 }
