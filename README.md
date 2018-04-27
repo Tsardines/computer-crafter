@@ -6,12 +6,15 @@ I've decided to create a variation of the popular computer building website, PC 
 When researching project ideas I came across a similar site that a GA alum built, using Express and Node, and I realized that making my own version was definitely a possibility. But unlike their project, mine will be built with Rails, primarily due to the ease of building components, the backend, and user auth.
 
 #### _User Stories_
-
 As a computer builder, I want to see each part list as a grid so that they're easily readable.
 As a clutter hater, I want to browse a minimalistic app for computer parts so that I don't lose my mind.
 As a manufacturing rep, I want my company's parts to be easily visible so that we make more money.
 As a newbie computer builder, I want to view definitions of each part so I can learn about what the hell I'm getting myself into.
 As a person, I want to be able to create an account so that my parts list isn't blown into the wind when I close my browser.
+
+#### _Wireframes and Schema Map_
+Both can be found under computer-crafter/assets.
+Note: There are spaces in the schema map, but in the actual database they will not be present.
 
 #### _MVP and Post-MVP_
 ##### This project's MVP is as follows:
