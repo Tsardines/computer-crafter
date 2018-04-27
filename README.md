@@ -20,6 +20,8 @@ When researching project ideas I came across a similar site that a GA alum built
   - View a brief part definition on hover (on landing page)
   - Part compatibility detector
     - Note: This is one of the main features of the original site
+  - Real-time updates of computer parts and prices
+    - For the sake of time, all of the parts data will be hardcoded into the db
 
 #### _Landing Page_
   - Navbar:
@@ -31,7 +33,7 @@ When researching project ideas I came across a similar site that a GA alum built
     - Brief welcome message with info. about where to get started
   - 3x3 grid of the parts, each one with a picture
   - Footer:
-    - Brief bio about me
+    - Brief info about me
     - Links to useful websites
       - http://www.logicalincrements.com/
       - https://www.productchart.com/monitors/
@@ -48,16 +50,17 @@ When researching project ideas I came across a similar site that a GA alum built
     - Large picture of something computer-y (both pages will have a different image)
     - Right next to it, a registration/login form (username and password) with a submit button
 
+#### _Profile and Parts List_
+  - The top, below the navbar, will say something like "Here's your list:"
+  - Main area will be composed of a grid, similar to the individual parts pages
+  - First column will consist of: "Component", "Name", "Price"
+  - Post-MVP: The bottom will show the words "Total Price" and then the actual calculated price
 
-- profile
+#### _Possible Complications/Concerns_
+ - Juggling the large number of tables
+  - And the join table
 
-
-- the list itself
-
-
-
-
-- possible complications
-
-
-- technologies
+#### _Technologies_
+- Rails
+- Devise (user auth)
+- Materialize for styling (pending)
