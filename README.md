@@ -7,9 +7,13 @@ When researching project ideas I came across a similar site that a GA alum built
 
 #### _User Stories_
 As a computer builder, I want to see each part list as a grid so that they're easily readable.
+
 As a clutter hater, I want to browse a minimalistic app for computer parts so that I don't lose my mind.
+
 As a manufacturing rep, I want my company's parts to be easily visible so that we make more money.
+
 As a newbie computer builder, I want to view definitions of each part so I can learn about what the hell I'm getting myself into.
+
 As a person, I want to be able to create an account so that my parts list isn't blown into the wind when I close my browser.
 
 #### _Wireframes and Schema Map_

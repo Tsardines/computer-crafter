@@ -18,7 +18,7 @@ users = {
   }
 }
 
-user_parts_list = {
+user_parts_lists = {
   test_list: {
     username: "test_username",
     cpu: "test_cpu",
