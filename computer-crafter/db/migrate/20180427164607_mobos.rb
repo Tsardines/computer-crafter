@@ -1,4 +1,4 @@
-class CreateMobos < ActiveRecord::Migration[5.2]
+class Mobos < ActiveRecord::Migration[5.2]
   def change
     create_table :mobos do |t|
       t.string :name
@@ -7,6 +7,7 @@ class CreateMobos < ActiveRecord::Migration[5.2]
       t.integer :ram_slots
       t.integer :max_ram
       t.integer :price
+      t.references :user_parts_list, foreign_key: true
 
       t.timestamps
     end
