@@ -11,7 +11,7 @@ class UserPartsLists < ActiveRecord::Migration[5.2]
       t.string :ram
       t.string :storage
       t.string :vid_card
-      t.references :users, foreign_key: true
+      # t.references :users, foreign_key: true
 
       t.timestamps
     end

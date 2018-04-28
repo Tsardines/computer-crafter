@@ -10,11 +10,11 @@
 users = {
   haley: {
     username: "haley",
-    password: "haley"
+    password: "haley",
   },
   geralt: {
     username: "geralt",
-    password: "geralt"
+    password: "geralt",
   }
 }
 
@@ -29,33 +29,33 @@ user_parts_lists = {
     case: "test_case",
     power_supply: "test_power_supply",
     vid_card: "test_vid_card",
-    monitor: "test_monitor"
+    monitor: "test_monitor",
   }
 }
 
 mobos = {
   gigabyte_ga: {
-    name: "Gigabyte GA-H110M-A"
-    socket: "LGA1151"
-    form_factor: "Micro ATX"
-    ram_slots: 2
-    max_ram: 32
-    price: 35.88
+    name: "Gigabyte GA-H110M-A",
+    socket: "LGA1151",
+    form_factor: "Micro ATX",
+    ram_slots: 2,
+    max_ram: 32,
+    price: 35.88,
   },
   msi_pro_vd: {
-    name: "MSI B250M PRO-VD"
-    socket: "LGA1151"
-    form_factor: "Micro ATX"
-    ram_slots: 2
-    max_ram: 32
-    price: 45.89
+    name: "MSI B250M PRO-VD",
+    socket: "LGA1151",
+    form_factor: "Micro ATX",
+    ram_slots: 2,
+    max_ram: 32,
+    price: 45.89,
   },
   asus_prime: {
-    name: "Asus Prime Z270-A"
-    socket: "LGA1151"
-    form_factor: ATX
-    ram_slots: 4
-    max_ram: 64
-    price:  299
+    name: "Asus Prime Z270-A",
+    socket: "LGA1151",
+    form_factor: "ATX",
+    ram_slots: 4,
+    max_ram: 64,
+    price:  299,
   }
 }

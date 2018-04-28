@@ -7,7 +7,7 @@ class Mobos < ActiveRecord::Migration[5.2]
       t.integer :ram_slots
       t.integer :max_ram
       t.integer :price
-      t.references :user_parts_lists, foreign_key: true
+      # t.references :user_parts_lists, foreign_key: true
 
       t.timestamps
     end
