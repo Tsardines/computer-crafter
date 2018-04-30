@@ -6,23 +6,96 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Part.destroy_all
+Spec.destroy_all
+
+Part.create([
+  { name: 'Gigabyte GA-H110M-A' },
+  { name: 'put something here' },
+  { name: 'put something else here '}
+  ])
+
+  Spec.create([
+    { attribute_name: 'Socket',
+      attribute_value: 'LGA1151',
+      part_id: 1
+    },
+    { attribute_name: 'Form Factor',
+      attribute_value: 'Micro ATX',
+      part_id: 1
+    },
+    { attribute_name: 'RAM Slots',
+      attribute_value: 2,
+      part_id: 1
+    },
+    { attribute_name: 'Max RAM',
+      attribute_value: 32,
+      part_id: 1
+    },
+    { attribute_name: 'Price',
+      attribute_value: 35.88,
+      part_id: 1
+    },
+
+
+    { attribute_name: 'Socket',
+      attribute_value: 'LGA1151',
+      part_id: 2
+    },
+    { attribute_name: 'Form Factor',
+      attribute_value: 'Micro ATX',
+      part_id: 2
+    },
+    { attribute_name: 'RAM Slots',
+      attribute_value: 2,
+      part_id: 2
+    },
+    { attribute_name: 'Max RAM',
+      attribute_value: 32,
+      part_id: 2
+    },
+    { attribute_name: 'Price',
+      attribute_value: 35.88,
+      part_id: 2
+    },
+
+
+    { attribute_name: 'Socket',
+      attribute_value: 'LGA1151',
+      part_id: 3
+    },
+    { attribute_name: 'Form Factor',
+      attribute_value: 'Micro ATX',
+      part_id: 3
+    },
+    { attribute_name: 'RAM Slots',
+      attribute_value: 2,
+      part_id: 3
+    },
+    { attribute_name: 'Max RAM',
+      attribute_value: 32,
+      part_id: 3
+    },
+    { attribute_name: 'Price',
+      attribute_value: 35.88,
+      part_id: 3
+    },
+    ])
 
 # ====== MOBO ====== #
-mobo = Part.create({name: 'mobo'})
-mb1 = Spec.create({attribute_name: 'Name', attribute_value: 'Gigabyte GA-H110M-A'})
-mb2 = Spec.create({attribute_name: 'Socket', attribute_value: 'LGA1151'})
-mb3 = Spec.create({attribute_name: 'Form Factor', attribute_value: 'Micro ATX'})
-mb4 = Spec.create({attribute_name: 'RAM Slots', attribute_value: '2'})
-mb5 = Spec.create({attribute_name: 'Max RAM', attribute_value: '32'})
-mb6 = Spec.create({attribute_name: 'Price', attribute_value: '35.88'})
-mobo.specs << mb1
-mobo.specs << mb2
-mobo.specs << mb3
-mobo.specs << mb4
-mobo.specs << mb5
-mobo.specs << mb6
+# mobo1 = Part.create({name: 'Gigabyte GA-H110M-A'})
+# mobo1_socket = Spec.create({attribute_name: 'Socket', attribute_value: 'LGA1151'})
+# mobo1_ form_fac = Spec.create({attribute_name: 'Form Factor', attribute_value: 'Micro ATX'})
+# mobo1_ram_slots = Spec.create({attribute_name: 'RAM Slots', attribute_value: '2'})
+# mobo1_ max_ram = Spec.create({attribute_name: 'Max RAM', attribute_value: '32'})
+# mobo1_ price = Spec.create({attribute_name: 'Price', attribute_value: '35.88'})
+# mobo1.specs << mobo1_socket
+# mobo1.specs << mobo1_form_fac
+# mobo1.specs << mobo1_ram_slots
+# mobo1.specs << mobo1_max_ram
+# mobo1.specs << mobo1_price
 
-
+puts "Created #{Spec.count} specs and #{Part.count} parts"
 
 #     name: "Gigabyte GA-H110M-A",
 #     socket: "LGA1151",

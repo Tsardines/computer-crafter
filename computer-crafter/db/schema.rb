@@ -10,17 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_30_200740) do
+ActiveRecord::Schema.define(version: 2018_04_30_202800) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "part_user", id: false, force: :cascade do |t|
-    t.bigint "user_id", null: false
-    t.bigint "part_id", null: false
-    t.index ["part_id", "user_id"], name: "index_part_user_on_part_id_and_user_id"
-    t.index ["user_id", "part_id"], name: "index_part_user_on_user_id_and_part_id"
-  end
 
   create_table "parts", force: :cascade do |t|
     t.string "name"
@@ -29,11 +22,21 @@ ActiveRecord::Schema.define(version: 2018_04_30_200740) do
   end
 
   create_table "specs", force: :cascade do |t|
-    t.integer "part_id"
     t.string "attribute_name"
     t.string "attribute_value"
+    t.bigint "part_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["part_id"], name: "index_specs_on_part_id"
+  end
+
+  create_table "user_part_lists", force: :cascade do |t|
+    t.bigint "user_id"
+    t.bigint "part_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["part_id"], name: "index_user_part_lists_on_part_id"
+    t.index ["user_id"], name: "index_user_part_lists_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|

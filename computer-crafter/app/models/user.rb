@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  has_one :user_parts_lists
+  has_many :parts through :user_part_lists
 end
