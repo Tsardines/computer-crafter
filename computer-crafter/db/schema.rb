@@ -10,10 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_30_182609) do
+ActiveRecord::Schema.define(version: 2018_04_30_200740) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "part_user", id: false, force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "part_id", null: false
+    t.index ["part_id", "user_id"], name: "index_part_user_on_part_id_and_user_id"
+    t.index ["user_id", "part_id"], name: "index_part_user_on_user_id_and_part_id"
+  end
 
   create_table "parts", force: :cascade do |t|
     t.string "name"
