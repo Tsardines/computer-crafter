@@ -10,33 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_28_184639) do
+ActiveRecord::Schema.define(version: 2018_04_30_182609) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "mobos", force: :cascade do |t|
+  create_table "parts", force: :cascade do |t|
     t.string "name"
-    t.string "socket"
-    t.string "form_factor"
-    t.integer "ram_slots"
-    t.integer "max_ram"
-    t.integer "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "user_parts_lists", force: :cascade do |t|
-    t.string "username"
-    t.string "case"
-    t.string "cpu"
-    t.string "cpu_cooler"
-    t.string "mobo"
-    t.string "monitor"
-    t.string "power_supply"
-    t.string "ram"
-    t.string "storage"
-    t.string "vid_card"
+  create_table "specs", force: :cascade do |t|
+    t.integer "part_id"
+    t.string "attribute_name"
+    t.string "attribute_value"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -3,6 +3,7 @@ class Parts < ActiveRecord::Migration[5.2]
     create_table :parts do |t|
       t.string :name
 
-    t.timestamps
+      t.timestamps
+    end
   end
 end

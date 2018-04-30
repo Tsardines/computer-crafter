@@ -6,5 +6,6 @@ class Specs < ActiveRecord::Migration[5.2]
       t.string :attribute_value
 
       t.timestamps
+    end
   end
 end
