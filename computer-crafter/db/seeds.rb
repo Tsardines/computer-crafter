@@ -9,91 +9,36 @@
 Part.destroy_all
 Spec.destroy_all
 
-Part.create([
-  { name: 'Gigabyte GA-H110M-A' },
-  { name: 'put something here' },
-  { name: 'put something else here '}
+  Part.create([
+
+    # ===== Mobos ===== #
+    { name: 'Gigabyte GA-H110M-A' },
+    { name: 'MSI B250M PRO-VD' },
+    { name: 'Asus Prime Z270-A'}
   ])
 
   Spec.create([
-    { attribute_name: 'Socket',
-      attribute_value: 'LGA1151',
-      part_id: 1
-    },
-    { attribute_name: 'Form Factor',
-      attribute_value: 'Micro ATX',
-      part_id: 1
-    },
-    { attribute_name: 'RAM Slots',
-      attribute_value: 2,
-      part_id: 1
-    },
-    { attribute_name: 'Max RAM',
-      attribute_value: 32,
-      part_id: 1
-    },
-    { attribute_name: 'Price',
-      attribute_value: 35.88,
-      part_id: 1
-    },
 
+    # ===== Mobos ===== #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 1 },
+    { attribute_name: 'Form Factor', attribute_value: 'Micro ATX', part_id: 1 },
+    { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 1 },
+    { attribute_name: 'Max RAM', attribute_value: 32, part_id: 1 },
+    { attribute_name: 'Price', attribute_value: 35.88, part_id: 1 },
 
-    { attribute_name: 'Socket',
-      attribute_value: 'LGA1151',
-      part_id: 2
-    },
-    { attribute_name: 'Form Factor',
-      attribute_value: 'Micro ATX',
-      part_id: 2
-    },
-    { attribute_name: 'RAM Slots',
-      attribute_value: 2,
-      part_id: 2
-    },
-    { attribute_name: 'Max RAM',
-      attribute_value: 32,
-      part_id: 2
-    },
-    { attribute_name: 'Price',
-      attribute_value: 35.88,
-      part_id: 2
-    },
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 2 },
+    { attribute_name: 'Form Factor', attribute_value: 'Micro ATX', part_id: 2 },
+    { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 2 },
+    { attribute_name: 'Max RAM', attribute_value: 32, part_id: 2 },
+    { attribute_name: 'Price', attribute_value: 45.89, part_id: 2 },
 
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 3 },
+    { attribute_name: 'Form Factor', attribute_value: 'ATX', part_id: 3 },
+    { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 3 },
+    { attribute_name: 'Max RAM', attribute_value: 64, part_id: 3 },
+    { attribute_name: 'Price', attribute_value: 299, part_id: 3 },
+  ])
 
-    { attribute_name: 'Socket',
-      attribute_value: 'LGA1151',
-      part_id: 3
-    },
-    { attribute_name: 'Form Factor',
-      attribute_value: 'Micro ATX',
-      part_id: 3
-    },
-    { attribute_name: 'RAM Slots',
-      attribute_value: 2,
-      part_id: 3
-    },
-    { attribute_name: 'Max RAM',
-      attribute_value: 32,
-      part_id: 3
-    },
-    { attribute_name: 'Price',
-      attribute_value: 35.88,
-      part_id: 3
-    },
-    ])
-
-# ====== MOBO ====== #
-# mobo1 = Part.create({name: 'Gigabyte GA-H110M-A'})
-# mobo1_socket = Spec.create({attribute_name: 'Socket', attribute_value: 'LGA1151'})
-# mobo1_ form_fac = Spec.create({attribute_name: 'Form Factor', attribute_value: 'Micro ATX'})
-# mobo1_ram_slots = Spec.create({attribute_name: 'RAM Slots', attribute_value: '2'})
-# mobo1_ max_ram = Spec.create({attribute_name: 'Max RAM', attribute_value: '32'})
-# mobo1_ price = Spec.create({attribute_name: 'Price', attribute_value: '35.88'})
-# mobo1.specs << mobo1_socket
-# mobo1.specs << mobo1_form_fac
-# mobo1.specs << mobo1_ram_slots
-# mobo1.specs << mobo1_max_ram
-# mobo1.specs << mobo1_price
 
 puts "Created #{Spec.count} specs and #{Part.count} parts"
 
@@ -222,32 +167,7 @@ puts "Created #{Spec.count} specs and #{Part.count} parts"
 #   }
 # }
 #
-# mobos = {
-#   gigabyte_ga: {
-#     name: "Gigabyte GA-H110M-A",
-#     socket: "LGA1151",
-#     form_factor: "Micro ATX",
-#     ram_slots: 2,
-#     max_ram: 32,
-#     price: 35.88,
-#   },
-#   msi_pro_vd: {
-#     name: "MSI B250M PRO-VD",
-#     socket: "LGA1151",
-#     form_factor: "Micro ATX",
-#     ram_slots: 2,
-#     max_ram: 32,
-#     price: 45.89,
-#   },
-#   asus_prime: {
-#     name: "Asus Prime Z270-A",
-#     socket: "LGA1151",
-#     form_factor: "ATX",
-#     ram_slots: 4,
-#     max_ram: 64,
-#     price:  299,
-#   }
-# }
+
 #
 # monitors = {
 #   acer_gn: {
