@@ -11,6 +11,11 @@ Spec.destroy_all
 
   Part.create([
 
+    # ===== Cases ===== #
+    { name: 'NZXT S340' },
+    { name: 'Phantex Ethoo Pro M Tempered Glass' },
+    { name: 'Corsair Crystal 570X RGB' }
+
     # ===== Mobos ===== #
     { name: 'Gigabyte GA-H110M-A' },
     { name: 'MSI B250M PRO-VD' },
@@ -18,6 +23,47 @@ Spec.destroy_all
   ])
 
   Spec.create([
+
+    { attribute_name: 'Color', attribute_value: 'black', part_id: 4 },
+    { attribute_name: 'Ext', attribute_value: 3, part_id: 4 },
+    { attribute_name: 'Int', attribute_value: 2, part_id: 4 },
+    { attribute_name: 'Power Supply', attribute_value: false, part_id: 4 },
+    { attribute_name: 'Type', attribute_value: 32, part_id: 4 },
+    { attribute_name: 'Price', attribute_value: 35.88, part_id: 4 },
+
+    { attribute_name: 'Color', attribute_value: 'black', part_id: 5 },
+    { attribute_name: 'Ext', attribute_value: 1, part_id: 5 },
+    { attribute_name: 'Int', attribute_value: 3, part_id: 5 },
+    { attribute_name: 'Power Supply', attribute_value: 32, part_id: 5 },
+    { attribute_name: 'Type', attribute_value: 32, part_id: 5 },
+    { attribute_name: 'Price', attribute_value: 45.89, part_id: 5 },
+
+    { attribute_name: 'Color', attribute_value: 'black', part_id: 6 },
+    { attribute_name: 'Ext', attribute_value: 2, part_id: 6 },
+    { attribute_name: 'Int', attribute_value: 2, part_id: 6 },
+    { attribute_name: 'Power Supply', attribute_value: 64, part_id: 6 },
+    { attribute_name: 'Type', attribute_value: 32, part_id: 6 },
+    { attribute_name: 'Price', attribute_value: 299, part_id: 6 },
+
+
+    #     int: 2,
+    #     power_supp: false,
+    #     price: 54.99,
+    #     type: "ATX Mid Tower",
+    #   },
+
+    #     int: 3,
+    #     power_supp: false,
+    #     price: 79.99,
+    #     type: "ATX Mid Tower",
+    #   },
+
+    #     int: 2,
+    #     power_supp: false,
+    #     price: 144.67,
+    #     type: "ATX Mid Tower",
+    #   },
+    # }
 
     # ===== Mobos ===== #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 1 },
@@ -42,12 +88,7 @@ Spec.destroy_all
 
 puts "Created #{Spec.count} specs and #{Part.count} parts"
 
-#     name: "Gigabyte GA-H110M-A",
-#     socket: "LGA1151",
-#     form_factor: "Micro ATX",
-#     ram_slots: 2,
-#     max_ram: 32,
-#     price: 35.88,
+
 
 # Make a new Vid Card
 # vidcard = Part.create({name: 'vidcard'})
@@ -89,35 +130,7 @@ puts "Created #{Spec.count} specs and #{Part.count} parts"
 #   }
 # }
 #
-# cases = {
-#   nzxt_1: {
-#     name: "NZXT S340",
-#     color: "black",
-#     ext: 3,
-#     int: 2,
-#     power_supp: false,
-#     price: 54.99,
-#     type: "ATX Mid Tower",
-#   },
-#   phan_eth: {
-#     name: "Phantex Ethoo Pro M Tempered Glass",
-#     color: "black",
-#     ext: 1,
-#     int: 3,
-#     power_supp: false,
-#     price: 79.99,
-#     type: "ATX Mid Tower",
-#   },
-#   cors_crys: {
-#     name: "Corsair Crystal 570X RGB",
-#     color: "black",
-#     ext: 2,
-#     int: 2,
-#     power_supp: false,
-#     price: 144.67,
-#     type: "ATX Mid Tower",
-#   },
-# }
+
 #
 # cpus = {
 #   int_87k: {
