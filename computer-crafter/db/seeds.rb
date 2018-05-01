@@ -1,11 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
 Part.destroy_all
 Spec.destroy_all
 
@@ -214,15 +206,11 @@ Spec.destroy_all
     { attribute_name: 'Memory', attribute_value: 4, part_id: 24 },
     { attribute_name: 'Core Clock', attribute_value: 1.20, part_id: 24 },
     { attribute_name: 'Price', attribute_value: 134.99, part_id: 24 },
-    ####### keep last comma?
 
   ])
 
 
 puts "Created #{Spec.count} specs and #{Part.count} parts"
-
-
-
 
 
 
@@ -253,33 +241,3 @@ puts "Created #{Spec.count} specs and #{Part.count} parts"
 #   }
 # }
 #
-
-
-
-#
-# vid_cards = {
-#   evga_06g: {
-#     name: "EVGA 06G-P4-6163-KR",
-#     series: "SC GAMING",
-#     chipset: "GeForce GTX 1060 6GB",
-#     memory: 6,
-#     core_clock: 1.61,
-#     price: 299.99,
-#   },
-#   asus_strix: {
-#     name: "Asus ROG STRIX-GTX1080-8G-GAMING",
-#     series: "STRIX",
-#     chipset: "GeForce GTX 1080",
-#     memory: 8,
-#     core_clock: 1.61,
-#     price: 599.99,
-#   },
-#   msi_560: {
-#     name: "MSI RX 560 AERO ITX 4G OC",
-#     series: "AERO ITX",
-#     chipset: "Radeon RX 560 - 1024",
-#     memory: 4,
-#     core_clock: 1.20,
-#     price: 134.99,
-#   }
-# }
