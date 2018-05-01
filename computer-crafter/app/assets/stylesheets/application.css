@@ -1,14 +1,21 @@
 @import "bulma";
 
-/* body {
-  background-color: turquoise;
+.group-1 {
+  background-color: red;
 }
 
-.ul-class {
+.group-2 {
+  background-color: pink;
+}
+
+.group-3 {
+  background-color: green;
+}
+
+.footer {
+  background-color: purple;
   color: black;
-} */
-
-
+}
 
 
 /*
