@@ -15,9 +15,11 @@
         </span>
       </a>
       <div class="navbar-burger burger" data-target="navMenuExamplet">
-        <span></span>
-        <span></span>
-        <span></span>
+        <!-- <span>Build Guide</span>
+        <span>Register</span>
+        <span>Login</span>
+        <span>View My List</span>
+        <span>Browse Parts</span> -->
       </div>
     </div>
     <div id="navMenuExamplet" class="navbar-menu">
@@ -25,58 +27,88 @@
         <a class="navbar-item " href="#">
           Home
         </a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link  is-active" href="#">
-            Docs
-          </a>
-          <div class="navbar-dropdown is-boxed">
-            <a class="navbar-item " href="#">
-              Overview
-            </a>
-            <a class="navbar-item " href="#">
-              Discover
-            </a>
-            <hr class="navbar-divider">
-            <div class="navbar-item">
-              <div>version
-                <p class="has-text-info is-size-6-desktop">0.4.3</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="navbar-end">
-        <a class="navbar-item" href="https://github.com/jgthms/bulma" target="_blank">
-          Github
-        </a>
 
-        <p class="control">
-          <a id="Register" class="button">
-            <span>Register</span>
-          </a>
-        </p>
+      </div>
+
+      <div class="navbar-end">
 
         <div class="navbar-item">
           <div class="field is-grouped">
+            <p class="control">
+              <a id="BuildGuide" class="button">
+                <span>Build Guide</span>
+              </a>
+            </p>
+
+            <p class="control">
+              <a id="Register" class="button">
+                <span>Register</span>
+              </a>
+            </p>
+
             <p class="control">
               <a id="Login" class="button">
                 <span>Login</span>
               </a>
             </p>
+
             <p class="control">
               <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.4.3.zip">
                 <span class="icon">
                   <i class="fa fa-parts-list"></i>
                 </span>
-                <span>View Parts List</span>
+                <span>View My List</span>
               </a>
             </p>
+
+          <!-- Navbar Dropdown ------------------->
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link  is-active" href="#">
+                Browse Parts
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <a class="navbar-item " href="#">
+                  Cases
+                </a>
+                <a class="navbar-item " href="#">
+                  CPUs
+                </a>
+                <a class="navbar-item " href="#">
+                  CPU Coolers
+                </a>
+                <a class="navbar-item " href="#">
+                  Graphics Cards
+                </a>
+                <a class="navbar-item " href="#">
+                  Motherboards
+                </a>
+                <a class="navbar-item " href="#">
+                  Monitors
+                </a>
+                <a class="navbar-item " href="#">
+                  PSUs
+                </a>
+                <a class="navbar-item " href="#">
+                  RAM
+                </a>
+                <a class="navbar-item " href="#">
+                  Storage
+                </a>
+
+                <hr class="navbar-divider">
+                <div class="navbar-item">
+                  <div>Stuck?
+                    <p class="has-text-info is-size-8-desktop">Browse the parts lists <br> for inspiration.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
   </nav>
 </section>
-
 
 <%= yield %>

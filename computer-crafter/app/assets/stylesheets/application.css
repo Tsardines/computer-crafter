@@ -1,5 +1,11 @@
 @import "bulma";
 
+
+.footer {
+  background-color: turquoise;
+  color: black;
+}
+
 .group-1 {
   background-color: red;
 }
@@ -12,10 +18,31 @@
   background-color: green;
 }
 
-.footer {
-  background-color: purple;
-  color: black;
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding-left: 5px;
 }
+
+.welcome {
+  background-color: turquoise;
+  color: white;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
 
 
 /*
