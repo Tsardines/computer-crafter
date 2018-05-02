@@ -10,5 +10,4 @@ Rails.application.routes.draw do
   root 'pages#index'
   resources :parts do
   end
-
 end
