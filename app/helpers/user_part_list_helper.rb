@@ -1,0 +1,2 @@
+module UserPartListHelper
+end

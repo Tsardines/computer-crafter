@@ -1,3 +1,57 @@
+@import "bulma";
+/* @import "partials/*";
+@import "layouts/partials/*"; */
+
+
+.footer {
+  background-color: turquoise;
+  color: black;
+}
+
+.group-1 {
+  background-color: red;
+}
+
+.group-2 {
+  background-color: pink;
+}
+
+.group-3 {
+  background-color: green;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.welcome {
+  background-color: turquoise;
+  color: white;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
