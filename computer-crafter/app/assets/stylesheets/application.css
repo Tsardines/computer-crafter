@@ -1,11 +1,79 @@
 @import "bulma";
-/* @import "partials/*";
-@import "layouts/partials/*"; */
+/* @import "computer-crafter/app/assets/stylesheets/partials/footer.scss"; */
+
+.build-welcome {
+  background-color: turquoise;
+  color: white;
+  /* display: flex; */
+  font-size: 25px;
+  /* justify-content: center; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.build-welcome h1 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.build-welcome p {
+  font-size: 20px;
+}
+
+.main-parts h1 {
+  font-size: 30px;
+}
+
+.peripherals {
+  padding-left: 20%;
+}
+
+.peripherals h1 {
+  font-size: 30px;
+}
+
+.peripherals h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.peripherals p {
+  font-size: 18px;
+  width: 60%;
+}
+
 
 
 .footer {
   background-color: turquoise;
-  color: black;
+  color: white;
+  padding-top: 100px;
+}
+
+.column {
+  border-radius: 250px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.center-box {
+  background-color: orange;
+  padding: 0 80px 0 80px;
+}
+
+.left-box {
+  background-color: pink;
+  padding: 0 180px 0 180px;
+}
+
+.right-box {
+  background-color: white;
+  padding: 0 100px 0 100px;
 }
 
 .group-1 {
