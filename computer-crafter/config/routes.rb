@@ -14,9 +14,12 @@ Rails.application.routes.draw do
 
   # displays main page
   root 'pages#index'
-  
+
   # displays the build guide
   get 'pages/build_guide'
+
+  ##### PARTS PAGES #####
+  get 'parts/cases'
 
   resources :parts do
 

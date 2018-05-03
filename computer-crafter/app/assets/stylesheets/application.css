@@ -81,7 +81,8 @@
 
 .center-box {
   background-color: orange;
-  padding: 0 80px 0 80px;
+  padding: 40px 80px 0 80px;
+  width: 95%;
 }
 
 .left-box {

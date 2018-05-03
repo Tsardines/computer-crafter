@@ -8,6 +8,9 @@ class PartsController < ApplicationController
     @part = Part.find(params[:id])
   end
 
+  def cases
+  end
+
   # GET /parts/new
   # def new
   #   @part = Part.new
