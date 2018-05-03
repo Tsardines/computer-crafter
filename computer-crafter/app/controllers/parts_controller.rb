@@ -2,6 +2,7 @@ class PartsController < ApplicationController
 
   def index
     @parts = Part.all
+    @spec = Spec.all
   end
 
   def show
@@ -9,6 +10,8 @@ class PartsController < ApplicationController
   end
 
   def cases
+    @cases = Part.where("part_type = 'case'")
+    @parts = Spec
   end
 
   # GET /parts/new

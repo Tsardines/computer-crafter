@@ -3,10 +3,10 @@ Spec.destroy_all
 
   Part.create([
     # ===== Cases ===== #
-    { name: 'NZXT S340' },
-    { name: 'Phantex Ethoo Pro M Tempered Glass' },
-    { name: 'Corsair Crystal 570X RGB' },
 
+    { name: 'NZXT S340', part_type: 'case'},
+    { name: 'Phantex Ethoo Pro M Tempered Glass', part_type: 'case'},
+    { name: 'Corsair Crystal 570X RGB', part_type: 'case'},
     # ===== CPUs ===== #
     { name: 'Intel Core i7-8700k' },
     { name: 'AMD Ryzen 5 2600X'},

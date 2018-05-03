@@ -1,1 +1,58 @@
-<h1>This is the cases page</h1>
+<!-- <p>This is stuff!!! <%= @parts %></p> -->
+
+<div class="parts-def">
+
+  <p>The case protects your components from outside hazards: dust, dander, wandering fingers, and more. When you're buying your first case you want to consider: <strong>form factor, airflow, cable management, side panels, material type, and bays and mount points.</strong></p>
+
+</div>
+
+<section class="section" id="cases">
+  <h1 class="title">Cases</h1>
+  <hr>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="color">Color</abbr>
+        </th>
+        <th>
+          <abbr title="ext">Ext.</abbr>
+        </th>
+        <th>
+          <abbr title="int">Int.</abbr>
+        </th>
+        <th>
+          <abbr title="pow-supp">Power Supply</abbr>
+        </th>
+        <th>
+          <abbr title="type">Type</abbr>
+        </th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+      </tr>
+    </thead>
+    <!-- <tfoot>
+
+
+    </tfoot> -->
+
+    <% @cases.each do |part| %>
+
+    <tbody>
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+        <% part.specs.each do |spec| %>
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>
