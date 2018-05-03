@@ -1,4 +1,4 @@
-<!-- <p>This is stuff!!! <%= @parts %></p> -->
+
 
 <div class="parts-def">
 
@@ -8,7 +8,7 @@
 
 <section class="section" id="cases">
   <h1 class="title">Cases</h1>
-  <hr>
+
   <table class="table">
     <thead>
       <tr>
@@ -33,10 +33,7 @@
         </th>
       </tr>
     </thead>
-    <!-- <tfoot>
 
-
-    </tfoot> -->
 
     <% @cases.each do |part| %>
 
@@ -45,7 +42,7 @@
         <td>
            <strong><%= part.name %></strong>
         </td>
-        <% part.specs.each do |spec| %>
+        <td><% part.specs.each do |spec| %></td>
           <td><%= spec.attribute_value %></td>
 
         <% end %>

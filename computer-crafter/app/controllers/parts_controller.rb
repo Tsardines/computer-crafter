@@ -11,6 +11,9 @@ class PartsController < ApplicationController
 
   def cases
     @cases = Part.where("part_type = 'case'")
+    @parts = Spec.find(4)
+    @parts = Spec.find(5)
+    @parts = Spec.find(6)
     @parts = Spec
   end
 

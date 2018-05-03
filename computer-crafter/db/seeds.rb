@@ -49,29 +49,29 @@ Spec.destroy_all
   ])
 
   Spec.create([
-    # ===== Cases ===== #
+    # ===== Cases ===== 2 #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 4 },
     { attribute_name: 'Ext', attribute_value: 3, part_id: 4 },
     { attribute_name: 'Int', attribute_value: 2, part_id: 4 },
-    { attribute_name: 'Power Supply', attribute_value: false, part_id: 4 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 4 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 4 },
     { attribute_name: 'Price', attribute_value: 54.99, part_id: 4 },
 
     { attribute_name: 'Color', attribute_value: 'black', part_id: 5 },
     { attribute_name: 'Ext', attribute_value: 1, part_id: 5 },
     { attribute_name: 'Int', attribute_value: 3, part_id: 5 },
-    { attribute_name: 'Power Supply', attribute_value: false, part_id: 5 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 5 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 5 },
     { attribute_name: 'Price', attribute_value: 79.99, part_id: 5 },
 
     { attribute_name: 'Color', attribute_value: 'black', part_id: 6 },
     { attribute_name: 'Ext', attribute_value: 2, part_id: 6 },
     { attribute_name: 'Int', attribute_value: 2, part_id: 6 },
-    { attribute_name: 'Power Supply', attribute_value: false, part_id: 6 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 6 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 6 },
     { attribute_name: 'Price', attribute_value: 144.67, part_id: 6 },
 
-    # ===== CPUs ===== #
+    # ===== CPUs ===== 3 #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 7 },
     { attribute_name: 'Speed', attribute_value: 3.7, part_id: 7 },
     { attribute_name: 'Cores', attribute_value: 6, part_id: 7 },
@@ -90,7 +90,7 @@ Spec.destroy_all
     { attribute_name: 'TDP', attribute_value: 91, part_id: 9 },
     { attribute_name: 'Price', attribute_value: 307.49, part_id: 9 },
 
-    # ===== CPU COOLERS ===== #
+    # ===== CPU COOLERS ===== 4 #
     { attribute_name: 'Fan RPM', attribute_value: 600-2000, part_id: 10 },
     { attribute_name: 'Noise Level', attribute_value: 9.0-36.0, part_id: 10 },
     { attribute_name: 'Price', attribute_value: 19.99, part_id: 10 },
@@ -103,7 +103,7 @@ Spec.destroy_all
     { attribute_name: 'Noise Level', attribute_value: 21.0-38.0, part_id: 12 },
     { attribute_name: 'Price', attribute_value: 147.39, part_id: 12 },
 
-    # ===== Mobos ===== #
+    # ===== Mobos ===== 1 #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 1 },
     { attribute_name: 'Form Factor', attribute_value: 'Micro ATX', part_id: 1 },
     { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 1 },
@@ -122,7 +122,7 @@ Spec.destroy_all
     { attribute_name: 'Max RAM', attribute_value: 64, part_id: 3 },
     { attribute_name: 'Price', attribute_value: 299, part_id: 3 },
 
-    # ===== Monitors ===== #
+    # ===== Monitors ===== 5 #
     { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 13 },
     { attribute_name: 'Size', attribute_value: 24, part_id: 13 },
     { attribute_name: 'Response Time', attribute_value: 1, part_id: 13 },
@@ -141,7 +141,7 @@ Spec.destroy_all
     { attribute_name: 'IPS', attribute_value: false, part_id: 15 },
     { attribute_name: 'Price', attribute_value: 369, part_id: 15 },
 
-    # ===== PSUs ===== #
+    # ===== PSUs ===== 6 #
     { attribute_name: 'Type', attribute_value: 'ATX', part_id: 16 },
     { attribute_name: 'Efficiency', attribute_value: 80, part_id: 16 },
     { attribute_name: 'Fans', attribute_value: 1, part_id: 16 },
@@ -163,7 +163,7 @@ Spec.destroy_all
     { attribute_name: 'Modular', attribute_value: 'semi', part_id: 18 },
     { attribute_name: 'Price', attribute_value: 26.99, part_id: 18 },
 
-    # ===== RAM ===== #
+    # ===== RAM ===== 7 #
     { attribute_name: 'CAS', attribute_value: 15, part_id: 19 },
     { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 19 },
     { attribute_name: 'Size', attribute_value: 16, part_id: 19 },
@@ -188,7 +188,7 @@ Spec.destroy_all
     { attribute_name: 'Price/gb', attribute_value: 9.37, part_id: 21 },
     { attribute_name: 'Price', attribute_value: 149.99, part_id: 21 },
 
-    # ===== STORAGE ===== #
+    # ===== STORAGE ===== 8 #
     { attribute_name: 'Series', attribute_value: 'SC GAMING', part_id: 22 },
     { attribute_name: 'Chipset', attribute_value: 3.5, part_id: 22 },
     { attribute_name: 'Memory', attribute_value: 6, part_id: 22 },
