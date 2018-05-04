@@ -188,7 +188,7 @@ Spec.destroy_all
     { attribute_name: 'Price/gb', attribute_value: 9.37, part_id: 21 },
     { attribute_name: 'Price', attribute_value: 149.99, part_id: 21 },
 
-    # ===== STORAGE ===== 8 #
+    # ===== VID CARDS ===== 8 #
     { attribute_name: 'Series', attribute_value: 'SC GAMING', part_id: 22 },
     { attribute_name: 'Chipset', attribute_value: 3.5, part_id: 22 },
     { attribute_name: 'Memory', attribute_value: 6, part_id: 22 },

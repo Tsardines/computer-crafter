@@ -1,0 +1,43 @@
+
+
+<div class="parts-def">
+  <p>The <strong>video card</strong> (or graphics card) is a programmable logic chip (processor) that renders images, animations, and video for the computer's screen. A graphics card is not just used for 2D data, such as zooming and panning the screen, but it's essential for the smooth decoding and rendering of 3D. The higher quality the card, the faster and smoother a game/movie's motion will be.</p>
+</div>
+
+<section class="section" id="vid_cards">
+  <h1 class="title">Video Cards</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          <abbr title="fan_rpm">Fan RPM</abbr>
+        </th>
+        <th>
+          <abbr title="noise_lvl">Noise Level</abbr>
+        </th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+      </tr>
+    </thead>
+
+    <% @cpu_coolers.each do |part| %>
+
+    <tbody>
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+
+        <% part.specs.each do |spec| %>
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>

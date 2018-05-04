@@ -24,10 +24,43 @@ class PartsController < ApplicationController
     @parts = Spec
   end
 
+  def cpu_coolers
+    @cpu_coolers = Part.where("part_type = 'cpu_cooler'")
+    @parts = Spec
+  end
+
   def mobos
     @mobos = Part.where("part_type = 'mobo'")
     @parts = Spec
   end
+
+  def monitors
+    @monitors = Part.where("part_type = 'monitor'")
+    @parts = Spec
+  end
+
+  def psus
+    @psus = Part.where("part_type = 'psu'")
+    @parts = Spec
+  end
+
+  def rams
+    @rams = Part.where("part_type = 'ram'")
+    @parts = Spec
+  end
+
+  def storages
+    @storages = Part.where("part_type = 'storage'")
+    @parts = Spec
+  end
+
+  def vid_cards
+    @vidcards = Part.where("part_type = 'vid_card'")
+    @parts = Spec
+  end
+
+
+
 
   # GET /parts/new
   # def new

@@ -21,7 +21,13 @@ Rails.application.routes.draw do
   ##### PARTS PAGES #####
   get 'parts/cases'
   get 'parts/cpus'
+  get 'parts/cpu_coolers'
   get 'parts/mobos'
+  get 'parts/monitors'
+  get 'parts/psus'
+  get 'parts/rams'
+  get 'parts/storages'
+  get 'parts/vid_cards'
 
   resources :parts do
 
