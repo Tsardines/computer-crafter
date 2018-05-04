@@ -9,13 +9,20 @@ class PartsController < ApplicationController
     @part = Part.find(params[:id])
   end
 
-  # def cases
-  #   @cases = Part.where("part_type = 'case'")
-  #   @parts = Spec.find(4)
-  #   @parts = Spec.find(5)
-  #   @parts = Spec.find(6)
-  #   @parts = Spec
-  # end
+  ##### PARTS #####
+
+  def cases
+    @cases = Part.where("part_type = 'case'")
+    @parts = Spec.find(4)
+    @parts = Spec.find(5)
+    @parts = Spec.find(6)
+    @parts = Spec
+  end
+
+  def cpus
+    @cpus = Part.where("part_type = 'cpu'")
+    @parts = Spec
+  end
 
   def mobos
     @mobos = Part.where("part_type = 'mobo'")

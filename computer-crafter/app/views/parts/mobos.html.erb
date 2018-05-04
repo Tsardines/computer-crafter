@@ -1,7 +1,8 @@
 
 
 <div class="parts-def">
-
+  <h3>Motherboard</h3>
+  <p>A printed circuit board (PCB) that allows all of your components and external peripherals to connect and communicate with one another. Motherboards have a <strong>form factor</strong>, which is an industry standard method to determine their dimensions. The most common standards are ATX, Micro-ATX, and the super small Mini-ITX.</p>
 </p>
 
 </div>
@@ -39,7 +40,8 @@
         <td>
            <strong><%= part.name %></strong>
         </td>
-        <td><% part.specs.each do |spec| %></td>
+
+        <% part.specs.each do |spec| %>
           <td><%= spec.attribute_value %></td>
 
         <% end %>

@@ -20,7 +20,7 @@ Rails.application.routes.draw do
 
   ##### PARTS PAGES #####
   get 'parts/cases'
-
+  get 'parts/cpus'
   get 'parts/mobos'
 
   resources :parts do

@@ -1,9 +1,8 @@
 
 
 <div class="parts-def">
-<h3><strong>Case</strong></h3>
-  <p>The case protects your components from outside hazards: dust, dander, wandering fingers, and more. When you're buying your first case you want to consider: <strong>form factor, airflow, cable management, side panels, material type, and bays and mount points.</strong></p>
-
+<h3><strong>CPU</strong></h3>
+  <p>The CPU (central processing unit) processes data and produces output, which may be stored by an application or displayed onscreen. A CPU contains at least one processor, which is the actual chip inside the CPU that performs calculations. Nowadays it's common for a computer to have at least two processors (or "processing cores") for stronger performance.</p>
 </div>
 
 <section class="section" id="cases">
@@ -14,19 +13,16 @@
       <tr>
         <th>Name</th>
         <th>
-          <abbr title="color">Color</abbr>
+          <abbr title="socket">Socket</abbr>
         </th>
         <th>
-          <abbr title="ext">Ext.</abbr>
+          <abbr title="speed">Speed</abbr>
         </th>
         <th>
-          <abbr title="int">Int.</abbr>
+          <abbr title="cores">Cores</abbr>
         </th>
         <th>
-          <abbr title="pow-supp">Power Supply</abbr>
-        </th>
-        <th>
-          <abbr title="type">Type</abbr>
+          <abbr title="tdp">TDP</abbr>
         </th>
         <th>
           <abbr title="price">Price</abbr>
@@ -35,7 +31,7 @@
     </thead>
 
 
-    <% @cases.each do |part| %>
+    <% @cpus.each do |part| %>
 
     <tbody>
       <tr>
