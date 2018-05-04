@@ -4,48 +4,48 @@ Spec.destroy_all
   Part.create([
     # ===== Cases ===== #
 
-    { name: 'NZXT S340', part_type: 'case'},
-    { name: 'Phantex Ethoo Pro M Tempered Glass', part_type: 'case'},
-    { name: 'Corsair Crystal 570X RGB', part_type: 'case'},
+    { name: 'NZXT S340', part_type: 'case' },
+    { name: 'Phantex Ethoo Pro M Tempered Glass', part_type: 'case' },
+    { name: 'Corsair Crystal 570X RGB', part_type: 'case' },
     # ===== CPUs ===== #
-    { name: 'Intel Core i7-8700k' },
-    { name: 'AMD Ryzen 5 2600X'},
-    { name: 'Intel Core i7-7700k'},
+    { name: 'Intel Core i7-8700k', part_type: 'cpu' },
+    { name: 'AMD Ryzen 5 2600X', part_type: 'cpu' },
+    { name: 'Intel Core i7-7700k', part_type: 'cpu' },
 
     # ===== CPU Coolers ===== #
-    { name: 'Cooler Master Hyper 212 EVO'},
-    { name: 'Corsair H100i v2 Liquid CPU Cooler'},
-    { name: 'NZXT Kraken X62 Rev 2'},
+    { name: 'Cooler Master Hyper 212 EVO', part_type: 'cpu_cooler' },
+    { name: 'Corsair H100i v2 Liquid CPU Cooler', part_type: 'cpu_cooler' },
+    { name: 'NZXT Kraken X62 Rev 2', part_type: 'cpu_cooler' },
 
     # ===== Mobos ===== #
-    { name: 'Gigabyte GA-H110M-A' },
-    { name: 'MSI B250M PRO-VD' },
-    { name: 'Asus Prime Z270-A'},
+    { name: 'Gigabyte GA-H110M-A', part_type: 'mobo' },
+    { name: 'MSI B250M PRO-VD', part_type: 'mobo' },
+    { name: 'Asus Prime Z270-A', part_type: 'mobo' },
 
     # ===== Monitors ===== #
-    { name: 'Acer GN246HL' },
-    { name: 'Asus VP228H' },
-    { name: 'Dell S2417DG' },
+    { name: 'Acer GN246HL', part_type: 'monitor' },
+    { name: 'Asus VP228H', part_type: 'monitor' },
+    { name: 'Dell S2417DG', part_type: 'monitor' },
 
     # ===== PSUs ===== #
-    { name: 'EVGA SuperNOVA 550' },
-    { name: 'Seasonic M1211 520 Bronze' },
-    { name: 'Corsair CX450M' },
+    { name: 'EVGA SuperNOVA 550', part_type: 'psu' },
+    { name: 'Seasonic M1211 520 Bronze', part_type: 'psu' },
+    { name: 'Corsair CX450M', part_type: 'psu' },
 
     # ===== RAM ===== #
-    { name: 'G.Skill Ripjaws V Series' },
-    { name: 'Corsair Vengeance LPX' },
-    { name: 'Team Vulcan' },
+    { name: 'G.Skill Ripjaws V Series', part_type: 'ram' },
+    { name: 'Corsair Vengeance LPX', part_type: 'ram' },
+    { name: 'Team Vulcan', part_type: 'ram' },
 
     # ===== Storage ===== #
-    { name: 'Western Digital WD10EZEX' },
-    { name: 'Seagate ST2000DM006' },
-    { name: 'Samsung MZ-75E250B/AM' },
+    { name: 'Western Digital WD10EZEX', part_type: 'storage' },
+    { name: 'Seagate ST2000DM006', part_type: 'storage' },
+    { name: 'Samsung MZ-75E250B/AM', part_type: 'storage' },
 
     # ===== Vid Cards ===== #
-    { name: 'EVGA 06G-P4-6163-KR' },
-    { name: 'Asus ROG STRIX-GTX1080-8G-GAMING' },
-    { name: 'MSI RX 560 AERO ITX 4G OC' }
+    { name: 'EVGA 06G-P4-6163-KR', part_type: 'vid_card' },
+    { name: 'Asus ROG STRIX-GTX1080-8G-GAMING', part_type: 'vid_card' },
+    { name: 'MSI RX 560 AERO ITX 4G OC', part_type: 'vid_card' }
   ])
 
   Spec.create([
@@ -126,19 +126,19 @@ Spec.destroy_all
     { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 13 },
     { attribute_name: 'Size', attribute_value: 24, part_id: 13 },
     { attribute_name: 'Response Time', attribute_value: 1, part_id: 13 },
-    { attribute_name: 'IPS', attribute_value: false, part_id: 13 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 13 },
     { attribute_name: 'Price', attribute_value: 190, part_id: 13 },
 
     { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 14 },
     { attribute_name: 'Size', attribute_value: 21.5, part_id: 14 },
     { attribute_name: 'Response Time', attribute_value: 444, part_id: 14 },
-    { attribute_name: 'IPS', attribute_value: false, part_id: 14 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 14 },
     { attribute_name: 'Price', attribute_value: 99, part_id: 14 },
 
     { attribute_name: 'Resolution', attribute_value: '2560x1440', part_id: 15 },
     { attribute_name: 'Size', attribute_value: 23.8, part_id: 15 },
     { attribute_name: 'Response Time', attribute_value: 1, part_id: 15 },
-    { attribute_name: 'IPS', attribute_value: false, part_id: 15 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 15 },
     { attribute_name: 'Price', attribute_value: 369, part_id: 15 },
 
     # ===== PSUs ===== 6 #
