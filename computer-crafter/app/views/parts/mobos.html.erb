@@ -1,0 +1,55 @@
+
+
+<div class="parts-def">
+
+</p>
+
+</div>
+
+<section class="section" id="mobos">
+  <h1 class="title">Motherboards</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="color">Color</abbr>
+        </th>
+        <th>
+          <abbr title="ext">Ext.</abbr>
+        </th>
+        <th>
+          <abbr title="int">Int.</abbr>
+        </th>
+        <th>
+          <abbr title="pow-supp">Power Supply</abbr>
+        </th>
+        <th>
+          <abbr title="type">Type</abbr>
+        </th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+      </tr>
+    </thead>
+
+
+    <% @mobos.each do |part| %>
+
+    <tbody>
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+        <td><% part.specs.each do |spec| %></td>
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>
