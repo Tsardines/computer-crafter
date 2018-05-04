@@ -11,10 +11,16 @@
     <thead>
       <tr>
         <th>
-          <abbr title="fan_rpm">Fan RPM</abbr>
+          <abbr title="series">Series</abbr>
         </th>
         <th>
-          <abbr title="noise_lvl">Noise Level</abbr>
+          <abbr title="chipset">Chipset</abbr>
+        </th>
+        <th>
+          <abbr title="memory">Memory</abbr>
+        </th>
+        <th>
+          <abbr title="core_clk">Core Clock</abbr>
         </th>
         <th>
           <abbr title="price">Price</abbr>
@@ -22,7 +28,7 @@
       </tr>
     </thead>
 
-    <% @cpu_coolers.each do |part| %>
+    <% @vid_cards.each do |part| %>
 
     <tbody>
       <tr>

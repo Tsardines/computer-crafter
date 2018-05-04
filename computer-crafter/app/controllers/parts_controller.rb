@@ -13,9 +13,6 @@ class PartsController < ApplicationController
 
   def cases
     @cases = Part.where("part_type = 'case'")
-    @parts = Spec.find(4)
-    @parts = Spec.find(5)
-    @parts = Spec.find(6)
     @parts = Spec
   end
 
@@ -55,7 +52,7 @@ class PartsController < ApplicationController
   end
 
   def vid_cards
-    @vidcards = Part.where("part_type = 'vid_card'")
+    @vid_cards = Part.where("part_type = 'vid_card'")
     @parts = Spec
   end
 
