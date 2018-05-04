@@ -26,7 +26,7 @@ Rails.application.routes.draw do
   get 'parts/monitors'
   get 'parts/psus'
   get 'parts/rams'
-  get 'parts/storages'
+  get 'parts/storages' #storage plural is storage...but the S keeps things consistent with the other parts
   get 'parts/vid_cards'
 
   resources :parts do
