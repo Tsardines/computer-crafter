@@ -14,6 +14,7 @@ Spec.destroy_all
     { name: 'Fractal Design Meshify C Dark TG', part_type: 'case' },
     { name: 'Thermaltake - Core V21', part_type: 'case' },
 
+
     # ===== CPUs ===== #
     { name: 'Intel Core i7-8700k', part_type: 'cpu' },
     { name: 'AMD Ryzen 5 2600X', part_type: 'cpu' },
@@ -26,6 +27,7 @@ Spec.destroy_all
     { name: 'AMD Ryzen 5 2400G', part_type: 'cpu' },
     { name: 'Intel Core i3-8100', part_type: 'cpu' },
 
+
     # ===== CPU Coolers ===== #
     { name: 'Cooler Master Hyper 212 EVO', part_type: 'cpu_cooler' },
     { name: 'Corsair H100i v2 Liquid CPU Cooler', part_type: 'cpu_cooler' },
@@ -37,6 +39,7 @@ Spec.destroy_all
     { name: 'Corsair H150i PRO', part_type: 'cpu_cooler' },
     { name: 'be quiet! Pure Rock Slim', part_type: 'cpu_cooler' },
     { name: 'Phanteks PH-TC12DX_BL', part_type: 'cpu_cooler' },
+
 
     # ===== Mobos ===== #
     { name: 'Gigabyte GA-H110M-A', part_type: 'mobo' },
@@ -63,50 +66,33 @@ Spec.destroy_all
     { name: 'EVGA SuperNOVA 550', part_type: 'psu' },
     { name: 'Seasonic M1211 520 Bronze', part_type: 'psu' },
     { name: 'Corsair CX450M', part_type: 'psu' },
+    { name: 'Cooler Master MasterWatt 550', part_type: 'psu' },
     { name: '', part_type: 'psu' },
-    { name: '', part_type: 'psu' },
-    { name: '', part_type: 'psu' },
-    { name: '', part_type: 'psu' },
-    { name: '', part_type: 'psu' },
-    { name: '', part_type: 'psu' },
-    { name: '', part_type: 'psu' },
+
 
     # ===== RAM ===== #
     { name: 'G.Skill Ripjaws V Series', part_type: 'ram' },
     { name: 'Corsair Vengeance LPX', part_type: 'ram' },
     { name: 'Team Vulcan', part_type: 'ram' },
-    { name: '', part_type: 'ram' },
-    { name: '', part_type: 'ram' },
-    { name: '', part_type: 'ram' },
-    { name: '', part_type: 'ram' },
-    { name: '', part_type: 'ram' },
-    { name: '', part_type: 'ram' },
-    { name: '', part_type: 'ram' },
+    { name: 'Team T-Force Delta RGB', part_type: 'ram' },
+    { name: 'Crucial Ballistix Sport LT', part_type: 'ram' },
+    { name: 'G.Skill NT Series', part_type: 'ram' },
+
 
     # ===== Storage ===== #
     { name: 'Western Digital WD10EZEX', part_type: 'storage' },
     { name: 'Seagate ST2000DM006', part_type: 'storage' },
     { name: 'Samsung MZ-75E250B/AM', part_type: 'storage' },
-    { name: '', part_type: 'storage' },
-    { name: '', part_type: 'storage' },
-    { name: '', part_type: 'storage' },
-    { name: '', part_type: 'storage' },
-    { name: '', part_type: 'storage' },
-    { name: '', part_type: 'storage' },
-    { name: '', part_type: 'storage' },
+    { name: 'Crucial CT500MX500SSD1', part_type: 'storage' },
+    { name: 'ADATA ASU800SS-128GT-C', part_type: 'storage' },
+
 
     # ===== Vid Cards ===== #
     { name: 'EVGA 06G-P4-6163-KR', part_type: 'vid_card' },
     { name: 'Asus ROG STRIX-GTX1080-8G-GAMING', part_type: 'vid_card' },
     { name: 'MSI RX 560 AERO ITX 4G OC', part_type: 'vid_card' }
-    { name: '', part_type: 'vid_card' },
-    { name: '', part_type: 'vid_card' },
-    { name: '', part_type: 'vid_card' },
-    { name: '', part_type: 'vid_card' },
-    { name: '', part_type: 'vid_card' },
-    { name: '', part_type: 'vid_card' },
-    { name: '', part_type: 'vid_card' },
-
+    { name: 'Zotac ZT-P10810F-10P', part_type: 'vid_card' },
+    { name: 'MSI GTX 1080 TI SEA HAWK X', part_type: 'vid_card' },
 
   ])
 
@@ -416,119 +402,217 @@ Spec.destroy_all
     { attribute_name: 'Price', attribute_value: 99.99, part_id: 42 },
 
     # --- HP OMEN 25 --- #
-    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 15 },
-    { attribute_name: 'Size', attribute_value: 24.5, part_id: 15 },
-    { attribute_name: 'Response Time', attribute_value: 1, part_id: 15 },
-    { attribute_name: 'IPS', attribute_value: 'no', part_id: 15 },
-    { attribute_name: 'Price', attribute_value: 189.99, part_id: 15 },
+    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 43 },
+    { attribute_name: 'Size', attribute_value: 24.5, part_id: 43 },
+    { attribute_name: 'Response Time', attribute_value: 1, part_id: 43 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 43 },
+    { attribute_name: 'Price', attribute_value: 189.99, part_id: 43 },
 
     # --- Sceptre E205W-1600 --- #
-    { attribute_name: 'Resolution', attribute_value: '1600x900', part_id: 15 },
-    { attribute_name: 'Size', attribute_value: 20, part_id: 15 },
-    { attribute_name: 'Response Time', attribute_value: 5, part_id: 15 },
-    { attribute_name: 'IPS', attribute_value: 'no', part_id: 15 },
-    { attribute_name: 'Price', attribute_value: 65.73, part_id: 15 },
+    { attribute_name: 'Resolution', attribute_value: '1600x900', part_id: 44 },
+    { attribute_name: 'Size', attribute_value: 20, part_id: 44 },
+    { attribute_name: 'Response Time', attribute_value: 5, part_id: 44 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 44 },
+    { attribute_name: 'Price', attribute_value: 65.73, part_id: 44 },
 
     # --- MSI Optix MAG24C --- #
-    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 15 },
-    { attribute_name: 'Size', attribute_value: 23.6, part_id: 15 },
-    { attribute_name: 'Response Time', attribute_value: 1, part_id: 15 },
-    { attribute_name: 'IPS', attribute_value: 'no', part_id: 15 },
-    { attribute_name: 'Price', attribute_value: 237.99, part_id: 15 },
+    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 45 },
+    { attribute_name: 'Size', attribute_value: 23.6, part_id: 45 },
+    { attribute_name: 'Response Time', attribute_value: 1, part_id: 45 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 45 },
+    { attribute_name: 'Price', attribute_value: 237.99, part_id: 45 },
 
 
 
 
     # ===== PSUs ===== #
-    { attribute_name: 'Type', attribute_value: 'ATX', part_id: 16 },
-    { attribute_name: 'Efficiency', attribute_value: 80, part_id: 16 },
-    { attribute_name: 'Fans', attribute_value: 1, part_id: 16 },
-    { attribute_name: 'Watts', attribute_value: 550, part_id: 16 },
-    { attribute_name: 'Modular', attribute_value: 'full', part_id: 16 },
-    { attribute_name: 'Price', attribute_value: 75.88, part_id: 16 },
 
-    { attribute_name: 'Type', attribute_value: 'ATX12V / EPS12V', part_id: 17 },
-    { attribute_name: 'Efficiency', attribute_value: 80, part_id: 17 },
-    { attribute_name: 'Fans', attribute_value: 1, part_id: 17 },
-    { attribute_name: 'Watts', attribute_value: 520, part_id: 17 },
-    { attribute_name: 'Modular', attribute_value: 'full', part_id: 17 },
-    { attribute_name: 'Price', attribute_value: 34.99, part_id: 17 },
+    # --- EVGA SuperNOVA 550 --- #
+    { attribute_name: 'Type', attribute_value: 'ATX', part_id: 46 },
+    { attribute_name: 'Efficiency', attribute_value: 80, part_id: 46 },
+    { attribute_name: 'Fans', attribute_value: 1, part_id: 46 },
+    { attribute_name: 'Watts', attribute_value: 550, part_id: 46 },
+    { attribute_name: 'Modular', attribute_value: 'full', part_id: 46 },
+    { attribute_name: 'Price', attribute_value: 75.88, part_id: 46 },
 
-    { attribute_name: 'Type', attribute_value: 'ATX', part_id: 18 },
-    { attribute_name: 'Efficiency', attribute_value: 80, part_id: 18 },
-    { attribute_name: 'Fans', attribute_value: 1, part_id: 18 },
-    { attribute_name: 'Watts', attribute_value: 450, part_id: 18 },
-    { attribute_name: 'Modular', attribute_value: 'semi', part_id: 18 },
-    { attribute_name: 'Price', attribute_value: 26.99, part_id: 18 },
+    # --- Seasonic M1211 520 Bronze --- #
+    { attribute_name: 'Type', attribute_value: 'ATX12V / EPS12V', part_id: 47 },
+    { attribute_name: 'Efficiency', attribute_value: 80, part_id: 47 },
+    { attribute_name: 'Fans', attribute_value: 1, part_id: 47 },
+    { attribute_name: 'Watts', attribute_value: 520, part_id: 47 },
+    { attribute_name: 'Modular', attribute_value: 'full', part_id: 47 },
+    { attribute_name: 'Price', attribute_value: 34.99, part_id: 47 },
 
-    # ===== RAM ===== 7 #
-    { attribute_name: 'CAS', attribute_value: 15, part_id: 19 },
-    { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 19 },
-    { attribute_name: 'Size', attribute_value: 16, part_id: 19 },
-    { attribute_name: 'Speed', attribute_value: 'DDR4-3000', part_id: 19 },
-    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 19 },
-    { attribute_name: 'Price/gb', attribute_value: 11.25, part_id: 19 },
-    { attribute_name: 'Price', attribute_value: 179.99, part_id: 19 },
+    # --- Corsair CX450M --- #
+    { attribute_name: 'Type', attribute_value: 'ATX', part_id: 48 },
+    { attribute_name: 'Efficiency', attribute_value: 80, part_id: 48 },
+    { attribute_name: 'Fans', attribute_value: 1, part_id: 48 },
+    { attribute_name: 'Watts', attribute_value: 450, part_id: 48 },
+    { attribute_name: 'Modular', attribute_value: 'semi', part_id: 48 },
+    { attribute_name: 'Price', attribute_value: 26.99, part_id: 48 },
 
-    { attribute_name: 'CAS', attribute_value: 16, part_id: 20 },
-    { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 20 },
-    { attribute_name: 'Size', attribute_value: 16, part_id: 20 },
-    { attribute_name: 'Speed', attribute_value: 'DDR4-2400', part_id: 20 },
-    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 20 },
-    { attribute_name: 'Price/gb', attribute_value: 10.49, part_id: 20 },
-    { attribute_name: 'Price', attribute_value: 167.89, part_id: 20 },
+    # --- Cooler Master MasterWatt 550 --- #
+    { attribute_name: 'Type', attribute_value: 'ATX', part_id: 49 },
+    { attribute_name: 'Efficiency', attribute_value: 80, part_id: 49 },
+    { attribute_name: 'Fans', attribute_value: 1, part_id: 49 },
+    { attribute_name: 'Watts', attribute_value: 550, part_id: 49 },
+    { attribute_name: 'Modular', attribute_value: 'semi', part_id: 49 },
+    { attribute_name: 'Price', attribute_value: 34.65, part_id: 49 },
 
-    { attribute_name: 'CAS', attribute_value: 14, part_id: 21 },
-    { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 21 },
-    { attribute_name: 'Size', attribute_value: 16, part_id: 21 },
-    { attribute_name: 'Speed', attribute_value: 'DDR4-2400', part_id: 21 },
-    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 21 },
-    { attribute_name: 'Price/gb', attribute_value: 9.37, part_id: 21 },
-    { attribute_name: 'Price', attribute_value: 149.99, part_id: 21 },
+    # --- EVGA 110-BQ-0500-K1 --- #
+    { attribute_name: 'Type', attribute_value: 'ATX', part_id: 50 },
+    { attribute_name: 'Efficiency', attribute_value: 80, part_id: 50 },
+    { attribute_name: 'Fans', attribute_value: 1, part_id: 50 },
+    { attribute_name: 'Watts', attribute_value: 500, part_id: 50 },
+    { attribute_name: 'Modular', attribute_value: 'semi', part_id: 50 },
+    { attribute_name: 'Price', attribute_value: 39.89, part_id: 50 },
+
+
+    # ===== RAM ===== #
+
+
+    # --- G.Skill Ripjaws V Series --- #
+    { attribute_name: 'CAS', attribute_value: 15, part_id: 51 },
+    { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 51 },
+    { attribute_name: 'Size', attribute_value: 16, part_id: 51 },
+    { attribute_name: 'Speed', attribute_value: 'DDR4-3000', part_id: 51 },
+    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 51 },
+    { attribute_name: 'Price/gb', attribute_value: 11.25, part_id: 51 },
+    { attribute_name: 'Price', attribute_value: 179.99, part_id: 51 },
+
+    # --- Corsair Vengeance LPX --- #
+    { attribute_name: 'CAS', attribute_value: 16, part_id: 52 },
+    { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 52 },
+    { attribute_name: 'Size', attribute_value: 16, part_id: 52 },
+    { attribute_name: 'Speed', attribute_value: 'DDR4-2400', part_id: 52 },
+    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 52 },
+    { attribute_name: 'Price/gb', attribute_value: 10.49, part_id: 52 },
+    { attribute_name: 'Price', attribute_value: 167.89, part_id: 52 },
+
+    # --- Team Vulcan --- #
+    { attribute_name: 'CAS', attribute_value: 16, part_id: 53 },
+    { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 53 },
+    { attribute_name: 'Size', attribute_value: 16, part_id: 53 },
+    { attribute_name: 'Speed', attribute_value: 'DDR4-3000', part_id: 53 },
+    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 53 },
+    { attribute_name: 'Price/gb', attribute_value: 9.69, part_id: 53 },
+    { attribute_name: 'Price', attribute_value: 154.99, part_id: 53 },
+
+    # --- Team T-Force Delta RGB --- #
+    { attribute_name: 'CAS', attribute_value: 16, part_id: 54 },
+    { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 54 },
+    { attribute_name: 'Size', attribute_value: 16, part_id: 54 },
+    { attribute_name: 'Speed', attribute_value: 'DDR4-3000', part_id: 54 },
+    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 54 },
+    { attribute_name: 'Price/gb', attribute_value: 10.00, part_id: 54 },
+    { attribute_name: 'Price', attribute_value: 159.99, part_id: 54 },
+
+    # --- Crucial Ballistix Sport LT --- #
+    { attribute_name: 'CAS', attribute_value: 16, part_id: 55 },
+    { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 55 },
+    { attribute_name: 'Size', attribute_value: 16, part_id: 55 },
+    { attribute_name: 'Speed', attribute_value: 'DDR4-2400', part_id: 55 },
+    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 55 },
+    { attribute_name: 'Price/gb', attribute_value: 10.31, part_id: 55 },
+    { attribute_name: 'Price', attribute_value: 164.97, part_id: 55 },
+
+    # --- G.Skill NT Series --- #
+    { attribute_name: 'CAS', attribute_value: 14, part_id: 56 },
+    { attribute_name: 'Modules', attribute_value: '1x4GB', part_id: 56 },
+    { attribute_name: 'Size', attribute_value: 4, part_id: 56 },
+    { attribute_name: 'Speed', attribute_value: 'DDR4-2400', part_id: 56 },
+    { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 56 },
+    { attribute_name: 'Price/gb', attribute_value: 11.00, part_id: 56 },
+    { attribute_name: 'Price', attribute_value: 43.99, part_id: 56 },
+
+
 
     # ===== STORAGE ===== #
-    { attribute_name: 'Series', attribute_value: 'Caviar Blue', part_id: 22 },
-    { attribute_name: 'Form', attribute_value: 3.5, part_id: 22 },
-    { attribute_name: 'Type', attribute_value: '7200rpm', part_id: 22 },
-    { attribute_name: 'Capacity', attribute_value: '1TB', part_id: 22 },
-    { attribute_name: 'Cache', attribute_value: '64MB', part_id: 22 },
-    { attribute_name: 'Price/gb', attribute_value: 0.044, part_id: 22 },
-    { attribute_name: 'Price', attribute_value: 43.85, part_id: 22 },
 
-    { attribute_name: 'Series', attribute_value: 'Barracuda', part_id: 23 },
-    { attribute_name: 'Form', attribute_value: 3.5, part_id: 23 },
-    { attribute_name: 'Type', attribute_value: '7200rpm', part_id: 23 },
-    { attribute_name: 'Capacity', attribute_value: '2TB', part_id: 23 },
-    { attribute_name: 'Cache', attribute_value: '64MB', part_id: 23 },
-    { attribute_name: 'Price/gb', attribute_value: 0.030, part_id: 23 },
-    { attribute_name: 'Price', attribute_value: 59.79, part_id: 23 },
+    # --- Western Digital WD10EZEX --- #
+    { attribute_name: 'Series', attribute_value: 'Caviar Blue', part_id: 57 },
+    { attribute_name: 'Form', attribute_value: 3.5, part_id: 57 },
+    { attribute_name: 'Type', attribute_value: '7200rpm', part_id: 57 },
+    { attribute_name: 'Capacity', attribute_value: '1TB', part_id: 57 },
+    { attribute_name: 'Cache', attribute_value: '64MB', part_id: 57 },
+    { attribute_name: 'Price/gb', attribute_value: 0.044, part_id: 57 },
+    { attribute_name: 'Price', attribute_value: 43.85, part_id: 57 },
 
-    { attribute_name: 'Series', attribute_value: '960 EVO', part_id: 24 },
-    { attribute_name: 'Form', attribute_value: 2.5, part_id: 24 },
-    { attribute_name: 'Type', attribute_value: 'SSD', part_id: 24 },
-    { attribute_name: 'Capacity', attribute_value: '500GB', part_id: 24 },
-    { attribute_name: 'Cache', attribute_value: '512MB', part_id: 24 },
-    { attribute_name: 'Price/gb', attribute_value: 0.400, part_id: 24 },
-    { attribute_name: 'Price', attribute_value: 199.99, part_id: 24 },
+    # --- Seagate ST2000DM006 --- #
+    { attribute_name: 'Series', attribute_value: 'Barracuda', part_id: 58 },
+    { attribute_name: 'Form', attribute_value: 3.5, part_id: 58 },
+    { attribute_name: 'Type', attribute_value: '7200rpm', part_id: 58 },
+    { attribute_name: 'Capacity', attribute_value: '2TB', part_id: 58 },
+    { attribute_name: 'Cache', attribute_value: '64MB', part_id: 58 },
+    { attribute_name: 'Price/gb', attribute_value: 0.030, part_id: 58 },
+    { attribute_name: 'Price', attribute_value: 59.79, part_id: 58 },
 
-    # ===== VID CARDS ===== 8 #
+    # --- Samsung MZ-75E250B/AM --- #
+    { attribute_name: 'Series', attribute_value: '960 EVO', part_id: 59 },
+    { attribute_name: 'Form', attribute_value: 2.5, part_id: 59 },
+    { attribute_name: 'Type', attribute_value: 'SSD', part_id: 59 },
+    { attribute_name: 'Capacity', attribute_value: '500GB', part_id: 59 },
+    { attribute_name: 'Cache', attribute_value: '512MB', part_id: 59 },
+    { attribute_name: 'Price/gb', attribute_value: 0.400, part_id: 59 },
+    { attribute_name: 'Price', attribute_value: 199.99, part_id: 59 },
+
+    # --- Crucial CT500MX500SSD1 --- #
+    { attribute_name: 'Series', attribute_value: 'MX500', part_id: 60 },
+    { attribute_name: 'Form', attribute_value: 2.5, part_id: 60 },
+    { attribute_name: 'Type', attribute_value: 'SSD', part_id: 60 },
+    { attribute_name: 'Capacity', attribute_value: '500GB', part_id: 60 },
+    { attribute_name: 'Cache', attribute_value: '512MB', part_id: 60 },
+    { attribute_name: 'Price/gb', attribute_value: 0.230, part_id: 60 },
+    { attribute_name: 'Price', attribute_value: 114.99, part_id: 60 },
+
+    # --- ADATA ASU800SS-128GT-C --- #
+    { attribute_name: 'Series', attribute_value: 'Ultimate SU800', part_id: 61 },
+    { attribute_name: 'Form', attribute_value: 2.5, part_id: 61 },
+    { attribute_name: 'Type', attribute_value: 'SSD', part_id: 61 },
+    { attribute_name: 'Capacity', attribute_value: '128GB', part_id: 61 },
+    { attribute_name: 'Cache', attribute_value: 'N/A', part_id: 61 },
+    { attribute_name: 'Price/gb', attribute_value: 0.312, part_id: 61 },
+    { attribute_name: 'Price', attribute_value: 39.99, part_id: 61 },
+
+
+
+
+    # ===== VID CARDS =====  #
+
+    # --- EVGA 06G-P4-6163-KR --- #
     { attribute_name: 'Series', attribute_value: 'SC GAMING', part_id: 25 },
-    { attribute_name: 'Chipset', attribute_value: 3.5, part_id: 25 },
-    { attribute_name: 'Memory', attribute_value: 6, part_id: 25 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1060 6GB', part_id: 25 },
+    { attribute_name: 'Memory', attribute_value: '6GB', part_id: 25 },
     { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 25 },
     { attribute_name: 'Price', attribute_value: 299.99, part_id: 25 },
 
+    # --- Asus ROG STRIX-GTX1080-8G-GAMING --- #
     { attribute_name: 'Series', attribute_value: 'STRIX', part_id: 26 },
-    { attribute_name: 'Chipset', attribute_value: 3.5, part_id: 26 },
-    { attribute_name: 'Memory', attribute_value: 8, part_id: 26 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080', part_id: 26 },
+    { attribute_name: 'Memory', attribute_value: '8GB', part_id: 26 },
     { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 26 },
     { attribute_name: 'Price', attribute_value: 599.99, part_id: 26 },
 
+    # --- MSI RX 560 AERO ITX 4G OC --- #
     { attribute_name: 'Series', attribute_value: 'AERO ITX', part_id: 27 },
-    { attribute_name: 'Chipset', attribute_value: 2.5, part_id: 27 },
-    { attribute_name: 'Memory', attribute_value: 4, part_id: 27 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1050', part_id: 27 },
+    { attribute_name: 'Memory', attribute_value: '4GB', part_id: 27 },
     { attribute_name: 'Core Clock', attribute_value: 1.20, part_id: 27 },
     { attribute_name: 'Price', attribute_value: 134.99, part_id: 27 },
+
+    # --- Zotac ZT-P10810F-10P --- #
+    { attribute_name: 'Series', attribute_value: 'AMP Extreme Core', part_id: 27 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080 Ti', part_id: 27 },
+    { attribute_name: 'Memory', attribute_value: '11GB', part_id: 27 },
+    { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 27 },
+    { attribute_name: 'Price', attribute_value: 944.98, part_id: 27 },
+
+    # --- MSI GTX 1080 TI SEA HAWK X --- #
+    { attribute_name: 'Series', attribute_value: 'SEA HAWK X', part_id: 27 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080 Ti', part_id: 27 },
+    { attribute_name: 'Memory', attribute_value: '11GB', part_id: 27 },
+    { attribute_name: 'Core Clock', attribute_value: 1.57, part_id: 27 },
+    { attribute_name: 'Price', attribute_value: 1499.99, part_id: 27 },
 
   ])
 
@@ -538,17 +622,6 @@ puts "Created #{Spec.count} specs and #{Part.count} parts"
 
 
 
-# users = {
-#   haley: {
-#     username: "haley",
-#     password: "haley",
-#   },
-#   geralt: {
-#     username: "geralt",
-#     password: "geralt",
-#   }
-# }
-#
 # user_parts_lists = {
 #   test_list: {
 #     username: "test_username",
