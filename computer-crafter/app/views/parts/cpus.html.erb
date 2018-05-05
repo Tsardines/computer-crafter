@@ -5,34 +5,34 @@
 </div>
 
 <section class="section" id="cases">
-  <h1 class="title">Cases</h1>
+  <h1 class="title">CPUs</h1>
 
   <table class="table">
     <thead>
       <tr>
         <th>Name</th>
         <th>
+          <abbr title="price">Price</abbr>
+        </th>
+        <th>
           <abbr title="socket">Socket</abbr>
-        </th>
-        <th>
-          <abbr title="speed">Speed</abbr>
-        </th>
-        <th>
-          <abbr title="cores">Cores</abbr>
         </th>
         <th>
           <abbr title="tdp">TDP</abbr>
         </th>
         <th>
-          <abbr title="price">Price</abbr>
+          <abbr title="cores">Cores</abbr>
+        </th>
+        <th>
+          <abbr title="speed">Speed</abbr>
         </th>
       </tr>
     </thead>
 
 
+    <tbody>
     <% @cpus.each do |part| %>
 
-    <tbody>
       <tr>
         <td>
            <strong><%= part.name %></strong>
