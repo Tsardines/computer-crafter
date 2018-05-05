@@ -59,7 +59,7 @@ Spec.destroy_all
     { name: 'Acer H236HLbid', part_type: 'monitor' },
     { name: 'HP OMEN 25', part_type: 'monitor' },
     { name: 'Sceptre E205W-1600', part_type: 'monitor' },
-    { name: '', part_type: 'monitor' },
+    { name: 'MSI Optix MAG24C', part_type: 'monitor' },
 
 
     # ===== PSUs ===== #
@@ -67,7 +67,7 @@ Spec.destroy_all
     { name: 'Seasonic M1211 520 Bronze', part_type: 'psu' },
     { name: 'Corsair CX450M', part_type: 'psu' },
     { name: 'Cooler Master MasterWatt 550', part_type: 'psu' },
-    { name: '', part_type: 'psu' },
+    { name: 'EVGA 110-BQ-0500-K1', part_type: 'psu' },
 
 
     # ===== RAM ===== #
@@ -383,7 +383,7 @@ Spec.destroy_all
     # --- Asus VP228H --- #
     { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 40 },
     { attribute_name: 'Size', attribute_value: 21.5, part_id: 40 },
-    { attribute_name: 'Response Time', attribute_value: 444, part_id: 40 },
+    { attribute_name: 'Response Time', attribute_value: 4, part_id: 40 },
     { attribute_name: 'IPS', attribute_value: 'no', part_id: 40 },
     { attribute_name: 'Price', attribute_value: 99, part_id: 40 },
 

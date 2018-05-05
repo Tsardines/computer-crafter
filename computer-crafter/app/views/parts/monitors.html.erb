@@ -1,0 +1,60 @@
+
+
+<div class="parts-def">
+  <p>A <strong>monitor</strong> can make or break your overall experience. It plugs into video outputs on your motherboard or your GPU.
+      <br>
+  <strong>resolution</strong> - The number and density of the pixels that are on the monitor.
+      <br>
+  <strong>refresh rate</strong> - The number of times a monitor refreshes every second, calculated in hertz (Hz).
+      <br>
+  <strong>panel type</strong> - Most computers are LED-backlit displays, but different LCD panel types exist, with the most common being TN and IPS. TN: lower response time, lower lag, and less expensive. IPS: better color accuracy, a wider viewing angle that doesn't distort color.</p>
+</p>
+
+</div>
+
+<section class="section" id="monitors">
+  <h1 class="title">Monitors</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+        <th>
+          <abbr title="ips">IPS</abbr>
+        </th>
+        <th>
+          <abbr title="res-time">Resp. Time</abbr>
+        </th>
+        <th>
+          <abbr title="size">Size</abbr>
+        </th>
+        <th>
+          <abbr title="res">Resolution</abbr>
+        </th>
+      </tr>
+    </thead>
+
+
+    <% @monitors.each do |part| %>
+
+    <tbody>
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+
+        <% part.specs.each do |spec| %>
+
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>
