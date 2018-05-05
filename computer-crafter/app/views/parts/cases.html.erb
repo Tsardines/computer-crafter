@@ -13,43 +13,44 @@
       <tr>
         <th>Name</th>
         <th>
-          <abbr title="color">Color</abbr>
-        </th>
-        <th>
-          <abbr title="ext">Ext.</abbr>
-        </th>
-        <th>
-          <abbr title="int">Int.</abbr>
-        </th>
-        <th>
-          <abbr title="pow-supp">Power Supply</abbr>
+          <abbr title="price">Price</abbr>
         </th>
         <th>
           <abbr title="type">Type</abbr>
         </th>
         <th>
-          <abbr title="price">Price</abbr>
+          <abbr title="pow-supp">Power Supply</abbr>
+        </th>
+        <th>
+          <abbr title="int">Int. 3.5" bays</abbr>
+        </th>
+        <th>
+          <abbr title="ext">Ext. 5.25" bays</abbr>
+        </th>
+        <th>
+          <abbr title="color">Color</abbr>
         </th>
       </tr>
     </thead>
 
 
+    <tbody>
     <% @cases.each do |part| %>
 
-    <tbody>
       <tr>
         <td>
            <strong><%= part.name %></strong>
         </td>
 
         <% part.specs.each do |spec| %>
+
           <td><%= spec.attribute_value %></td>
 
         <% end %>
       </tr>
 
 
-    </tbody>
 
     <% end %>
+  </tbody>
   </table>
