@@ -90,7 +90,7 @@ Spec.destroy_all
     # ===== Vid Cards ===== #
     { name: 'EVGA 06G-P4-6163-KR', part_type: 'vid_card' },
     { name: 'Asus ROG STRIX-GTX1080-8G-GAMING', part_type: 'vid_card' },
-    { name: 'MSI RX 560 AERO ITX 4G OC', part_type: 'vid_card' }
+    { name: 'MSI RX 560 AERO ITX 4G OC', part_type: 'vid_card' },
     { name: 'Zotac ZT-P10810F-10P', part_type: 'vid_card' },
     { name: 'MSI GTX 1080 TI SEA HAWK X', part_type: 'vid_card' },
 
