@@ -3,145 +3,443 @@ Spec.destroy_all
 
   Part.create([
     # ===== Cases ===== #
-
     { name: 'NZXT S340', part_type: 'case' },
-    { name: 'Phantex Ethoo Pro M Tempered Glass', part_type: 'case' },
+    { name: 'Phanteks Ethoo Pro M Tempered Glass', part_type: 'case' },
     { name: 'Corsair Crystal 570X RGB', part_type: 'case' },
+    { name: 'Deepcool TESSERACT SW', part_type: 'case' },
+    { name: 'Cooler Master MasterBox Lite 5 RGB', part_type: 'case' },
+    { name: 'Raidmax Ninja II', part_type: 'case' },
+    { name: 'Phanteks ECLIPSE P400S Tempered Glass', part_type: 'case' },
+    { name: 'DIYPC Alnitak-BK', part_type: 'case' },
+    { name: 'Fractal Design Meshify C Dark TG', part_type: 'case' },
+    { name: 'Thermaltake - Core V21', part_type: 'case' },
+
     # ===== CPUs ===== #
     { name: 'Intel Core i7-8700k', part_type: 'cpu' },
     { name: 'AMD Ryzen 5 2600X', part_type: 'cpu' },
     { name: 'Intel Core i7-7700k', part_type: 'cpu' },
+    { name: 'AMD Ryzen 7 2700X', part_type: 'cpu' },
+    { name: 'Intel Core i5-8400', part_type: 'cpu' },
+    { name: 'AMD Ryzen 3 2200G', part_type: 'cpu' },
+    { name: 'AMD Ryzen 7 1700', part_type: 'cpu' },
+    { name: 'AMD Ryzen 5 2600X', part_type: 'cpu' },
+    { name: 'AMD Ryzen 5 2400G', part_type: 'cpu' },
+    { name: 'Intel Core i3-8100', part_type: 'cpu' },
 
     # ===== CPU Coolers ===== #
     { name: 'Cooler Master Hyper 212 EVO', part_type: 'cpu_cooler' },
     { name: 'Corsair H100i v2 Liquid CPU Cooler', part_type: 'cpu_cooler' },
     { name: 'NZXT Kraken X62 Rev 2', part_type: 'cpu_cooler' },
+    { name: 'CRYORIG H7', part_type: 'cpu_cooler' },
+    { name: 'Cooler Master MasterLiquid ML240L RGB', part_type: 'cpu_cooler' },
+    { name: 'CORSAIR H60', part_type: 'cpu_cooler' },
+    { name: 'Noctua NH-D15', part_type: 'cpu_cooler' },
+    { name: 'Corsair H150i PRO', part_type: 'cpu_cooler' },
+    { name: 'be quiet! Pure Rock Slim', part_type: 'cpu_cooler' },
+    { name: 'Phanteks PH-TC12DX_BL', part_type: 'cpu_cooler' },
 
     # ===== Mobos ===== #
     { name: 'Gigabyte GA-H110M-A', part_type: 'mobo' },
     { name: 'MSI B250M PRO-VD', part_type: 'mobo' },
     { name: 'Asus Prime Z270-A', part_type: 'mobo' },
+    { name: 'MSI B350 PC MATE', part_type: 'mobo' },
+    { name: 'Asus ROG STRIX Z370-E GAMING', part_type: 'mobo' },
+    { name: 'MSI B350 TOMAHAWK', part_type: 'mobo' },
+    { name: 'Gigabyte X470 AORUS ULTRA GAMING', part_type: 'mobo' },
+    { name: 'MSI Z370 GAMING PLUS', part_type: 'mobo' },
+
 
     # ===== Monitors ===== #
     { name: 'Acer GN246HL', part_type: 'monitor' },
     { name: 'Asus VP228H', part_type: 'monitor' },
     { name: 'Dell S2417DG', part_type: 'monitor' },
+    { name: 'Acer H236HLbid', part_type: 'monitor' },
+    { name: 'HP OMEN 25', part_type: 'monitor' },
+    { name: 'Sceptre E205W-1600', part_type: 'monitor' },
+    { name: '', part_type: 'monitor' },
+
 
     # ===== PSUs ===== #
     { name: 'EVGA SuperNOVA 550', part_type: 'psu' },
     { name: 'Seasonic M1211 520 Bronze', part_type: 'psu' },
     { name: 'Corsair CX450M', part_type: 'psu' },
+    { name: '', part_type: 'psu' },
+    { name: '', part_type: 'psu' },
+    { name: '', part_type: 'psu' },
+    { name: '', part_type: 'psu' },
+    { name: '', part_type: 'psu' },
+    { name: '', part_type: 'psu' },
+    { name: '', part_type: 'psu' },
 
     # ===== RAM ===== #
     { name: 'G.Skill Ripjaws V Series', part_type: 'ram' },
     { name: 'Corsair Vengeance LPX', part_type: 'ram' },
     { name: 'Team Vulcan', part_type: 'ram' },
+    { name: '', part_type: 'ram' },
+    { name: '', part_type: 'ram' },
+    { name: '', part_type: 'ram' },
+    { name: '', part_type: 'ram' },
+    { name: '', part_type: 'ram' },
+    { name: '', part_type: 'ram' },
+    { name: '', part_type: 'ram' },
 
     # ===== Storage ===== #
     { name: 'Western Digital WD10EZEX', part_type: 'storage' },
     { name: 'Seagate ST2000DM006', part_type: 'storage' },
     { name: 'Samsung MZ-75E250B/AM', part_type: 'storage' },
+    { name: '', part_type: 'storage' },
+    { name: '', part_type: 'storage' },
+    { name: '', part_type: 'storage' },
+    { name: '', part_type: 'storage' },
+    { name: '', part_type: 'storage' },
+    { name: '', part_type: 'storage' },
+    { name: '', part_type: 'storage' },
 
     # ===== Vid Cards ===== #
     { name: 'EVGA 06G-P4-6163-KR', part_type: 'vid_card' },
     { name: 'Asus ROG STRIX-GTX1080-8G-GAMING', part_type: 'vid_card' },
     { name: 'MSI RX 560 AERO ITX 4G OC', part_type: 'vid_card' }
+    { name: '', part_type: 'vid_card' },
+    { name: '', part_type: 'vid_card' },
+    { name: '', part_type: 'vid_card' },
+    { name: '', part_type: 'vid_card' },
+    { name: '', part_type: 'vid_card' },
+    { name: '', part_type: 'vid_card' },
+    { name: '', part_type: 'vid_card' },
+
+
   ])
 
   Spec.create([
-    # ===== Cases ===== 2 #
+    # ===== Cases ===== #
+
+    # --- NZXT S340--- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 1 },
-    { attribute_name: 'Ext', attribute_value: 3, part_id: 1 },
-    { attribute_name: 'Int', attribute_value: 2, part_id: 1 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 3, part_id: 1 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 2, part_id: 1 },
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 1 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 1 },
     { attribute_name: 'Price', attribute_value: 54.99, part_id: 1 },
 
+    # --- Phanteks Ethoo Pro M Tempered Glass --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 2 },
-    { attribute_name: 'Ext', attribute_value: 1, part_id: 2 },
-    { attribute_name: 'Int', attribute_value: 3, part_id: 2 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 1, part_id: 2 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 3, part_id: 2 },
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 2 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 2 },
     { attribute_name: 'Price', attribute_value: 79.99, part_id: 2 },
 
+    # --- Corsair Crystal 570X RGB --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 3 },
-    { attribute_name: 'Ext', attribute_value: 2, part_id: 3 },
-    { attribute_name: 'Int', attribute_value: 2, part_id: 3 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 2, part_id: 3 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 2, part_id: 3 },
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 3 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 3 },
     { attribute_name: 'Price', attribute_value: 144.67, part_id: 3 },
 
-    # ===== CPUs ===== 3 #
-    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 4 },
-    { attribute_name: 'Speed', attribute_value: 3.7, part_id: 4 },
-    { attribute_name: 'Cores', attribute_value: 6, part_id: 4 },
-    { attribute_name: 'TDP', attribute_value: 95, part_id: 4 },
-    { attribute_name: 'Price', attribute_value: 339.79, part_id: 4 },
+    # --- Deepcool TESSERACT SW --- #
+    { attribute_name: 'Color', attribute_value: 'black/blue', part_id: 4 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 2, part_id: 4 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 4, part_id: 4 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 4 },
+    { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 4 },
+    { attribute_name: 'Price', attribute_value: 35.99, part_id: 4 },
 
-    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 5 },
-    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 5 },
-    { attribute_name: 'Cores', attribute_value: 6, part_id: 5 },
-    { attribute_name: 'TDP', attribute_value: 95, part_id: 5 },
-    { attribute_name: 'Price', attribute_value: 228.89, part_id: 5 },
+    # --- Cooler Master MasterBox Lite 5 RGB --- #
+    { attribute_name: 'Color', attribute_value: 'black', part_id: 5 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 2, part_id: 5 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 1, part_id: 5 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 5 },
+    { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 5 },
+    { attribute_name: 'Price', attribute_value: 63.44, part_id: 5 },
 
-    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 6 },
-    { attribute_name: 'Speed', attribute_value: 4.2, part_id: 6 },
-    { attribute_name: 'Cores', attribute_value: 4, part_id: 6 },
-    { attribute_name: 'TDP', attribute_value: 91, part_id: 6 },
-    { attribute_name: 'Price', attribute_value: 307.49, part_id: 6 },
+    # --- Raidmax Ninja II --- #
+    { attribute_name: 'Color', attribute_value: 'black/orange', part_id: 6 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 3, part_id: 6 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 3, part_id: 6 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 6 },
+    { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 6 },
+    { attribute_name: 'Price', attribute_value: 39.99, part_id: 6 },
 
-    # ===== CPU COOLERS ===== 4 #
-    { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 7 },
-    { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 7 },
-    { attribute_name: 'Price', attribute_value: 19.99, part_id: 7 },
+    # --- Phanteks ECLIPSE P400S Tempered Glass --- #
+    { attribute_name: 'Color', attribute_value: 'black/white', part_id: 7 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 'none', part_id: 7 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 2, part_id: 7 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 7 },
+    { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 7 },
+    { attribute_name: 'Price', attribute_value: 59.99, part_id: 7 },
 
-    { attribute_name: 'Fan RPM', attribute_value: 2435, part_id: 8 },
-    { attribute_name: 'Noise Level', attribute_value: 37.7, part_id: 8 },
-    { attribute_name: 'Price', attribute_value: 94.99, part_id: 8 },
+    # --- DIYPC Alnitak-BK --- #
+    { attribute_name: 'Color', attribute_value: 'black/blue', part_id: 8 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 1, part_id: 8 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 4, part_id: 8 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 8 },
+    { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 8 },
+    { attribute_name: 'Price', attribute_value: 19.98, part_id: 8 },
 
-    { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 9 },
-    { attribute_name: 'Noise Level', attribute_value: 30.0, part_id: 9 },
-    { attribute_name: 'Price', attribute_value: 147.39, part_id: 9 },
+    # --- Fractal Design Meshify C Dark TG --- #
+    { attribute_name: 'Color', attribute_value: 'black', part_id: 9 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 3, part_id: 9 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 2, part_id: 9 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 9 },
+    { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 9 },
+    { attribute_name: 'Price', attribute_value: 88.99, part_id: 9 },
 
-    # ===== Mobos ===== 1 #
-    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 10 },
-    { attribute_name: 'Form Factor', attribute_value: 'Micro ATX', part_id: 10 },
-    { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 10 },
-    { attribute_name: 'Max RAM', attribute_value: 32, part_id: 10 },
-    { attribute_name: 'Price', attribute_value: 35.88, part_id: 10 },
+    # --- Thermaltake - Core V21 --- #
+    { attribute_name: 'Color', attribute_value: 'black', part_id: 10 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 3, part_id: 10 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 3, part_id: 10 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 10 },
+    { attribute_name: 'Type', attribute_value: 'Micro ATX Mini Tower', part_id: 10 },
+    { attribute_name: 'Price', attribute_value: 55.47, part_id: 10 },
 
+
+
+    # ===== CPUs ===== #
+
+    # --- Intel Core i7-8700k --- #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 11 },
-    { attribute_name: 'Form Factor', attribute_value: 'Micro ATX', part_id: 11 },
-    { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 11 },
-    { attribute_name: 'Max RAM', attribute_value: 32, part_id: 11 },
-    { attribute_name: 'Price', attribute_value: 45.89, part_id: 11 },
+    { attribute_name: 'Speed', attribute_value: 3.7, part_id: 11 },
+    { attribute_name: 'Cores', attribute_value: 6, part_id: 11 },
+    { attribute_name: 'TDP', attribute_value: 95, part_id: 11 },
+    { attribute_name: 'Price', attribute_value: 339.79, part_id: 11 },
 
-    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 12 },
-    { attribute_name: 'Form Factor', attribute_value: 'ATX', part_id: 12 },
-    { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 12 },
-    { attribute_name: 'Max RAM', attribute_value: 64, part_id: 12 },
-    { attribute_name: 'Price', attribute_value: 299, part_id: 12 },
+    # --- AMD Ryzen 5 2600X --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 12 },
+    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 12 },
+    { attribute_name: 'Cores', attribute_value: 6, part_id: 12 },
+    { attribute_name: 'TDP', attribute_value: 95, part_id: 12 },
+    { attribute_name: 'Price', attribute_value: 228.89, part_id: 12 },
 
-    # ===== Monitors ===== 5 #
-    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 13 },
-    { attribute_name: 'Size', attribute_value: 24, part_id: 13 },
-    { attribute_name: 'Response Time', attribute_value: 1, part_id: 13 },
-    { attribute_name: 'IPS', attribute_value: 'no', part_id: 13 },
-    { attribute_name: 'Price', attribute_value: 190, part_id: 13 },
+    # --- Intel Core i7-7700k --- #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 13 },
+    { attribute_name: 'Speed', attribute_value: 4.2, part_id: 13 },
+    { attribute_name: 'Cores', attribute_value: 4, part_id: 13 },
+    { attribute_name: 'TDP', attribute_value: 91, part_id: 13 },
+    { attribute_name: 'Price', attribute_value: 307.49, part_id: 13 },
 
-    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 14 },
-    { attribute_name: 'Size', attribute_value: 21.5, part_id: 14 },
-    { attribute_name: 'Response Time', attribute_value: 444, part_id: 14 },
-    { attribute_name: 'IPS', attribute_value: 'no', part_id: 14 },
-    { attribute_name: 'Price', attribute_value: 99, part_id: 14 },
+    # --- AMD Ryzen 7 2700X --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 14 },
+    { attribute_name: 'Speed', attribute_value: 3.7, part_id: 14 },
+    { attribute_name: 'Cores', attribute_value: 8, part_id: 14 },
+    { attribute_name: 'TDP', attribute_value: 105, part_id: 14 },
+    { attribute_name: 'Price', attribute_value: 319.00, part_id: 14 },
 
-    { attribute_name: 'Resolution', attribute_value: '2560x1440', part_id: 15 },
-    { attribute_name: 'Size', attribute_value: 23.8, part_id: 15 },
+    # --- Intel Core i5-8400 --- #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 15 },
+    { attribute_name: 'Speed', attribute_value: 2.8, part_id: 15 },
+    { attribute_name: 'Cores', attribute_value: 6, part_id: 15 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 15 },
+    { attribute_name: 'Price', attribute_value: 178.89, part_id: 15 },
+
+    # --- AMD Ryzen 3 2200G --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 16 },
+    { attribute_name: 'Speed', attribute_value: 3.5, part_id: 16 },
+    { attribute_name: 'Cores', attribute_value: 4, part_id: 16 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 16 },
+    { attribute_name: 'Price', attribute_value: 94.59, part_id: 16 },
+
+    # --- AMD Ryzen 7 1700 --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 17 },
+    { attribute_name: 'Speed', attribute_value: 3, part_id: 17 },
+    { attribute_name: 'Cores', attribute_value: 8, part_id: 17 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 17 },
+    { attribute_name: 'Price', attribute_value: 219.99, part_id: 17 },
+
+    # --- AMD Ryzen 5 2600X --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 18 },
+    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 18 },
+    { attribute_name: 'Cores', attribute_value: 6, part_id: 18 },
+    { attribute_name: 'TDP', attribute_value: 95, part_id: 18 },
+    { attribute_name: 'Price', attribute_value: 219.99, part_id: 18 },
+
+    # --- AMD Ryzen 5 2400G --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 19 },
+    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 19 },
+    { attribute_name: 'Cores', attribute_value: 4, part_id: 19 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 19 },
+    { attribute_name: 'Price', attribute_value: 162.79, part_id: 19 },
+
+    # --- Intel Core i3-8100 --- #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 20 },
+    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 20 },
+    { attribute_name: 'Cores', attribute_value: 4, part_id: 20 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 20 },
+    { attribute_name: 'Price', attribute_value: 118.69, part_id: 20 },
+
+
+
+
+    # ===== CPU COOLERS ===== #
+
+    # --- Cooler Master Hyper 212 EVO --- #
+    { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 21 },
+    { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 21 },
+    { attribute_name: 'Price', attribute_value: 19.99, part_id: 21 },
+
+    # --- Corsair H100i v2 Liquid CPU Cooler --- #
+    { attribute_name: 'Fan RPM', attribute_value: 2435, part_id: 22 },
+    { attribute_name: 'Noise Level', attribute_value: 37.7, part_id: 22 },
+    { attribute_name: 'Price', attribute_value: 94.99, part_id: 22 },
+
+    # --- NZXT Kraken X62 Rev 2 --- #
+    { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 23 },
+    { attribute_name: 'Noise Level', attribute_value: 30.0, part_id: 23 },
+    { attribute_name: 'Price', attribute_value: 147.39, part_id: 23 },
+
+    # --- CRYORIG H7 --- #
+    { attribute_name: 'Fan RPM', attribute_value: 1100, part_id: 24 },
+    { attribute_name: 'Noise Level', attribute_value: 20.0, part_id: 24 },
+    { attribute_name: 'Price', attribute_value: 34.89, part_id: 24 },
+
+    # --- Cooler Master MasterLiquid ML240L RGB --- #
+    { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 25 },
+    { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 25 },
+    { attribute_name: 'Price', attribute_value: 59.99, part_id: 25 },
+
+    # --- CORSAIR H60 --- #
+    { attribute_name: 'Fan RPM', attribute_value: 2000, part_id: 26 },
+    { attribute_name: 'Noise Level', attribute_value: 30.9, part_id: 26 },
+    { attribute_name: 'Price', attribute_value: 59.56, part_id: 26 },
+
+    # --- Noctua NH-D15 --- #
+    { attribute_name: 'Fan RPM', attribute_value: 900, part_id: 27 },
+    { attribute_name: 'Noise Level', attribute_value: 21.6, part_id: 27 },
+    { attribute_name: 'Price', attribute_value: 86.20, part_id: 27 },
+
+    # --- Corsair H150i PRO --- #
+    { attribute_name: 'Fan RPM', attribute_value: 1600, part_id: 28 },
+    { attribute_name: 'Noise Level', attribute_value: 25.0, part_id: 28 },
+    { attribute_name: 'Price', attribute_value: 169.99, part_id: 28 },
+
+    # --- be quiet! Pure Rock Slim --- #
+    { attribute_name: 'Fan RPM', attribute_value: 2000, part_id: 29 },
+    { attribute_name: 'Noise Level', attribute_value: 17.0, part_id: 29 },
+    { attribute_name: 'Price', attribute_value: 21.29, part_id: 29 },
+
+    # --- Phanteks PH-TC12DX_BL --- #
+    { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 30 },
+    { attribute_name: 'Noise Level', attribute_value: 24.0, part_id: 30 },
+    { attribute_name: 'Price', attribute_value: 299.99, part_id: 30 },
+
+
+
+    # ===== Mobos ===== #
+
+    # --- Gigabyte GA-H110M-A --- #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 31 },
+    { attribute_name: 'Form Factor', attribute_value: 'Micro ATX', part_id: 31 },
+    { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 31 },
+    { attribute_name: 'Max RAM', attribute_value: 32, part_id: 31 },
+    { attribute_name: 'Price', attribute_value: 35.88, part_id: 31 },
+
+    # --- MSI B250M PRO-VD --- #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 32 },
+    { attribute_name: 'Form Factor', attribute_value: 'Micro ATX', part_id: 32 },
+    { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 32 },
+    { attribute_name: 'Max RAM', attribute_value: 32, part_id: 32 },
+    { attribute_name: 'Price', attribute_value: 45.89, part_id: 32 },
+
+    # --- Asus Prime Z270-A --- #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 33 },
+    { attribute_name: 'Form Factor', attribute_value: 'ATX', part_id: 33 },
+    { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 33 },
+    { attribute_name: 'Max RAM', attribute_value: 64, part_id: 33 },
+    { attribute_name: 'Price', attribute_value: 299, part_id: 33 },
+
+    # --- MSI B350 PC MATE --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 34 },
+    { attribute_name: 'Form Factor', attribute_value: 'ATX', part_id: 34 },
+    { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 34 },
+    { attribute_name: 'Max RAM', attribute_value: 64, part_id: 34 },
+    { attribute_name: 'Price', attribute_value: 69.90, part_id: 34 },
+
+    # --- Asus ROG STRIX Z370-E GAMING --- #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 35 },
+    { attribute_name: 'Form Factor', attribute_value: 'ATX', part_id: 35 },
+    { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 35 },
+    { attribute_name: 'Max RAM', attribute_value: 64, part_id: 35 },
+    { attribute_name: 'Price', attribute_value: 186.92, part_id: 35 },
+
+    # --- MSI B350 TOMAHAWK --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 36 },
+    { attribute_name: 'Form Factor', attribute_value: 'ATX', part_id: 36 },
+    { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 36 },
+    { attribute_name: 'Max RAM', attribute_value: 64, part_id: 36 },
+    { attribute_name: 'Price', attribute_value: 79.36, part_id: 36 },
+
+    # --- Gigabyte X470 AORUS ULTRA GAMING --- #
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 37 },
+    { attribute_name: 'Form Factor', attribute_value: 'ATX', part_id: 37 },
+    { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 37 },
+    { attribute_name: 'Max RAM', attribute_value: 64, part_id: 37 },
+    { attribute_name: 'Price', attribute_value: 139.99, part_id: 37 },
+
+    # --- MSI Z370 GAMING PLUS --- #
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 38 },
+    { attribute_name: 'Form Factor', attribute_value: 'ATX', part_id: 38 },
+    { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 38 },
+    { attribute_name: 'Max RAM', attribute_value: 64, part_id: 38 },
+    { attribute_name: 'Price', attribute_value: 119.99, part_id: 38 },
+
+
+
+
+    # ===== Monitors ===== #
+
+    # --- Acer GN246HL --- #
+    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 39 },
+    { attribute_name: 'Size', attribute_value: 24, part_id: 39 },
+    { attribute_name: 'Response Time', attribute_value: 1, part_id: 39 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 39 },
+    { attribute_name: 'Price', attribute_value: 190, part_id: 39 },
+
+    # --- Asus VP228H --- #
+    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 40 },
+    { attribute_name: 'Size', attribute_value: 21.5, part_id: 40 },
+    { attribute_name: 'Response Time', attribute_value: 444, part_id: 40 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 40 },
+    { attribute_name: 'Price', attribute_value: 99, part_id: 40 },
+
+    # --- Dell S2417DG --- #
+    { attribute_name: 'Resolution', attribute_value: '2560x1440', part_id: 41 },
+    { attribute_name: 'Size', attribute_value: 23.8, part_id: 41 },
+    { attribute_name: 'Response Time', attribute_value: 1, part_id: 41 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 41 },
+    { attribute_name: 'Price', attribute_value: 369, part_id: 41 },
+
+    # --- Acer H236HLbid --- #
+    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 42 },
+    { attribute_name: 'Size', attribute_value: 23, part_id: 42 },
+    { attribute_name: 'Response Time', attribute_value: 5, part_id: 42 },
+    { attribute_name: 'IPS', attribute_value: 'yes', part_id: 42 },
+    { attribute_name: 'Price', attribute_value: 99.99, part_id: 42 },
+
+    # --- HP OMEN 25 --- #
+    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 15 },
+    { attribute_name: 'Size', attribute_value: 24.5, part_id: 15 },
     { attribute_name: 'Response Time', attribute_value: 1, part_id: 15 },
     { attribute_name: 'IPS', attribute_value: 'no', part_id: 15 },
-    { attribute_name: 'Price', attribute_value: 369, part_id: 15 },
+    { attribute_name: 'Price', attribute_value: 189.99, part_id: 15 },
 
-    # ===== PSUs ===== 6 #
+    # --- Sceptre E205W-1600 --- #
+    { attribute_name: 'Resolution', attribute_value: '1600x900', part_id: 15 },
+    { attribute_name: 'Size', attribute_value: 20, part_id: 15 },
+    { attribute_name: 'Response Time', attribute_value: 5, part_id: 15 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 15 },
+    { attribute_name: 'Price', attribute_value: 65.73, part_id: 15 },
+
+    # --- MSI Optix MAG24C --- #
+    { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 15 },
+    { attribute_name: 'Size', attribute_value: 23.6, part_id: 15 },
+    { attribute_name: 'Response Time', attribute_value: 1, part_id: 15 },
+    { attribute_name: 'IPS', attribute_value: 'no', part_id: 15 },
+    { attribute_name: 'Price', attribute_value: 237.99, part_id: 15 },
+
+
+
+
+    # ===== PSUs ===== #
     { attribute_name: 'Type', attribute_value: 'ATX', part_id: 16 },
     { attribute_name: 'Efficiency', attribute_value: 80, part_id: 16 },
     { attribute_name: 'Fans', attribute_value: 1, part_id: 16 },
