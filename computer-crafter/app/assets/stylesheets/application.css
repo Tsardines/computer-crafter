@@ -2,7 +2,7 @@
 /* @import "computer-crafter/app/assets/stylesheets/partials/footer.scss"; */
 
 .build-welcome {
-  background-color: turquoise;
+  background-color: #8851FE;
   color: white;
   margin-bottom: 50px;
   margin-top: 30px;
@@ -42,6 +42,21 @@
   width: 60%;
 }
 
+.pc-wizard {
+  color: #8851FE;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-top: 64px;
+  text-align: left;
+  text-shadow: 1.5px 1px black;
+}
+
+.pc-wizard a {
+  color: #8851FE;
+}
+
 .peripherals {
   background-color: #f7f7f7;
   padding-bottom: 60px;
@@ -63,7 +78,7 @@
 }
 
 .parts-def {
-  background-color: turquoise;
+  background-color: #8851FE;
   color: white;
   font-size: 22px;
   margin: 50px 0 30px 0;
@@ -78,42 +93,55 @@
   display: flex;
 }
 
-
 .box {
   padding: 50px 0 50px 20%;
 }
 
 .footer {
-  background-color: turquoise;
+  background-color: #8851FE;
   color: white;
   padding-top: 70px;
 }
 
 .foot-links {
-  font-size: 20px;
-}
-
-.center-box {
-  background-color: orange;
-  display: flex;
-  justify-content: center;
-  padding: 70px 80px 0 80px;
-  width: 80%;
+  font-size: 21px;
 }
 
 .left-box {
   background-color: pink;
-  padding: 70px 80px 0 80px;
+  padding: 70px 90px 70px 90px;
+  width: 100%;
 }
 
-.wiz-foot {
-  height: 200px;
-  width: 200px;
+.left-box h1 {
+  font-size: 30px;
+}
+
+.buttons {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.center-box {
+  background-color: orange;
+  display: block;
+  padding: 70px 80px 0 80px;
+  width: 80%;
 }
 
 .right-box {
   background-color: white;
   padding: 60px 80px 60px 80px;
+  width: 80%;
+}
+
+.imp-links-title {
+  font-size: 25px;
+}
+
+.imp-links {
+  font-size: 22px;
 }
 
 .wiz-logo {
@@ -133,7 +161,6 @@
 .column {
   background-color: pink;
   width: 200px;
-
 }
 
 .row {
@@ -153,7 +180,7 @@
 }
 
 .welcome {
-  background-color: turquoise;
+  background-color: #8851FE;
   color: white;
   display: flex;
   font-size: 25px;
