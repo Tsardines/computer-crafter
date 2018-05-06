@@ -1,21 +1,9 @@
 <!--- ====== Theme title: Yeti --->
 <!--- ====== Borrowed from: Bulma Official Site --->
 
-<p class="navbar-text pull-right">
-<% if user_signed_in? %>
-  Logged in as <strong><%= current_user.email %></strong>.
-  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
-  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
-<% else %>
-  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
-<% end %>
-</p>
-
   <nav class="navbar is-transparent">
     <div class="navbar-brand">
-      <div class="logo">
-      <img src="https://imgur.com/JE8tJe6.png" alt="logo">
+      <img src="https://i.imgur.com/eKFYUVb.png" alt="the-wiz" class="wiz-logo">
     </div>
       <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
         <span class="icon" style="color: #333;">
@@ -28,11 +16,6 @@
         </span>
       </a>
       <div class="navbar-burger burger" data-target="navMenuExamplet">
-        <!-- <span>Build Guide</span>
-        <span>Register</span>
-        <span>Login</span>
-        <span>View My List</span>
-        <span>Browse Parts</span> -->
       </div>
     </div>
     <div id="navMenuExamplet" class="navbar-menu">
@@ -57,7 +40,21 @@
               </a>
             </p>
 
-            <p class="control">
+            <p class="button">
+            <% if user_signed_in? %>
+              Logged in as <strong><%= current_user.email %></strong>.
+              <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %>
+            </button>
+
+            <p class="button">
+              <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+            <% else %>
+              <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %>
+              <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+            <% end %>
+            </p>
+
+            <!-- <p class="control">
               <a href="/signup" id="Register" class="button">
                 <span>Register</span>
               </a>
@@ -67,7 +64,7 @@
               <a href="/login" id="Login" class="button">
                 <span>Login</span>
               </a>
-            </p>
+            </p> -->
 
             <p class="control">
               <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.4.3.zip">
@@ -80,7 +77,7 @@
 
           <!-- Navbar Dropdown ------------------->
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link  is-active" href="#">
+              <a class="navbar-link  is-active">
                 Browse Parts
               </a>
               <div class="navbar-dropdown is-boxed">
