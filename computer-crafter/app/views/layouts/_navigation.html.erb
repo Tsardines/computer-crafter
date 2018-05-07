@@ -1,5 +1,4 @@
-<!--- ====== Theme title: Yeti --->
-<!--- ====== Borrowed from: Bulma Official Site --->
+
 
   <nav class="navbar is-transparent">
     <div class="navbar-brand">
@@ -45,7 +44,7 @@
 
             <p class="button">
             <% if user_signed_in? %>
-              Logged in as <strong><%= current_user.email %></strong>.
+              Logged in as&nbsp;<strong><%= current_user.email %></strong>
               <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %>
             </button>
 
@@ -57,28 +56,7 @@
             <% end %>
             </p>
 
-            <!-- <p class="control">
-              <a href="/signup" id="Register" class="button">
-                <span>Register</span>
-              </a>
-            </p>
 
-            <p class="control">
-              <a href="/login" id="Login" class="button">
-                <span>Login</span>
-              </a>
-            </p> -->
-
-            <!-- <p class="control">
-              <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.4.3.zip">
-                <span class="icon">
-                  <i class="fa fa-parts-list"></i>
-                </span>
-                <span>View My List</span>
-              </a>
-            </p> -->
-
-          <!-- Navbar Dropdown ------------------->
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link  is-active button">
                 Browse Parts
