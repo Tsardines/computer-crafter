@@ -75,7 +75,7 @@ Note: There are spaces in the schema map, but in the actual database they will n
   - And the join table
 
 #### _Actual Complications and Concerns_
-- Adding parts and specs to seeds.rb was a pain in the ass. Once I had a general understanding of the layout it was basically data entry.
+Adding parts and specs to seeds.rb was a pain in the ass. Once I had a general understanding of the layout it was basically data entry.
 
 - Once I was able to get the data from the db to show up in the tables, I noticed that the information was incorrect. For instance, specs from the motherboards was showing up in the cases table, even though in the parts_controller I had ``Part.where("part_type = 'case'")``. I played around with things a bit, but to no avail.
 
