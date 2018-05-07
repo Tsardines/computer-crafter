@@ -131,8 +131,23 @@
   font-size: 19px;
 }
 
-.buttons {
-  display: inline-block;
+.button-wrap {
+  display: flex;
+}
+
+.button-2 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
+}
+
+.button-3 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
+}
+
+.button-1 {
   height: 50px;
   padding-bottom: 10px;
   width: 50px;
