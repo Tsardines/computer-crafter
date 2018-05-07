@@ -1,7 +1,7 @@
-# computer-crafter
+# pc-wizard
 
 #### _Conception and Inspiration_
-I've decided to create a variation of the popular computer building website, PC Part Picker, and turn it into a minimalistic but easy-to-use app. For the time being, it's named the equally-catchy "Computer Crafter".
+I've decided to create a variation of the popular computer building website, PC Part Picker, and turn it into a minimalistic but easy-to-use app. For the time being, it's named the equally-catchy "PC Wizard".
 
 When researching project ideas I came across a similar site that a GA alum built, using Express and Node, and I realized that making my own version was definitely a possibility. But unlike their project, mine will be built with Rails, primarily due to the ease of building components, the backend, and user auth.
 
@@ -14,7 +14,7 @@ As a manufacturing rep, I want my company's parts to be easily visible so that w
 
 As a newbie computer builder, I want to view definitions of each part so I can learn about what the hell I'm getting myself into.
 
-As a person, I want to be able to create an account so that my parts list isn't blown into the wind when I close my browser.
+As a person, I want to be able to create an account with my email address so that I can use it for something other than reading emails, writing emails, and signing up for YouTube.
 
 #### _Wireframes and Schema Map_
 Both can be found under computer-crafter/assets.
@@ -62,8 +62,7 @@ Note: There are spaces in the schema map, but in the actual database they will n
 
 #### _Register & Login_
   - Both will look very similar
-    - Large picture of something computer-y (both pages will have a different image)
-    - Right next to it, a registration/login form (username and password) with a submit button
+  - Registration/login form (email and password) with a submit button
 
 #### _Profile and Parts List_
   - The top, below the navbar, will say something like "Here's your list:"
@@ -75,7 +74,22 @@ Note: There are spaces in the schema map, but in the actual database they will n
  - Juggling the large number of tables
   - And the join table
 
+#### _Actual Complications and Concerns_
+- Adding parts and specs to seeds.rb was a pain in the ass. Once I had a general understanding of the layout it was basically data entry.
+
+- Once I was able to get the data from the db to show up in the tables, I noticed that the information was incorrect. For instance, specs from the motherboards was showing up in the cases table, even though in the parts_controller I had ``Part.where("part_type = 'case'")``. I played around with things a bit, but to no avail.
+
+I then noticed that the ids in seeds.rb were slightly out of order. I'd alphabetized the parts, with cases being at the top, then the CPUs, etc---but I'd set up the motherboard specs first. As such, the motherboards (in the middle of the other specs) had the ids of 1, 2, 3, and then the cases had 4, 5, 6.
+
+I went with my gut and fixed the order of the ids, so that the cases started with 1, 2, 3.
+
+Luckily, I was right. I'm still not entirely sure why it worked, but I'm incredibly glad that it did.
+
+- Another interesting problem I dealt with was that the specs in the tables were out of order. Underneath the prices column, for instance, I'd be seeing 'ATX' (the form factor). Also, for some reason the prices were always displaying on the far left (I believe this was related to the fact that I'd purposefully had the prices display on the far right).
+
+I did a bit of a janky fix, by simply rearranging the table titles (price, type, etc) so that 'Price' was now on the top left and right above the actual prices. It wasn't exactly what I wanted, but it worked.
+
 #### _Technologies_
 - Rails
 - Devise (user auth)
-- Materialize for styling (pending)
+- Bulma, a CSS framework
