@@ -116,7 +116,8 @@
 
 .left-box {
   padding: 20px 90px 10px 90px;
-  width: 100%;
+  text-align: justify;
+  /* width: 100%; */
 }
 
 .left-box h1 {
@@ -154,12 +155,12 @@
 }
 
 .center-box {
-  padding: 80px 80px 0 80px;
+  padding: 65px 80px 0 80px;
   width: 80%;
 }
 
 .foot-links {
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .foot-links a {
@@ -171,9 +172,8 @@
 }
 
 .right-box {
-  /* background-color: white; */
-  padding: 60px 80px 0px 80px;
-  width: 80%;
+  padding: 60px 100px 0px 100px;
+  width: 100%;
 }
 
 .imp-links a {
