@@ -1,0 +1,47 @@
+
+
+<div class="parts-def">
+<p>The <strong>CPU cooler</strong> is built to draw heat away from the CPU and lower its temperature, thus improving its efficiency and stability. There are several types of coolers, the first being an air cooler and the second a liquid cooler.
+  <br><br>
+An <strong>air cooler</strong> contains a heat sink that disperses heat that's coming from the top of the CPU.
+<strong>Liquid cooling</strong> circulates liquid through small pipes in a heat sink, drawing heat away from the CPU to a radiator located on the system case or enclosure.</p>
+</div>
+
+<section class="section" id="cpu_coolers">
+  <h1 class="title">CPU Coolers</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+        <th>
+          <abbr title="noise_lvl">Noise Level</abbr>
+        </th>
+        <th>
+          <abbr title="fan_rpm">Fan RPM</abbr>
+        </th>
+      </tr>
+    </thead>
+
+    <% @cpu_coolers.each do |part| %>
+
+    <tbody>
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+
+        <% part.specs.each do |spec| %>
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>

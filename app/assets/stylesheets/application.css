@@ -1,28 +1,228 @@
 @import "bulma";
-/* @import "partials/*";
-@import "layouts/partials/*"; */
+/* @import "computer-crafter/app/assets/stylesheets/partials/footer.scss"; */
 
+
+/* ----------------------- */
+
+.build-welcome {
+  background-color: #592BF5;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.build-welcome h1 {
+  font-size: 30px;
+  font-style: italic;
+  padding-left: 90px;
+  width: 60%;
+}
+
+.build-welcome p {
+  font-size: 20px;
+  padding-left: 90px;
+  width: 50%;
+}
+
+/* ----------------------- */
+
+.main-parts {
+  background-color: #f7f7f7;
+  padding-left: 20%;
+}
+
+.main-parts h1 {
+  font-size: 30px;
+}
+
+.main-parts h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main-parts p {
+  font-size: 18px;
+  width: 60%;
+}
+
+.peripherals {
+  background-color: #f7f7f7;
+  padding-bottom: 60px;
+  padding-left: 20%;
+}
+
+.peripherals h1 {
+  font-size: 30px;
+}
+
+.peripherals h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.peripherals p {
+  font-size: 18px;
+  width: 60%;
+}
+
+/* ----------------------- */
+
+.pc-wizard {
+  color: #8851FE;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-top: 64px;
+  text-align: left;
+  text-shadow: 1.5px 1px black;
+}
+
+.pc-wizard a {
+  color: #592BF5;
+}
+
+/* ----------------------- */
+
+.parts-def {
+  background-color: #592BF5;
+  color: white;
+  font-size: 22px;
+  margin: 50px 0 30px 0;
+  padding: 30px 10% 30px 10%;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  padding: 50px 0 50px 20%;
+}
+
+/* ----------------------- */
 
 .footer {
-  background-color: turquoise;
+  background-color: #592BF5;
+  color: white;
+  padding-top: 20px;
+}
+
+.foot-links {
+  font-size: 21px;
+}
+
+.left-box {
+  padding: 20px 90px 10px 90px;
+  width: 100%;
+}
+
+.left-box h1 {
+  font-size: 30px;
+}
+
+.left-box a {
   color: black;
 }
 
-.group-1 {
-  background-color: red;
+.left-box p {
+  font-size: 19px;
 }
 
-.group-2 {
-  background-color: pink;
+.buttons {
+  display: inline-block;
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
 }
 
-.group-3 {
-  background-color: green;
+.center-box {
+  padding: 80px 80px 0 80px;
+  width: 80%;
 }
 
-.logo {
-  height: 100px;
-  width: 100px;
+.foot-links {
+  font-size: 28px;
+}
+
+.foot-links a {
+  color: white;
+}
+
+.foot-links a:hover {
+  color: black;
+}
+
+.right-box {
+  /* background-color: white; */
+  padding: 60px 80px 0px 80px;
+  width: 80%;
+}
+
+.imp-links a {
+  color: white;
+}
+
+.imp-links a:hover {
+  color: black;
+}
+
+.imp-links-title {
+  color: white;
+  font-size: 25px;
+}
+
+.imp-links {
+  font-size: 22px;
+}
+
+/* ----------------------- */
+
+.wiz-logo {
+  height: 190px;
+  padding-left: 10px;
+  padding-top: 30px;
+  width: 190px;
+}
+
+/* ----------------------- */
+
+.table {
+  margin-bottom: 8%;
+  margin-left: 10%;
+}
+
+.title {
+  margin-left: 10%;
+}
+
+/* ----------------------- */
+
+.welcome {
+  background-color: #592BF5;
+  color: white;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+/* -----------
+Below is what I like to call the "Text-over-image-and-hover-technique",
+which I picked up from a tutorial many months ago.
+I'd been keeping it in my Codepen for safekeeping.
+------------ */
+
+
+
+a{text-decoration:none;}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+  .textOverImage{background-size:cover!important;}
 }
 
 .row {
@@ -32,38 +232,69 @@
   padding-left: 5px;
 }
 
-.welcome {
-  background-color: turquoise;
-  color: white;
+.textOverImage {
   display: flex;
-  font-size: 25px;
-  justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  position:  relative;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 40px;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 7px #000;
 }
 
+.textOverImage:hover{
+  background-size: 110%;
+}
 
+.textOverImage:before{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(90%);
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  padding: 0 8px;
+  content:attr(data-title);
+  transition: 0.5s 0.1s;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 
+.textOverImage:after{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 8px;
+  content:attr(data-text);
+  transition: 0.5s;
+  padding-top: 2em;
+  margin-top: 8px;
+  transform: translateY(100%);
+  opacity: 0;
+}
 
+.textOverImage:hover:after{
+  transform: translateY(0);
+  transition: 0.5s 0.1s;
+  opacity: 1;
+}
 
-
-
-
-
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.textOverImage:hover:before{
+  transform: translateY(0);
+  padding: 8px;
+  background-color: rgba(0,0,0,0.6);
+  transition: 0.5s;
+}

@@ -3,9 +3,11 @@
 
   <nav class="navbar is-transparent">
     <div class="navbar-brand">
-      <div class="logo">
-      <img src="https://imgur.com/JE8tJe6.png" alt="logo">
+      <img src="https://i.imgur.com/eKFYUVb.png" alt="the-wiz" class="wiz-logo">
+      <div class="pc-wizard">
+          <span><a href="/">PC Wizard</span>
     </div>
+
       <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
         <span class="icon" style="color: #333;">
           <i class="fa fa-github"></i>
@@ -17,11 +19,6 @@
         </span>
       </a>
       <div class="navbar-burger burger" data-target="navMenuExamplet">
-        <!-- <span>Build Guide</span>
-        <span>Register</span>
-        <span>Login</span>
-        <span>View My List</span>
-        <span>Browse Parts</span> -->
       </div>
     </div>
     <div id="navMenuExamplet" class="navbar-menu">
@@ -41,12 +38,26 @@
             </p>
 
             <p class="control">
-              <a href="/build-guide" id="BuildGuide" class="button">
+              <a href="/pages/build_guide" id="BuildGuide" class="button">
                 <span>Build Guide</span>
               </a>
             </p>
 
-            <p class="control">
+            <p class="button">
+            <% if user_signed_in? %>
+              Logged in as <strong><%= current_user.email %></strong>.
+              <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %>
+            </button>
+
+            <p class="button">
+              <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+            <% else %>
+              <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %>
+              <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+            <% end %>
+            </p>
+
+            <!-- <p class="control">
               <a href="/signup" id="Register" class="button">
                 <span>Register</span>
               </a>
@@ -56,55 +67,55 @@
               <a href="/login" id="Login" class="button">
                 <span>Login</span>
               </a>
-            </p>
+            </p> -->
 
-            <p class="control">
+            <!-- <p class="control">
               <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.4.3.zip">
                 <span class="icon">
                   <i class="fa fa-parts-list"></i>
                 </span>
                 <span>View My List</span>
               </a>
-            </p>
+            </p> -->
 
           <!-- Navbar Dropdown ------------------->
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link  is-active" href="#">
+              <a class="navbar-link  is-active button">
                 Browse Parts
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item " href="#">
+                <a class="navbar-item " href="/parts/cases">
                   Cases
                 </a>
-                <a class="navbar-item " href="#">
+                <a class="navbar-item " href="/parts/cpus">
                   CPUs
                 </a>
-                <a class="navbar-item " href="#">
+                <a class="navbar-item " href="/parts/cpu_coolers">
                   CPU Coolers
                 </a>
-                <a class="navbar-item " href="#">
-                  Graphics Cards
-                </a>
-                <a class="navbar-item " href="#">
+                <a class="navbar-item " href="/parts/mobos">
                   Motherboards
                 </a>
-                <a class="navbar-item " href="#">
+                <a class="navbar-item " href="/parts/monitors">
                   Monitors
                 </a>
-                <a class="navbar-item " href="#">
+                <a class="navbar-item " href="/parts/psus">
                   PSUs
                 </a>
-                <a class="navbar-item " href="#">
+                <a class="navbar-item " href="/parts/rams">
                   RAM
                 </a>
-                <a class="navbar-item " href="#">
+                <a class="navbar-item " href="/parts/storages">
                   Storage
+                </a>
+                <a class="navbar-item " href="/parts/vid_cards">
+                  Video Cards
                 </a>
 
                 <hr class="navbar-divider">
                 <div class="navbar-item">
                   <div>Stuck?
-                    <p class="has-text-info is-size-8-desktop">Browse the parts lists <br> for inspiration.</p>
+                    <p class="has-text-info is-size-8-desktop">Browse these lists <br> for inspiration.</p>
                   </div>
                 </div>
               </div>
