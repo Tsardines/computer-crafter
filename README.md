@@ -81,13 +81,15 @@ Note: There are spaces in the schema map, but in the actual database they will n
 
 I then noticed that the ids in seeds.rb were slightly out of order. I'd alphabetized the parts, with cases being at the top, then the CPUs, etc---but I'd set up the motherboard specs first. As such, the motherboards (in the middle of the other specs) had the ids of 1, 2, 3, and then the cases had 4, 5, 6.
 
-I went with my gut and fixed the order of the ids, so that the cases started with 1, 2, 3.
+- I went with my gut and fixed the order of the ids, so that the cases started with 1, 2, 3.
 
-Luckily, I was right. I'm still not entirely sure why it worked, but I'm incredibly glad that it did.
+- Luckily, I was right. I'm still not entirely sure why it worked, but I'm incredibly glad that it did.
+
+---
 
 - Another interesting problem I dealt with was that the specs in the tables were out of order. Underneath the prices column, for instance, I'd be seeing 'ATX' (the form factor). Also, for some reason the prices were always displaying on the far left (I believe this was related to the fact that I'd purposefully had the prices display on the far right).
 
-I did a bit of a janky fix, by simply rearranging the table titles (price, type, etc) so that 'Price' was now on the top left and right above the actual prices. It wasn't exactly what I wanted, but it worked.
+- I did a bit of a janky fix, by simply rearranging the table titles (price, type, etc) so that 'Price' was now on the top left and right above the actual prices. It wasn't exactly what I wanted, but it worked.
 
 #### _Technologies_
 - Rails

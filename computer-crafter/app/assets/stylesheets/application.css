@@ -5,7 +5,7 @@
 /* ----------------------- */
 
 .build-welcome {
-  background-color: #8851FE;
+  background-color: #592BF5;
   color: white;
   margin-bottom: 50px;
   margin-top: 30px;
@@ -81,13 +81,13 @@
 }
 
 .pc-wizard a {
-  color: #8851FE;
+  color: #592BF5;
 }
 
 /* ----------------------- */
 
 .parts-def {
-  background-color: #8851FE;
+  background-color: #592BF5;
   color: white;
   font-size: 22px;
   margin: 50px 0 30px 0;
@@ -105,7 +105,7 @@
 /* ----------------------- */
 
 .footer {
-  background-color: #8851FE;
+  background-color: #592BF5;
   color: white;
   padding-top: 20px;
 }
@@ -201,7 +201,7 @@
 /* ----------------------- */
 
 .welcome {
-  background-color: #8851FE;
+  background-color: #592BF5;
   color: white;
   display: flex;
   font-size: 25px;
