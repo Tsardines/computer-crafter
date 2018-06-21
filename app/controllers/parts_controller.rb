@@ -74,31 +74,5 @@ class PartsController < ApplicationController
       end
   end
 
-  # GET /parts/:id/edit
-  # def edit
-  #   @cheese = Part.find(params[:id])
-  # end
-
-  # def update
-  #   @cheese = Part.find params[:id]
-  #     if @cheese.update cheese_params
-  #       redirect_to @cheese
-  #     else
-  #       render action: edit
-  #     end
-  # end
-
-  # def destroy
-  #   @cheese = Part.find params[:id]
-  #   @cheese.destroy
-  #   redirect_to @cheese
-  # end
-
-  # private
-
-  # def cheese_params
-  #   params.require(:cheeses).permit(:name, :milk_type, :image_url, :description)
-  # end
-
 
 end

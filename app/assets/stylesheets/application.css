@@ -71,11 +71,11 @@
 
 .pc-wizard {
   color: #8851FE;
-  font-size: 30px;
+  font-size: 50px;
   font-style: oblique;
   font-weight: bold;
   padding-right: 10px;
-  padding-top: 64px;
+  padding-top: 50px;
   text-align: left;
   text-shadow: 1.5px 1px black;
 }
@@ -224,14 +224,15 @@
   margin-top: 10px;
   padding-bottom: 30px;
   padding-top: 30px;
+  text-align: center;
 }
+
 
 /* -----------
 Below is what I like to call the "Text-over-image-and-hover-technique",
 which I picked up from a tutorial many months ago.
 I'd been keeping it in my Codepen for safekeeping.
 ------------ */
-
 
 
 a{text-decoration:none;}
