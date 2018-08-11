@@ -1,20 +1,9 @@
-# pc-wizard
+http://pc-wizard.herokuapp.com/
 
 #### _Conception and Inspiration_
 I've decided to create a variation of the popular computer building website, PC Part Picker, and turn it into a minimalistic but easy-to-use app. For the time being, it's named the equally-catchy "PC Wizard".
 
 When researching project ideas I came across a similar site that a GA alum built, using Express and Node, and I realized that making my own version was definitely a possibility. But unlike their project, mine will be built with Rails, primarily due to the ease of building components, the backend, and user auth.
-
-#### _User Stories_
-As a computer builder, I want to see each part list as a grid so that they're easily readable.
-
-As a clutter hater, I want to browse a minimalistic app for computer parts so that I don't lose my mind.
-
-As a manufacturing rep, I want my company's parts to be easily visible so that we make more money.
-
-As a newbie computer builder, I want to view definitions of each part so I can learn about what the hell I'm getting myself into.
-
-As a person, I want to be able to create an account with my email address so that I can use it for something other than reading emails, writing emails, and signing up for YouTube.
 
 #### _Wireframes and Schema Map_
 Both can be found under computer-crafter/assets.
