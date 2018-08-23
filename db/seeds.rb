@@ -4,7 +4,7 @@ Spec.destroy_all
   Part.create([
     # ===== Cases ===== #
     { name: 'NZXT S340', part_type: 'case' },
-    { name: 'Phanteks Ethoo Pro M Tempered Glass', part_type: 'case' },
+    { name: 'Phanteks Enthoo Pro M Tempered Glass', part_type: 'case' },
     { name: 'Corsair Crystal 570X RGB', part_type: 'case' },
     { name: 'Deepcool TESSERACT SW', part_type: 'case' },
     { name: 'Cooler Master MasterBox Lite 5 RGB', part_type: 'case' },
@@ -110,15 +110,16 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 1 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 1 },
     { attribute_name: 'Price', attribute_value: 54.99, part_id: 1 },
-    {attribute_name: 'Buy on Amazon', attribute_value: 'https://www.amazon.com/NZXT-Tower-Computer-White-CA-S340W-W1/dp/B00NGMIBXC', part_id: 1 },
+    {attribute_name: 'Buy Online', attribute_value: 'https://www.nzxt.com/products/s340-white', part_id: 1 },
 
-    # --- Phanteks Ethoo Pro M Tempered Glass --- #
+    # --- Phanteks Enthoo Pro M Tempered Glass --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 2 },
     { attribute_name: 'Ext 5.25" bays', attribute_value: 1, part_id: 2 },
     { attribute_name: 'Int 3.5" bays', attribute_value: 3, part_id: 2 },
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 2 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 2 },
     { attribute_name: 'Price', attribute_value: 79.99, part_id: 2 },
+    {attribute_name: 'Buy Online', attribute_value: 'http://www.phanteks.com/Enthoo-Pro-M-TemperedGlass.html', part_id: 2 },
 
     # --- Corsair Crystal 570X RGB --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 3 },
@@ -127,6 +128,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 3 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 3 },
     { attribute_name: 'Price', attribute_value: 144.67, part_id: 3 },
+    {attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/CORSAIR-CRYSTAL-Mid-Tower-Tempered-Glass/dp/B01LE0ZKR2', part_id: 3 },
 
     # --- Deepcool TESSERACT SW --- #
     { attribute_name: 'Color', attribute_value: 'black/blue', part_id: 4 },
@@ -135,6 +137,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 4 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 4 },
     { attribute_name: 'Price', attribute_value: 35.99, part_id: 4 },
+    {attribute_name: 'Buy Online', attribute_value: 'http://www.deepcool.com/product/case/2014-05/9_840.shtml', part_id: 4 },
 
     # --- Cooler Master MasterBox Lite 5 RGB --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 5 },
@@ -143,6 +146,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 5 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 5 },
     { attribute_name: 'Price', attribute_value: 63.44, part_id: 5 },
+    {attribute_name: 'Buy Online', attribute_value: 'http://www.coolermaster.com/case/mid-tower/masterbox-lite-5-rgb/', part_id: 5 },
 
     # --- Raidmax Ninja II --- #
     { attribute_name: 'Color', attribute_value: 'black/orange', part_id: 6 },
@@ -151,6 +155,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 6 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 6 },
     { attribute_name: 'Price', attribute_value: 39.99, part_id: 6 },
+    {attribute_name: 'Buy Online', attribute_value: 'http://www.raidmax.com/chassis_ninja-ii.html', part_id: 6 },
 
     # --- Phanteks ECLIPSE P400S Tempered Glass --- #
     { attribute_name: 'Color', attribute_value: 'black/white', part_id: 7 },
@@ -159,6 +164,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 7 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 7 },
     { attribute_name: 'Price', attribute_value: 59.99, part_id: 7 },
+    {attribute_name: 'Buy Online', attribute_value: 'www.phanteks.com/Eclipse-P400-TemperedGlass.html', part_id: 7 },
 
     # --- DIYPC Alnitak-BK --- #
     { attribute_name: 'Color', attribute_value: 'black/blue', part_id: 8 },
@@ -167,6 +173,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 8 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 8 },
     { attribute_name: 'Price', attribute_value: 19.98, part_id: 8 },
+    {attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/DIYPC-Alnitak-BK-Micro-ATX-Computer-Pre-installed/dp/B01JMYQEDG', part_id: 8 },
 
     # --- Fractal Design Meshify C Dark TG --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 9 },
@@ -175,6 +182,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 9 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 9 },
     { attribute_name: 'Price', attribute_value: 88.99, part_id: 9 },
+    {attribute_name: 'Buy Online', attribute_value: 'http://www.fractal-design.com/home/product/cases/meshify/meshify-c', part_id: 9 },
 
     # --- Thermaltake - Core V21 --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 10 },
@@ -183,6 +191,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 10 },
     { attribute_name: 'Type', attribute_value: 'Micro ATX Mini Tower', part_id: 10 },
     { attribute_name: 'Price', attribute_value: 55.47, part_id: 10 },
+    {attribute_name: 'Buy Online', attribute_value: 'https://www.thermaltake.com/products-model.aspx?id=C_00002559', part_id: 10 },
 
 
 
