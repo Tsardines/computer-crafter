@@ -1,0 +1,54 @@
+
+
+<div class="parts-def">
+  <p>The <b>motherboard </b> is a printed circuit board (PCB) that allows all of your components and external peripherals to connect and communicate with one another. Motherboards have a <b>form factor</b>, which is an industry standard method to determine their dimensions. The most common standards are ATX, Micro-ATX, and the super small Mini-ITX.</p>
+</p>
+
+</div>
+
+<section class="section" id="mobos">
+  <h1 class="title">Motherboards</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+        <th>
+          <abbr title="max-ram">Max RAM</abbr>
+        </th>
+        <th>
+          <abbr title="ram-slots">RAM slots</abbr>
+        </th>
+        <th>
+          <abbr title="form-factor">Form Factor</abbr>
+        </th>
+        <th>
+          <abbr title="socket">Socket</abbr>
+        </th>
+      </tr>
+    </thead>
+
+
+    <% @mobos.each do |part| %>
+
+    <tbody>
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+
+        <% part.specs.each do |spec| %>
+
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>

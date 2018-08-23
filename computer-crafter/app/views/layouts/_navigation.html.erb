@@ -1,0 +1,109 @@
+
+
+  <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <img src="https://i.imgur.com/eKFYUVb.png" alt="the-wiz" class="wiz-logo">
+      <div class="pc-wizard">
+          <span><a href="/">PC Wizard</span>
+    </div>
+
+      <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
+        <span class="icon" style="color: #333;">
+          <i class="fa fa-github"></i>
+        </span>
+      </a>
+      <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+        <span class="icon" style="color: #55acee;">
+          <i class="fa fa-twitter"></i>
+        </span>
+      </a>
+      <div class="navbar-burger burger" data-target="navMenuExamplet">
+      </div>
+    </div>
+    <div id="navMenuExamplet" class="navbar-menu">
+      <div class="navbar-start">
+
+      </div>
+
+      <div class="navbar-end">
+
+        <div class="navbar-item">
+          <div class="field is-grouped">
+
+            <p class="control">
+              <a href="/" id="Home" class="button">
+                <span>Home</span>
+              </a>
+            </p>
+
+            <p class="control">
+              <a href="/pages/build_guide" id="BuildGuide" class="button">
+                <span>Build Guide</span>
+              </a>
+            </p>
+
+            <p class="button">
+            <% if user_signed_in? %>
+              Logged in as&nbsp;<strong><%= current_user.email %></strong>
+              <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %>
+            </button>
+
+            <p class="button">
+              <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+            <% else %>
+              <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %>
+              <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+            <% end %>
+            </p>
+
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link  is-active button">
+                Browse Parts
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <a class="navbar-item " href="/parts/cases">
+                  Cases
+                </a>
+                <a class="navbar-item " href="/parts/cpus">
+                  CPUs
+                </a>
+                <a class="navbar-item " href="/parts/cpu_coolers">
+                  CPU Coolers
+                </a>
+                <a class="navbar-item " href="/parts/mobos">
+                  Motherboards
+                </a>
+                <a class="navbar-item " href="/parts/monitors">
+                  Monitors
+                </a>
+                <a class="navbar-item " href="/parts/psus">
+                  PSUs
+                </a>
+                <a class="navbar-item " href="/parts/rams">
+                  RAM
+                </a>
+                <a class="navbar-item " href="/parts/storages">
+                  Storage
+                </a>
+                <a class="navbar-item " href="/parts/vid_cards">
+                  Video Cards
+                </a>
+
+                <hr class="navbar-divider">
+                <div class="navbar-item">
+                  <div>Stuck?
+                    <p class="has-text-info is-size-8-desktop">Browse these lists <br> for inspiration.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<%= yield %>

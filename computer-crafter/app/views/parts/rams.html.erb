@@ -1,0 +1,61 @@
+
+
+<div class="parts-def">
+  <p><b>RAM</b> allows info. to be stored and retrieved on a computer. Information is accessed randomly, which allows a computer to access the data much faster.
+    <br><br>
+  RAM is inserted into a computer's motherboard and housed in a <b>memory/RAM slot.</b> A motherboard determines the number of memory slots available and the type of RAM that the computer requires. The current memory standard is <b>DDR4 DIMM 288-pin</b>, with "DIMM" indicating that its format is desktop memory.</p>
+</div>
+
+<section class="section" id="rams">
+  <h1 class="title">RAM</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+        <th>
+          <abbr title="price_gb">Price/GB</abbr>
+        </th>
+        <th>
+          <abbr title="type">Type</abbr>
+        </th>
+        <th>
+          <abbr title="speed">Speed</abbr>
+        </th>
+        <th>
+          <abbr title="size">Size (GB)</abbr>
+        </th>
+        <th>
+          <abbr title="modules">Modules</abbr>
+        </th>
+        <th>
+          <abbr title="cas">CAS</abbr>
+        </th>
+
+      </tr>
+    </thead>
+
+
+    <% @rams.each do |part| %>
+
+    <tbody>
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+
+        <% part.specs.each do |spec| %>
+
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>

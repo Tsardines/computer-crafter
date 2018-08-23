@@ -1,0 +1,51 @@
+
+
+<div class="parts-def">
+  <p>The <b>CPU (central processing unit)</b> processes data and produces output, which may be stored by an application or displayed onscreen. A CPU contains at least one processor, which is the actual chip inside the CPU that performs calculations. Nowadays it's common for a computer to have at least two processors (or "processing cores") for stronger performance.</p>
+</div>
+
+<section class="section" id="cases">
+  <h1 class="title">CPUs</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+        <th>
+          <abbr title="tdp">TDP</abbr>
+        </th>
+        <th>
+          <abbr title="cores">Cores</abbr>
+        </th>
+        <th>
+          <abbr title="speed">Speed</abbr>
+        </th>
+        <th>
+          <abbr title="socket">Socket</abbr>
+        </th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+    <% @cpus.each do |part| %>
+
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+
+        <% part.specs.each do |spec| %>
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>

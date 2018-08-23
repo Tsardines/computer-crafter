@@ -1,0 +1,2 @@
+module BuildGuideHelper
+end

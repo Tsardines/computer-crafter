@@ -1,0 +1,58 @@
+
+
+<div class="parts-def">
+  <p>The <b>PSU</b> converts the wall socket's 100V-240V current into clean DC current and supplies it to your components.
+      <br>
+  Because the PSU is the first place that your computer receives electricity, it's the most <b>vulnerable</b> to power surges. As such, it is highly recommend to do your research on power supplies and buy one with excellent user feedback and reviews. Buy nice, not twice.</p>
+
+</div>
+
+<section class="section" id="psus">
+  <h1 class="title">Power Supply Units</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+        <th>
+          <abbr title="modu">Modular</abbr>
+        </th>
+        <th>
+          <abbr title="watts">Watts</abbr>
+        </th>
+        <th>
+          <abbr title="fans">Fans</abbr>
+        </th>
+        <th>
+          <abbr title="effi">Efficiency</abbr>
+        </th>
+        <th>
+          <abbr title="type">Type</abbr>
+        </th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+    <% @psus.each do |part| %>
+
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+
+        <% part.specs.each do |spec| %>
+
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>

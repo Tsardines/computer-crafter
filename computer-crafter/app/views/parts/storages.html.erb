@@ -1,0 +1,63 @@
+
+
+<div class="parts-def">
+  <p>The <b>hard disk drive</b> is the solution for mass storage. It stores data magnetically on a circular "hard disk", anywhere from 128 gigabytes to 10 terabytes (and beyond). There are three things to consider when buying a HDD: speed, capacity, and physical size (there are two sizes for HDDs: 2.5" and 3.5").
+    <br>
+    Because a HDD has an actual spinning disc, it's susceptible to physical damage and is slower than its solid state sibling.
+    <br>
+  A <b>solid state drive</b> has extremely fast read/write speeds, which is ideal for storing your main applications and your operating system.</p>
+
+</div>
+
+<section class="section" id="storage">
+  <h1 class="title">Storage</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>
+          <abbr title="price">Price</abbr>
+        </th>
+        <th>
+          <abbr title="price-gb">Price/gb</abbr>
+        </th>
+        <th>
+          <abbr title="cache">Cache</abbr>
+        </th>
+        <th>
+          <abbr title="capa">Capacity</abbr>
+        </th>
+        <th>
+          <abbr title="type">Type</abbr>
+        </th>
+        <th>
+          <abbr title="form">Form</abbr>
+        </th>
+        <th>
+          <abbr title="series">Series</abbr>
+        </th>
+      </tr>
+    </thead>
+
+
+    <% @storages.each do |part| %>
+
+    <tbody>
+      <tr>
+        <td>
+           <strong><%= part.name %></strong>
+        </td>
+
+        <% part.specs.each do |spec| %>
+
+          <td><%= spec.attribute_value %></td>
+
+        <% end %>
+      </tr>
+
+
+    </tbody>
+
+    <% end %>
+  </table>
