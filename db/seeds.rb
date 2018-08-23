@@ -96,6 +96,10 @@ Spec.destroy_all
 
   ])
 
+ # =========================== #
+ # ====== BIG GAP RIGHT HERE ====== #
+ # =========================== #
+
   Spec.create([
     # ===== Cases ===== #
 
@@ -106,6 +110,7 @@ Spec.destroy_all
     { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 1 },
     { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 1 },
     { attribute_name: 'Price', attribute_value: 54.99, part_id: 1 },
+    {attribute_name: 'Buy on Amazon', attribute_value: 'https://www.amazon.com/NZXT-Tower-Computer-White-CA-S340W-W1/dp/B00NGMIBXC', part_id: 1 },
 
     # --- Phanteks Ethoo Pro M Tempered Glass --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 2 },
