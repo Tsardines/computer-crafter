@@ -203,6 +203,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 6, part_id: 11 },
     { attribute_name: 'TDP', attribute_value: 95, part_id: 11 },
     { attribute_name: 'Price', attribute_value: 339.79, part_id: 11 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Intel-i7-8700K-Desktop-Processor-Unlocked/dp/B07598VZR8', part_id: 11 },
+
 
     # --- AMD Ryzen 5 2600X --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 12 },
@@ -210,6 +212,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 6, part_id: 12 },
     { attribute_name: 'TDP', attribute_value: 95, part_id: 12 },
     { attribute_name: 'Price', attribute_value: 228.89, part_id: 12 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/AMD-Ryzen-Processor-Wraith-Cooler/dp/B07B428V2L', part_id: 12 },
+
 
     # --- Intel Core i7-7700k --- #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 13 },
@@ -217,6 +221,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 4, part_id: 13 },
     { attribute_name: 'TDP', attribute_value: 91, part_id: 13 },
     { attribute_name: 'Price', attribute_value: 307.49, part_id: 13 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Intel-Core-Desktop-Processor-i7-7700K/dp/B01MXSI216', part_id: 13 },
+
 
     # --- AMD Ryzen 7 2700X --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 14 },
@@ -224,6 +230,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 8, part_id: 14 },
     { attribute_name: 'TDP', attribute_value: 105, part_id: 14 },
     { attribute_name: 'Price', attribute_value: 319.00, part_id: 14 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/AMD-Ryzen-Processor-Wraith-Cooler/dp/B07B428M7F', part_id: 14 },
+
 
     # --- Intel Core i5-8400 --- #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 15 },
@@ -231,6 +239,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 6, part_id: 15 },
     { attribute_name: 'TDP', attribute_value: 65, part_id: 15 },
     { attribute_name: 'Price', attribute_value: 178.89, part_id: 15 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Intel-Core-i5-8400-Hexa-core-Processor/dp/B0759FGJ3Q', part_id: 15 },
+
 
     # --- AMD Ryzen 3 2200G --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 16 },
@@ -238,6 +248,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 4, part_id: 16 },
     { attribute_name: 'TDP', attribute_value: 65, part_id: 16 },
     { attribute_name: 'Price', attribute_value: 94.59, part_id: 16 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/AMD-Ryzen-Processor-Radeon-Graphics/.../B079D3DBNM', part_id: 16 },
+
 
     # --- AMD Ryzen 7 1700 --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 17 },
@@ -245,6 +257,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 8, part_id: 17 },
     { attribute_name: 'TDP', attribute_value: 65, part_id: 17 },
     { attribute_name: 'Price', attribute_value: 219.99, part_id: 17 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16819113428', part_id: 17 },
+
 
     # --- AMD Ryzen 5 2600X --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 18 },
@@ -252,6 +266,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 6, part_id: 18 },
     { attribute_name: 'TDP', attribute_value: 95, part_id: 18 },
     { attribute_name: 'Price', attribute_value: 219.99, part_id: 18 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16819113497', part_id: 18 },
+
 
     # --- AMD Ryzen 5 2400G --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 19 },
@@ -259,6 +275,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 4, part_id: 19 },
     { attribute_name: 'TDP', attribute_value: 65, part_id: 19 },
     { attribute_name: 'Price', attribute_value: 162.79, part_id: 19 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16819113480', part_id: 19 },
+
 
     # --- Intel Core i3-8100 --- #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 20 },
@@ -266,6 +284,8 @@ Spec.destroy_all
     { attribute_name: 'Cores', attribute_value: 4, part_id: 20 },
     { attribute_name: 'TDP', attribute_value: 65, part_id: 20 },
     { attribute_name: 'Price', attribute_value: 118.69, part_id: 20 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16819117822', part_id: 20 },
+
 
 
 
