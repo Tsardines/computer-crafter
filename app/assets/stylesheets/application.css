@@ -107,7 +107,7 @@
 .footer {
   background-color: #592BF5;
   color: white;
-  padding-top: 20px;
+  padding-top: 2px;
 }
 
 .foot-links {
@@ -135,6 +135,12 @@
   display: flex;
 }
 
+.button-1 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
+}
+
 .button-2 {
   height: 50px;
   padding-bottom: 10px;
@@ -142,12 +148,6 @@
 }
 
 .button-3 {
-  height: 50px;
-  padding-bottom: 10px;
-  width: 50px;
-}
-
-.button-1 {
   height: 50px;
   padding-bottom: 10px;
   width: 50px;
