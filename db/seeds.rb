@@ -362,6 +362,7 @@ Spec.destroy_all
     { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 31 },
     { attribute_name: 'Max RAM', attribute_value: 32, part_id: 31 },
     { attribute_name: 'Price', attribute_value: 35.88, part_id: 31 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.gigabyte.com/Motherboard/GA-H110M-A-rev-10', part_id: 31 },
 
     # --- MSI B250M PRO-VD --- #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 32 },
@@ -369,6 +370,7 @@ Spec.destroy_all
     { attribute_name: 'RAM Slots', attribute_value: 2, part_id: 32 },
     { attribute_name: 'Max RAM', attribute_value: 32, part_id: 32 },
     { attribute_name: 'Price', attribute_value: 45.89, part_id: 32 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://us.msi.com/Motherboard/B250M-PRO-VD.html', part_id: 32 },
 
     # --- Asus Prime Z270-A --- #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 33 },
@@ -376,6 +378,7 @@ Spec.destroy_all
     { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 33 },
     { attribute_name: 'Max RAM', attribute_value: 64, part_id: 33 },
     { attribute_name: 'Price', attribute_value: 299, part_id: 33 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.asus.com/us/Motherboards/PRIME-Z270-A', part_id: 33 },
 
     # --- MSI B350 PC MATE --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 34 },
@@ -383,6 +386,7 @@ Spec.destroy_all
     { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 34 },
     { attribute_name: 'Max RAM', attribute_value: 64, part_id: 34 },
     { attribute_name: 'Price', attribute_value: 69.90, part_id: 34 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://us.msi.com/Motherboard/B350-PC-MATE.html', part_id: 34 },
 
     # --- Asus ROG STRIX Z370-E GAMING --- #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 35 },
@@ -390,6 +394,7 @@ Spec.destroy_all
     { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 35 },
     { attribute_name: 'Max RAM', attribute_value: 64, part_id: 35 },
     { attribute_name: 'Price', attribute_value: 186.92, part_id: 35 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.asus.com/us/Motherboards/ROG-STRIX-Z370-E-GAMING/', part_id: 35 },
 
     # --- MSI B350 TOMAHAWK --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 36 },
@@ -397,6 +402,7 @@ Spec.destroy_all
     { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 36 },
     { attribute_name: 'Max RAM', attribute_value: 64, part_id: 36 },
     { attribute_name: 'Price', attribute_value: 79.36, part_id: 36 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.msi.com/Motherboard/B350-TOMAHAWK.html', part_id: 36 },
 
     # --- Gigabyte X470 AORUS ULTRA GAMING --- #
     { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 37 },
@@ -404,6 +410,7 @@ Spec.destroy_all
     { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 37 },
     { attribute_name: 'Max RAM', attribute_value: 64, part_id: 37 },
     { attribute_name: 'Price', attribute_value: 139.99, part_id: 37 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/GIGABYTE-X470-AORUS-Gaming.../dp/B07BZ239Z2', part_id: 37 },
 
     # --- MSI Z370 GAMING PLUS --- #
     { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 38 },
@@ -411,6 +418,7 @@ Spec.destroy_all
     { attribute_name: 'RAM Slots', attribute_value: 4, part_id: 38 },
     { attribute_name: 'Max RAM', attribute_value: 64, part_id: 38 },
     { attribute_name: 'Price', attribute_value: 119.99, part_id: 38 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://us.msi.com/Motherboard/Z370-GAMING-PLUS.html', part_id: 38 },
 
 
 
