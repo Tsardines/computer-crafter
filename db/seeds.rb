@@ -296,51 +296,61 @@ Spec.destroy_all
     { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 21 },
     { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 21 },
     { attribute_name: 'Price', attribute_value: 19.99, part_id: 21 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Cooler-Master-RR-212E-20PK-R2-Direct.../B005O65JXI', part_id: 21 },
 
     # --- Corsair H100i v2 Liquid CPU Cooler --- #
     { attribute_name: 'Fan RPM', attribute_value: 2435, part_id: 22 },
     { attribute_name: 'Noise Level', attribute_value: 37.7, part_id: 22 },
     { attribute_name: 'Price', attribute_value: 94.99, part_id: 22 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/CORSAIR-Radiator-Advanced-Lighting.../B019EXSSBG', part_id: 22 },
 
     # --- NZXT Kraken X62 Rev 2 --- #
     { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 23 },
     { attribute_name: 'Noise Level', attribute_value: 30.0, part_id: 23 },
     { attribute_name: 'Price', attribute_value: 147.39, part_id: 23 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.nzxt.com/products/kraken-x62', part_id: 23 },
 
     # --- CRYORIG H7 --- #
     { attribute_name: 'Fan RPM', attribute_value: 1100, part_id: 24 },
     { attribute_name: 'Noise Level', attribute_value: 20.0, part_id: 24 },
     { attribute_name: 'Price', attribute_value: 34.89, part_id: 24 },
+    { attribute_name: 'Buy Online', attribute_value: 'http://www.cryorig.com/h7_us.php', part_id: 24 },
 
     # --- Cooler Master MasterLiquid ML240L RGB --- #
     { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 25 },
     { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 25 },
     { attribute_name: 'Price', attribute_value: 59.99, part_id: 25 },
+    { attribute_name: 'Buy Online', attribute_value: 'www.coolermaster.com/cooling/cpu-liquid-cooler/masterliquid-ml240l-rgb/', part_id: 25 },
 
     # --- CORSAIR H60 --- #
     { attribute_name: 'Fan RPM', attribute_value: 2000, part_id: 26 },
     { attribute_name: 'Noise Level', attribute_value: 30.9, part_id: 26 },
     { attribute_name: 'Price', attribute_value: 59.56, part_id: 26 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.corsair.com/us/en/Categories/...H60-High.../CW-9060007-WW', part_id: 26 },
 
     # --- Noctua NH-D15 --- #
     { attribute_name: 'Fan RPM', attribute_value: 900, part_id: 27 },
     { attribute_name: 'Noise Level', attribute_value: 21.6, part_id: 27 },
     { attribute_name: 'Price', attribute_value: 86.20, part_id: 27 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://noctua.at/en/nh-d15', part_id: 27 },
 
     # --- Corsair H150i PRO --- #
     { attribute_name: 'Fan RPM', attribute_value: 1600, part_id: 28 },
     { attribute_name: 'Noise Level', attribute_value: 25.0, part_id: 28 },
     { attribute_name: 'Price', attribute_value: 169.99, part_id: 28 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16835181139', part_id: 28 },
 
     # --- be quiet! Pure Rock Slim --- #
     { attribute_name: 'Fan RPM', attribute_value: 2000, part_id: 29 },
     { attribute_name: 'Noise Level', attribute_value: 17.0, part_id: 29 },
     { attribute_name: 'Price', attribute_value: 21.29, part_id: 29 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.bequiet.com/en/cpucooler/688', part_id: 29 },
 
     # --- Phanteks PH-TC12DX_BL --- #
     { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 30 },
     { attribute_name: 'Noise Level', attribute_value: 24.0, part_id: 30 },
     { attribute_name: 'Price', attribute_value: 299.99, part_id: 30 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16835709018', part_id: 30 },
 
 
 
