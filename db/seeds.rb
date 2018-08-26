@@ -431,6 +431,7 @@ Spec.destroy_all
     { attribute_name: 'Response Time', attribute_value: 1, part_id: 39 },
     { attribute_name: 'IPS', attribute_value: 'no', part_id: 39 },
     { attribute_name: 'Price', attribute_value: 190, part_id: 39 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Acer-GN246HL-Bbid-24-Inch-Display/dp/B00KO4518I', part_id: 39 },
 
     # --- Asus VP228H --- #
     { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 40 },
@@ -438,6 +439,7 @@ Spec.destroy_all
     { attribute_name: 'Response Time', attribute_value: 4, part_id: 40 },
     { attribute_name: 'IPS', attribute_value: 'no', part_id: 40 },
     { attribute_name: 'Price', attribute_value: 99, part_id: 40 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.asus.com/us/Commercial-Monitors/VP228H/', part_id: 40 },
 
     # --- Dell S2417DG --- #
     { attribute_name: 'Resolution', attribute_value: '2560x1440', part_id: 41 },
@@ -445,6 +447,7 @@ Spec.destroy_all
     { attribute_name: 'Response Time', attribute_value: 1, part_id: 41 },
     { attribute_name: 'IPS', attribute_value: 'no', part_id: 41 },
     { attribute_name: 'Price', attribute_value: 369, part_id: 41 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=0JC-0004-00551', part_id: 41 },
 
     # --- Acer H236HLbid --- #
     { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 42 },
@@ -452,6 +455,7 @@ Spec.destroy_all
     { attribute_name: 'Response Time', attribute_value: 5, part_id: 42 },
     { attribute_name: 'IPS', attribute_value: 'yes', part_id: 42 },
     { attribute_name: 'Price', attribute_value: 99.99, part_id: 42 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16824009590', part_id: 42 },
 
     # --- HP OMEN 25 --- #
     { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 43 },
@@ -459,6 +463,7 @@ Spec.destroy_all
     { attribute_name: 'Response Time', attribute_value: 1, part_id: 43 },
     { attribute_name: 'IPS', attribute_value: 'no', part_id: 43 },
     { attribute_name: 'Price', attribute_value: 189.99, part_id: 43 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://store.hp.com/us/en/pdp/omen-by-hp-25-display', part_id: 43 },
 
     # --- Sceptre E205W-1600 --- #
     { attribute_name: 'Resolution', attribute_value: '1600x900', part_id: 44 },
@@ -466,6 +471,7 @@ Spec.destroy_all
     { attribute_name: 'Response Time', attribute_value: 5, part_id: 44 },
     { attribute_name: 'IPS', attribute_value: 'no', part_id: 44 },
     { attribute_name: 'Price', attribute_value: 65.73, part_id: 44 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16824112027', part_id: 44 },
 
     # --- MSI Optix MAG24C --- #
     { attribute_name: 'Resolution', attribute_value: '1920x1080', part_id: 45 },
@@ -473,6 +479,7 @@ Spec.destroy_all
     { attribute_name: 'Response Time', attribute_value: 1, part_id: 45 },
     { attribute_name: 'IPS', attribute_value: 'no', part_id: 45 },
     { attribute_name: 'Price', attribute_value: 237.99, part_id: 45 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.msi.com/Monitor/Optix-MAG24C', part_id: 45 },
 
 
 
