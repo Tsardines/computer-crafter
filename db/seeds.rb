@@ -64,7 +64,7 @@ Spec.destroy_all
 
     # ===== PSUs ===== #
     { name: 'EVGA SuperNOVA 550', part_type: 'psu' },
-    { name: 'Seasonic M1211 520 Bronze', part_type: 'psu' },
+    { name: 'Seasonic M12ii 520 Bronze', part_type: 'psu' },
     { name: 'Corsair CX450M', part_type: 'psu' },
     { name: 'Cooler Master MasterWatt 550', part_type: 'psu' },
     { name: 'EVGA 110-BQ-0500-K1', part_type: 'psu' },
@@ -493,14 +493,16 @@ Spec.destroy_all
     { attribute_name: 'Watts', attribute_value: 550, part_id: 46 },
     { attribute_name: 'Modular', attribute_value: 'full', part_id: 46 },
     { attribute_name: 'Price', attribute_value: 75.88, part_id: 46 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.evga.com/products/product.aspx?pn=220-GS-0550-V1', part_id: 46 },
 
-    # --- Seasonic M1211 520 Bronze --- #
+    # --- Seasonic M12ii 520 Bronze --- #
     { attribute_name: 'Type', attribute_value: 'ATX12V / EPS12V', part_id: 47 },
     { attribute_name: 'Efficiency', attribute_value: 80, part_id: 47 },
     { attribute_name: 'Fans', attribute_value: 1, part_id: 47 },
     { attribute_name: 'Watts', attribute_value: 520, part_id: 47 },
     { attribute_name: 'Modular', attribute_value: 'full', part_id: 47 },
     { attribute_name: 'Price', attribute_value: 34.99, part_id: 47 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16817151093', part_id: 47 },
 
     # --- Corsair CX450M --- #
     { attribute_name: 'Type', attribute_value: 'ATX', part_id: 48 },
@@ -509,6 +511,7 @@ Spec.destroy_all
     { attribute_name: 'Watts', attribute_value: 450, part_id: 48 },
     { attribute_name: 'Modular', attribute_value: 'semi', part_id: 48 },
     { attribute_name: 'Price', attribute_value: 26.99, part_id: 48 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16817139146', part_id: 48 },
 
     # --- Cooler Master MasterWatt 550 --- #
     { attribute_name: 'Type', attribute_value: 'ATX', part_id: 49 },
@@ -517,6 +520,7 @@ Spec.destroy_all
     { attribute_name: 'Watts', attribute_value: 550, part_id: 49 },
     { attribute_name: 'Modular', attribute_value: 'semi', part_id: 49 },
     { attribute_name: 'Price', attribute_value: 34.65, part_id: 49 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/MasterWatt-Semifanless-Modular.../dp/B074ZDLGMK', part_id: 49 },
 
     # --- EVGA 110-BQ-0500-K1 --- #
     { attribute_name: 'Type', attribute_value: 'ATX', part_id: 50 },
@@ -525,6 +529,7 @@ Spec.destroy_all
     { attribute_name: 'Watts', attribute_value: 500, part_id: 50 },
     { attribute_name: 'Modular', attribute_value: 'semi', part_id: 50 },
     { attribute_name: 'Price', attribute_value: 39.89, part_id: 50 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.evga.com/products/product.aspx?pn=110-BQ-0500-K1', part_id: 50 },
 
 
     # ===== RAM ===== #
