@@ -606,6 +606,7 @@ Spec.destroy_all
     { attribute_name: 'Cache', attribute_value: '64MB', part_id: 57 },
     { attribute_name: 'Price/gb', attribute_value: 0.044, part_id: 57 },
     { attribute_name: 'Price', attribute_value: 43.85, part_id: 57 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16822236339', part_id: 57 },
 
     # --- Seagate ST2000DM006 --- #
     { attribute_name: 'Series', attribute_value: 'Barracuda', part_id: 58 },
@@ -615,6 +616,7 @@ Spec.destroy_all
     { attribute_name: 'Cache', attribute_value: '64MB', part_id: 58 },
     { attribute_name: 'Price/gb', attribute_value: 0.030, part_id: 58 },
     { attribute_name: 'Price', attribute_value: 59.79, part_id: 58 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16822178993', part_id: 58 },
 
     # --- Samsung MZ-75E250B/AM --- #
     { attribute_name: 'Series', attribute_value: '960 EVO', part_id: 59 },
@@ -624,6 +626,7 @@ Spec.destroy_all
     { attribute_name: 'Cache', attribute_value: '512MB', part_id: 59 },
     { attribute_name: 'Price/gb', attribute_value: 0.400, part_id: 59 },
     { attribute_name: 'Price', attribute_value: 199.99, part_id: 59 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Samsung-2-5-Inch-Internal-MZ-75E250B-AM/dp/B00OAJ412U', part_id: 59 },
 
     # --- Crucial CT500MX500SSD1 --- #
     { attribute_name: 'Series', attribute_value: 'MX500', part_id: 60 },
@@ -633,6 +636,7 @@ Spec.destroy_all
     { attribute_name: 'Cache', attribute_value: '512MB', part_id: 60 },
     { attribute_name: 'Price/gb', attribute_value: 0.230, part_id: 60 },
     { attribute_name: 'Price', attribute_value: 114.99, part_id: 60 },
+    { attribute_name: 'Buy Online', attribute_value: 'http://www.crucial.com/usa/en/ct500mx500ssd1', part_id: 60 },
 
     # --- ADATA ASU800SS-128GT-C --- #
     { attribute_name: 'Series', attribute_value: 'Ultimate SU800', part_id: 61 },
@@ -642,6 +646,7 @@ Spec.destroy_all
     { attribute_name: 'Cache', attribute_value: 'N/A', part_id: 61 },
     { attribute_name: 'Price/gb', attribute_value: 0.312, part_id: 61 },
     { attribute_name: 'Price', attribute_value: 39.99, part_id: 61 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16820215015', part_id: 61 },
 
 
 
