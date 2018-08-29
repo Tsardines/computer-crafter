@@ -534,7 +534,6 @@ Spec.destroy_all
 
     # ===== RAM ===== #
 
-
     # --- G.Skill Ripjaws V Series --- #
     { attribute_name: 'CAS', attribute_value: 15, part_id: 51 },
     { attribute_name: 'Modules', attribute_value: '2x8GB', part_id: 51 },
@@ -543,6 +542,7 @@ Spec.destroy_all
     { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 51 },
     { attribute_name: 'Price/gb', attribute_value: 11.25, part_id: 51 },
     { attribute_name: 'Price', attribute_value: 179.99, part_id: 51 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16820231888', part_id: 51 },
 
     # --- Corsair Vengeance LPX --- #
     { attribute_name: 'CAS', attribute_value: 16, part_id: 52 },
@@ -552,6 +552,7 @@ Spec.destroy_all
     { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 52 },
     { attribute_name: 'Price/gb', attribute_value: 10.49, part_id: 52 },
     { attribute_name: 'Price', attribute_value: 167.89, part_id: 52 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Corsair-Vengeance-3000MHz-Desktop.../B0134EW7G8', part_id: 52 },
 
     # --- Team Vulcan --- #
     { attribute_name: 'CAS', attribute_value: 16, part_id: 53 },
@@ -561,6 +562,7 @@ Spec.destroy_all
     { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 53 },
     { attribute_name: 'Price/gb', attribute_value: 9.69, part_id: 53 },
     { attribute_name: 'Price', attribute_value: 154.99, part_id: 53 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16820313771', part_id: 53 },
 
     # --- Team T-Force Delta RGB --- #
     { attribute_name: 'CAS', attribute_value: 16, part_id: 54 },
@@ -570,6 +572,7 @@ Spec.destroy_all
     { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 54 },
     { attribute_name: 'Price/gb', attribute_value: 10.00, part_id: 54 },
     { attribute_name: 'Price', attribute_value: 159.99, part_id: 54 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.teamgroupinc.com/en/product/delta-rgb-ddr4', part_id: 54 },
 
     # --- Crucial Ballistix Sport LT --- #
     { attribute_name: 'CAS', attribute_value: 16, part_id: 55 },
@@ -579,6 +582,7 @@ Spec.destroy_all
     { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 55 },
     { attribute_name: 'Price/gb', attribute_value: 10.31, part_id: 55 },
     { attribute_name: 'Price', attribute_value: 164.97, part_id: 55 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Ballistix-Sport-8GBx2-PC4-19200-288-Pin/dp/B00UFF7Y4A', part_id: 55 },
 
     # --- G.Skill NT Series --- #
     { attribute_name: 'CAS', attribute_value: 14, part_id: 56 },
@@ -588,6 +592,7 @@ Spec.destroy_all
     { attribute_name: 'Type', attribute_value: '288-pin DIMM', part_id: 56 },
     { attribute_name: 'Price/gb', attribute_value: 11.00, part_id: 56 },
     { attribute_name: 'Price', attribute_value: 43.99, part_id: 56 },
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16820231964', part_id: 56 },
 
 
 
