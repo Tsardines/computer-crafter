@@ -104,13 +104,13 @@ Spec.destroy_all
     # ===== Cases ===== #
 
     # --- NZXT S340--- #
-    { attribute_name: 'Color', attribute_value: 'black', part_id: 1 },
-    { attribute_name: 'Ext 5.25" bays', attribute_value: 3, part_id: 1 },
-    { attribute_name: 'Int 3.5" bays', attribute_value: 2, part_id: 1 },
-    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 1 },
-    { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 1 },
-    { attribute_name: 'Price', attribute_value: 54.99, part_id: 1 },
     {attribute_name: 'Buy Online', attribute_value: 'https://www.nzxt.com/products/s340-white', part_id: 1 },
+    { attribute_name: 'Price', attribute_value: 54.99, part_id: 1 },
+    { attribute_name: 'Type', attribute_value: 'ATX Mid Tower', part_id: 1 },
+    { attribute_name: 'Power Supply', attribute_value: 'not included', part_id: 1 },
+    { attribute_name: 'Int 3.5" bays', attribute_value: 2, part_id: 1 },
+    { attribute_name: 'Ext 5.25" bays', attribute_value: 3, part_id: 1 },
+    { attribute_name: 'Color', attribute_value: 'black', part_id: 1 },
 
     # --- Phanteks Enthoo Pro M Tempered Glass --- #
     { attribute_name: 'Color', attribute_value: 'black', part_id: 2 },

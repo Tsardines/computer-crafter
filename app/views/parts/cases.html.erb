@@ -34,23 +34,19 @@
     </thead>
 
 
-    <tbody>
     <% @cases.each do |part| %>
+      <tbody>
+        <tr>
+          <td>
+             <strong><%= part.name %></strong>
+          </td>
 
-      <tr>
-        <td>
-           <strong><%= part.name %></strong>
-        </td>
+          <% part.specs.each do |spec| %>
+            <td><%= spec.attribute_value %></td>
 
-        <% part.specs.each do |spec| %>
+          <% end %>
+        </tr>
 
-          <td><%= spec.attribute_value %></td>
-
-        <% end %>
-      </tr>
-
-
-
-    <% end %>
-  </tbody>
+      <% end %>
+    </tbody>
   </table>
