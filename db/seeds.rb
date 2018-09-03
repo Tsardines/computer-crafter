@@ -198,159 +198,156 @@ Spec.destroy_all
     # ===== CPUs ===== #
 
     # --- Intel Core i7-8700k --- #
-    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 11 },
-    { attribute_name: 'Speed', attribute_value: 3.7, part_id: 11 },
-    { attribute_name: 'Cores', attribute_value: 6, part_id: 11 },
-    { attribute_name: 'TDP', attribute_value: 95, part_id: 11 },
-    { attribute_name: 'Price', attribute_value: 339.79, part_id: 11 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Intel-i7-8700K-Desktop-Processor-Unlocked/dp/B07598VZR8', part_id: 11 },
+    { attribute_name: 'Price', attribute_value: 339.79, part_id: 11 },
+    { attribute_name: 'TDP', attribute_value: 95, part_id: 11 },
+    { attribute_name: 'Cores', attribute_value: 6, part_id: 11 },
+    { attribute_name: 'Speed', attribute_value: 3.7, part_id: 11 },
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 11 },
 
 
     # --- AMD Ryzen 5 2600X --- #
-    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 12 },
-    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 12 },
-    { attribute_name: 'Cores', attribute_value: 6, part_id: 12 },
-    { attribute_name: 'TDP', attribute_value: 95, part_id: 12 },
-    { attribute_name: 'Price', attribute_value: 228.89, part_id: 12 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/AMD-Ryzen-Processor-Wraith-Cooler/dp/B07B428V2L', part_id: 12 },
+    { attribute_name: 'Price', attribute_value: 228.89, part_id: 12 },
+    { attribute_name: 'TDP', attribute_value: 95, part_id: 12 },
+    { attribute_name: 'Cores', attribute_value: 6, part_id: 12 },
+    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 12 },
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 12 },
 
 
     # --- Intel Core i7-7700k --- #
-    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 13 },
-    { attribute_name: 'Speed', attribute_value: 4.2, part_id: 13 },
-    { attribute_name: 'Cores', attribute_value: 4, part_id: 13 },
-    { attribute_name: 'TDP', attribute_value: 91, part_id: 13 },
-    { attribute_name: 'Price', attribute_value: 307.49, part_id: 13 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Intel-Core-Desktop-Processor-i7-7700K/dp/B01MXSI216', part_id: 13 },
+    { attribute_name: 'Price', attribute_value: 307.49, part_id: 13 },
+    { attribute_name: 'TDP', attribute_value: 91, part_id: 13 },
+    { attribute_name: 'Cores', attribute_value: 4, part_id: 13 },
+    { attribute_name: 'Speed', attribute_value: 4.2, part_id: 13 },
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 13 },
 
 
     # --- AMD Ryzen 7 2700X --- #
-    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 14 },
-    { attribute_name: 'Speed', attribute_value: 3.7, part_id: 14 },
-    { attribute_name: 'Cores', attribute_value: 8, part_id: 14 },
-    { attribute_name: 'TDP', attribute_value: 105, part_id: 14 },
-    { attribute_name: 'Price', attribute_value: 319.00, part_id: 14 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/AMD-Ryzen-Processor-Wraith-Cooler/dp/B07B428M7F', part_id: 14 },
+    { attribute_name: 'Price', attribute_value: 319.00, part_id: 14 },
+    { attribute_name: 'TDP', attribute_value: 105, part_id: 14 },
+    { attribute_name: 'Cores', attribute_value: 8, part_id: 14 },
+    { attribute_name: 'Speed', attribute_value: 3.7, part_id: 14 },
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 14 },
 
 
     # --- Intel Core i5-8400 --- #
-    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 15 },
-    { attribute_name: 'Speed', attribute_value: 2.8, part_id: 15 },
-    { attribute_name: 'Cores', attribute_value: 6, part_id: 15 },
-    { attribute_name: 'TDP', attribute_value: 65, part_id: 15 },
-    { attribute_name: 'Price', attribute_value: 178.89, part_id: 15 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Intel-Core-i5-8400-Hexa-core-Processor/dp/B0759FGJ3Q', part_id: 15 },
+    { attribute_name: 'Price', attribute_value: 178.89, part_id: 15 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 15 },
+    { attribute_name: 'Cores', attribute_value: 6, part_id: 15 },
+    { attribute_name: 'Speed', attribute_value: 2.8, part_id: 15 },
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 15 },
 
 
     # --- AMD Ryzen 3 2200G --- #
-    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 16 },
-    { attribute_name: 'Speed', attribute_value: 3.5, part_id: 16 },
-    { attribute_name: 'Cores', attribute_value: 4, part_id: 16 },
-    { attribute_name: 'TDP', attribute_value: 65, part_id: 16 },
-    { attribute_name: 'Price', attribute_value: 94.59, part_id: 16 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/AMD-Ryzen-Processor-Radeon-Graphics/.../B079D3DBNM', part_id: 16 },
+    { attribute_name: 'Price', attribute_value: 94.59, part_id: 16 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 16 },
+    { attribute_name: 'Cores', attribute_value: 4, part_id: 16 },
+    { attribute_name: 'Speed', attribute_value: 3.5, part_id: 16 },
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 16 },
 
 
     # --- AMD Ryzen 7 1700 --- #
-    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 17 },
-    { attribute_name: 'Speed', attribute_value: 3, part_id: 17 },
-    { attribute_name: 'Cores', attribute_value: 8, part_id: 17 },
-    { attribute_name: 'TDP', attribute_value: 65, part_id: 17 },
-    { attribute_name: 'Price', attribute_value: 219.99, part_id: 17 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16819113428', part_id: 17 },
+    { attribute_name: 'Price', attribute_value: 219.99, part_id: 17 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 17 },
+    { attribute_name: 'Cores', attribute_value: 8, part_id: 17 },
+    { attribute_name: 'Speed', attribute_value: 3, part_id: 17 },
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 17 },
 
 
     # --- AMD Ryzen 5 2600X --- #
-    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 18 },
-    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 18 },
-    { attribute_name: 'Cores', attribute_value: 6, part_id: 18 },
-    { attribute_name: 'TDP', attribute_value: 95, part_id: 18 },
-    { attribute_name: 'Price', attribute_value: 219.99, part_id: 18 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16819113497', part_id: 18 },
+    { attribute_name: 'Price', attribute_value: 219.99, part_id: 18 },
+    { attribute_name: 'TDP', attribute_value: 95, part_id: 18 },
+    { attribute_name: 'Cores', attribute_value: 6, part_id: 18 },
+    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 18 },
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 18 },
 
 
     # --- AMD Ryzen 5 2400G --- #
-    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 19 },
-    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 19 },
-    { attribute_name: 'Cores', attribute_value: 4, part_id: 19 },
-    { attribute_name: 'TDP', attribute_value: 65, part_id: 19 },
-    { attribute_name: 'Price', attribute_value: 162.79, part_id: 19 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16819113480', part_id: 19 },
+    { attribute_name: 'Price', attribute_value: 162.79, part_id: 19 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 19 },
+    { attribute_name: 'Cores', attribute_value: 4, part_id: 19 },
+    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 19 },
+    { attribute_name: 'Socket', attribute_value: 'AM4', part_id: 19 },
 
 
     # --- Intel Core i3-8100 --- #
-    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 20 },
-    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 20 },
-    { attribute_name: 'Cores', attribute_value: 4, part_id: 20 },
-    { attribute_name: 'TDP', attribute_value: 65, part_id: 20 },
-    { attribute_name: 'Price', attribute_value: 118.69, part_id: 20 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16819117822', part_id: 20 },
-
-
-
+    { attribute_name: 'Price', attribute_value: 118.69, part_id: 20 },
+    { attribute_name: 'TDP', attribute_value: 65, part_id: 20 },
+    { attribute_name: 'Cores', attribute_value: 4, part_id: 20 },
+    { attribute_name: 'Speed', attribute_value: 3.6, part_id: 20 },
+    { attribute_name: 'Socket', attribute_value: 'LGA1151', part_id: 20 },
 
 
     # ===== CPU COOLERS ===== #
 
     # --- Cooler Master Hyper 212 EVO --- #
-    { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 21 },
-    { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 21 },
-    { attribute_name: 'Price', attribute_value: 19.99, part_id: 21 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/Cooler-Master-RR-212E-20PK-R2-Direct.../B005O65JXI', part_id: 21 },
+    { attribute_name: 'Price', attribute_value: 19.99, part_id: 21 },
+    { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 21 },
+    { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 21 },
 
     # --- Corsair H100i v2 Liquid CPU Cooler --- #
-    { attribute_name: 'Fan RPM', attribute_value: 2435, part_id: 22 },
-    { attribute_name: 'Noise Level', attribute_value: 37.7, part_id: 22 },
-    { attribute_name: 'Price', attribute_value: 94.99, part_id: 22 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/CORSAIR-Radiator-Advanced-Lighting.../B019EXSSBG', part_id: 22 },
+    { attribute_name: 'Price', attribute_value: 94.99, part_id: 22 },
+    { attribute_name: 'Noise Level', attribute_value: 37.7, part_id: 22 },
+    { attribute_name: 'Fan RPM', attribute_value: 2435, part_id: 22 },
 
     # --- NZXT Kraken X62 Rev 2 --- #
-    { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 23 },
-    { attribute_name: 'Noise Level', attribute_value: 30.0, part_id: 23 },
-    { attribute_name: 'Price', attribute_value: 147.39, part_id: 23 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.nzxt.com/products/kraken-x62', part_id: 23 },
+    { attribute_name: 'Price', attribute_value: 147.39, part_id: 23 },
+    { attribute_name: 'Noise Level', attribute_value: 30.0, part_id: 23 },
+    { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 23 },
 
     # --- CRYORIG H7 --- #
-    { attribute_name: 'Fan RPM', attribute_value: 1100, part_id: 24 },
-    { attribute_name: 'Noise Level', attribute_value: 20.0, part_id: 24 },
-    { attribute_name: 'Price', attribute_value: 34.89, part_id: 24 },
     { attribute_name: 'Buy Online', attribute_value: 'http://www.cryorig.com/h7_us.php', part_id: 24 },
+    { attribute_name: 'Price', attribute_value: 34.89, part_id: 24 },
+    { attribute_name: 'Noise Level', attribute_value: 20.0, part_id: 24 },
+    { attribute_name: 'Fan RPM', attribute_value: 1100, part_id: 24 },
 
     # --- Cooler Master MasterLiquid ML240L RGB --- #
-    { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 25 },
-    { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 25 },
-    { attribute_name: 'Price', attribute_value: 59.99, part_id: 25 },
     { attribute_name: 'Buy Online', attribute_value: 'www.coolermaster.com/cooling/cpu-liquid-cooler/masterliquid-ml240l-rgb/', part_id: 25 },
+    { attribute_name: 'Price', attribute_value: 59.99, part_id: 25 },
+    { attribute_name: 'Noise Level', attribute_value: 23.0, part_id: 25 },
+    { attribute_name: 'Fan RPM', attribute_value: 1300, part_id: 25 },
 
     # --- CORSAIR H60 --- #
-    { attribute_name: 'Fan RPM', attribute_value: 2000, part_id: 26 },
-    { attribute_name: 'Noise Level', attribute_value: 30.9, part_id: 26 },
-    { attribute_name: 'Price', attribute_value: 59.56, part_id: 26 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.corsair.com/us/en/Categories/...H60-High.../CW-9060007-WW', part_id: 26 },
+    { attribute_name: 'Price', attribute_value: 59.56, part_id: 26 },
+    { attribute_name: 'Noise Level', attribute_value: 30.9, part_id: 26 },
+    { attribute_name: 'Fan RPM', attribute_value: 2000, part_id: 26 },
 
     # --- Noctua NH-D15 --- #
-    { attribute_name: 'Fan RPM', attribute_value: 900, part_id: 27 },
-    { attribute_name: 'Noise Level', attribute_value: 21.6, part_id: 27 },
-    { attribute_name: 'Price', attribute_value: 86.20, part_id: 27 },
     { attribute_name: 'Buy Online', attribute_value: 'https://noctua.at/en/nh-d15', part_id: 27 },
+    { attribute_name: 'Price', attribute_value: 86.20, part_id: 27 },
+    { attribute_name: 'Noise Level', attribute_value: 21.6, part_id: 27 },
+    { attribute_name: 'Fan RPM', attribute_value: 900, part_id: 27 },
 
     # --- Corsair H150i PRO --- #
-    { attribute_name: 'Fan RPM', attribute_value: 1600, part_id: 28 },
-    { attribute_name: 'Noise Level', attribute_value: 25.0, part_id: 28 },
-    { attribute_name: 'Price', attribute_value: 169.99, part_id: 28 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16835181139', part_id: 28 },
+    { attribute_name: 'Price', attribute_value: 169.99, part_id: 28 },
+    { attribute_name: 'Noise Level', attribute_value: 25.0, part_id: 28 },
+    { attribute_name: 'Fan RPM', attribute_value: 1600, part_id: 28 },
 
     # --- be quiet! Pure Rock Slim --- #
-    { attribute_name: 'Fan RPM', attribute_value: 2000, part_id: 29 },
-    { attribute_name: 'Noise Level', attribute_value: 17.0, part_id: 29 },
-    { attribute_name: 'Price', attribute_value: 21.29, part_id: 29 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.bequiet.com/en/cpucooler/688', part_id: 29 },
+    { attribute_name: 'Price', attribute_value: 21.29, part_id: 29 },
+    { attribute_name: 'Noise Level', attribute_value: 17.0, part_id: 29 },
+    { attribute_name: 'Fan RPM', attribute_value: 2000, part_id: 29 },
 
     # --- Phanteks PH-TC12DX_BL --- #
-    { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 30 },
-    { attribute_name: 'Noise Level', attribute_value: 24.0, part_id: 30 },
-    { attribute_name: 'Price', attribute_value: 299.99, part_id: 30 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16835709018', part_id: 30 },
+    { attribute_name: 'Price', attribute_value: 299.99, part_id: 30 },
+    { attribute_name: 'Noise Level', attribute_value: 24.0, part_id: 30 },
+    { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 30 },
 
 
 
