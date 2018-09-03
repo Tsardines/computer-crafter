@@ -528,6 +528,7 @@ Spec.destroy_all
     { attribute_name: 'Type', attribute_value: 'ATX', part_id: 50 },
 
 
+
     # ===== RAM ===== #
 
     # --- G.Skill Ripjaws V Series --- #
