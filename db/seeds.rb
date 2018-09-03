@@ -350,7 +350,6 @@ Spec.destroy_all
     { attribute_name: 'Fan RPM', attribute_value: 1200, part_id: 30 },
 
 
-
     # ===== Mobos ===== #
 
     # --- Gigabyte GA-H110M-A --- #
