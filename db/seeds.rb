@@ -694,8 +694,6 @@ Spec.destroy_all
 puts "Created #{Spec.count} specs and #{Part.count} parts"
 
 
-
-
 # user_parts_lists = {
 #   test_list: {
 #     username: "test_username",
