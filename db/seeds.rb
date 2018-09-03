@@ -649,44 +649,44 @@ Spec.destroy_all
     # ===== VID CARDS =====  #
 
     # --- EVGA 06G-P4-6163-KR --- #
-    { attribute_name: 'Series', attribute_value: 'SC GAMING', part_id: 62 },
-    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1060 6GB', part_id: 62 },
-    { attribute_name: 'Memory', attribute_value: '6GB', part_id: 62 },
-    { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 62 },
-    { attribute_name: 'Price', attribute_value: 299.99, part_id: 62 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.evga.com/products/product.aspx?pn=06G-P4-6163-KR', part_id: 62 },
+    { attribute_name: 'Price', attribute_value: 299.99, part_id: 62 },
+    { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 62 },
+    { attribute_name: 'Memory', attribute_value: '6GB', part_id: 62 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1060 6GB', part_id: 62 },
+    { attribute_name: 'Series', attribute_value: 'SC GAMING', part_id: 62 },
 
     # --- Asus ROG STRIX-GTX1080-8G-GAMING --- #
-    { attribute_name: 'Series', attribute_value: 'STRIX', part_id: 63 },
-    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080', part_id: 63 },
-    { attribute_name: 'Memory', attribute_value: '8GB', part_id: 63 },
-    { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 63 },
-    { attribute_name: 'Price', attribute_value: 599.99, part_id: 63 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/ASUS-GeForce-STRIX-Graphics-STRIX-GTX1080-8G-GAMING/dp/B01GRRRW0A', part_id: 63 },
+    { attribute_name: 'Price', attribute_value: 599.99, part_id: 63 },
+    { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 63 },
+    { attribute_name: 'Memory', attribute_value: '8GB', part_id: 63 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080', part_id: 63 },
+    { attribute_name: 'Series', attribute_value: 'STRIX', part_id: 63 },
 
     # --- MSI RX 560 AERO ITX 4G OC --- #
-    { attribute_name: 'Series', attribute_value: 'AERO ITX', part_id: 64 },
-    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1050', part_id: 64 },
-    { attribute_name: 'Memory', attribute_value: '4GB', part_id: 64 },
-    { attribute_name: 'Core Clock', attribute_value: 1.20, part_id: 64 },
-    { attribute_name: 'Price', attribute_value: 134.99, part_id: 64 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.amazon.com/MSI-RX-560-AERO-ITX/dp/B072J422CZ', part_id: 64 },
+    { attribute_name: 'Price', attribute_value: 134.99, part_id: 64 },
+    { attribute_name: 'Core Clock', attribute_value: 1.20, part_id: 64 },
+    { attribute_name: 'Memory', attribute_value: '4GB', part_id: 64 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1050', part_id: 64 },
+    { attribute_name: 'Series', attribute_value: 'AERO ITX', part_id: 64 },
 
     # --- Zotac ZT-P10810F-10P --- #
-    { attribute_name: 'Series', attribute_value: 'AMP Extreme Core', part_id: 65 },
-    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080 Ti', part_id: 65 },
-    { attribute_name: 'Memory', attribute_value: '11GB', part_id: 65 },
-    { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 65 },
-    { attribute_name: 'Price', attribute_value: 944.98, part_id: 65 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16814500423', part_id: 65 },
+    { attribute_name: 'Price', attribute_value: 944.98, part_id: 65 },
+    { attribute_name: 'Core Clock', attribute_value: 1.61, part_id: 65 },
+    { attribute_name: 'Memory', attribute_value: '11GB', part_id: 65 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080 Ti', part_id: 65 },
+    { attribute_name: 'Series', attribute_value: 'AMP Extreme Core', part_id: 65 },
 
     # --- MSI GTX 1080 TI SEA HAWK X --- #
-    { attribute_name: 'Series', attribute_value: 'SEA HAWK X', part_id: 66 },
-    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080 Ti', part_id: 66 },
-    { attribute_name: 'Memory', attribute_value: '11GB', part_id: 66 },
-    { attribute_name: 'Core Clock', attribute_value: 1.57, part_id: 66 },
-    { attribute_name: 'Price', attribute_value: 1499.99, part_id: 66 },
     { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16814137126', part_id: 66 },
+    { attribute_name: 'Price', attribute_value: 1499.99, part_id: 66 },
+    { attribute_name: 'Core Clock', attribute_value: 1.57, part_id: 66 },
+    { attribute_name: 'Memory', attribute_value: '11GB', part_id: 66 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080 Ti', part_id: 66 },
+    { attribute_name: 'Series', attribute_value: 'SEA HAWK X', part_id: 66 },
 
   ])
 
