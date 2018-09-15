@@ -25,7 +25,7 @@ body {
   text-align: center;
   transform: skewY(-6deg);
   transform-origin: top left;
-  z-index: -10;
+  z-index: 1;
 }
 
 .box1, .box2, .box3 {
@@ -85,6 +85,11 @@ body {
   transform: skewY(6deg);
   transform-origin: top left;
   z-index: 500;
+}
+
+.navbar-dropdown.is-boxed {
+  transform: skewY(6deg);
+  transform-origin: top left;
 }
 
 a.navbar-link.is-active.button, .navbar-item.has-dropdown.is-hoverable {
