@@ -82,21 +82,26 @@ body {
 }
 
 .navbar-item {
-  transform: skewY(6deg);
+  transform: skewY(6deg); /* reverse skews nav buttons */
   transform-origin: top left;
   /* z-index: 500; */
 }
 
+a.navbar-item, .navbar-divider, .has-text-info.is-size-8-desktop p {
+  transform: skewY(0deg); /* reverse skews dropdown items */
+  transform-origin: top left;
+}
+
 a.navbar-link.is-active.button, .navbar-item.has-dropdown.is-hoverable {
   background-color: #791cff;
-  transform: skewY(0deg);
+  transform: skewY(0deg); /* reverse skews 'Browse Parts' */
   transform-origin: top left;
   /* z-index: 500; */
 }
 
 .navbar-dropdown.is-boxed {
-  transform: skewY(6deg);
-  transform-origin: center;
+  /* transform: skewY(6deg);
+  transform-origin: center; */
 }
 
 .button {
