@@ -69,6 +69,11 @@ body {
   z-index: 40;
 }
 
+.mon-svg {
+  margin-right: 20em;
+  position: relative;
+}
+
 /* ----------------------- */
 
 .navbar.is-transparent {
@@ -438,4 +443,18 @@ a{text-decoration:none;}
 
 .build-welcome h1 {
   padding-bottom: 0.8em;
+}
+
+/* ================ */
+
+#sign-up-form h1 {
+  font-size: 2em;
+}
+
+#sign-up-form h3 {
+  font-size: 1.25em;
+}
+
+#login-form h2 {
+  font-size: 1.75em;
 }
