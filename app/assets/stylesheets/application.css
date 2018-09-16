@@ -25,7 +25,7 @@ body {
   text-align: center;
   transform: skewY(-6deg);
   transform-origin: top left;
-  z-index: -10;
+  /* z-index: -10; */           /* creates white triangle thing */
 }
 
 .box1, .box2, .box3 {
@@ -37,16 +37,16 @@ body {
   background: linear-gradient(0deg, rgba(64,11,139,1) 17%, rgba(121,28,255,1) 65%);
   height: 100%;
   margin-top: 1em;
-  width: 30vw;
+  width: 33vw;
 }
 
 .box2 {
   background: rgb(92,44,210);
-  background: linear-gradient(9deg, rgba(92,44,210,1) 15%, rgba(128,51,255,1) 72%);
+  background: linear-gradient(9deg, rgba(64,11,139,1) 15%, rgba(128,51,255,1) 72%);
   height: 105%;
-  margin-left: 2em;
+  /* margin-left: 2em; */
   margin-top: 0 9em 0 9em;
-  width: 37vw;
+  width: 33vw;
 }
 
 .box3 {
@@ -72,7 +72,8 @@ body {
 
 /* ----------------------- */
 
-.nav-container {
+.navbar.is-transparent {
+  background-color: #791cff; /* this prevents white triangle */
   z-index: 500;
 }
 
@@ -84,14 +85,19 @@ body {
 .navbar-item {
   transform: skewY(6deg);
   transform-origin: top left;
-  z-index: 500;
+  /* z-index: 500; */
 }
 
 a.navbar-link.is-active.button, .navbar-item.has-dropdown.is-hoverable {
   background-color: #791cff;
   transform: skewY(0deg);
   transform-origin: top left;
-  z-index: 500;
+  /* z-index: 500; */
+}
+
+.navbar-dropdown.is-boxed {
+  transform: skewY(6deg);
+  transform-origin: center;
 }
 
 .button {
