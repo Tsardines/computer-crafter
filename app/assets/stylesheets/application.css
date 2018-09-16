@@ -87,8 +87,18 @@ body {
   /* z-index: 500; */
 }
 
-a.navbar-item, .navbar-divider, .has-text-info.is-size-8-desktop p {
+a.navbar-item, .navbar-divider {
   transform: skewY(0deg); /* reverse skews dropdown items */
+  transform-origin: top left;
+}
+
+.stuck {
+  transform: skewY(-6deg); /* */
+  transform-origin: top left;
+}
+
+.has-text-info {
+  transform: skewY(0deg); /* */
   transform-origin: top left;
 }
 
