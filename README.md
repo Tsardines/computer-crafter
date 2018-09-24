@@ -1,6 +1,24 @@
 
 http://pc-wizard.herokuapp.com/
 
+-----
+
+### _Instructions_
+
+- Fork a copy of this to your computer
+
+- `gem install rails -v 5.2.0`
+
+- To check Rails version: `rails -v`
+
+- Run `rails s`
+
+- Visit localhost
+
+- Enjoy!
+
+-----
+
 #### _Conception and Inspiration_
 I've decided to create a variation of the popular computer building website, PC Part Picker, and turn it into a minimalistic but easy-to-use app. For the time being, it's named the equally-catchy "PC Wizard".
 
