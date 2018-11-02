@@ -130,7 +130,10 @@ a.navbar-link.is-active.button, .navbar-item.has-dropdown.is-hoverable {
 
 /* ----------------------- */
 
-
+.build-welcome {
+  background: rgb(64,11,139);
+  background: linear-gradient(0deg, rgba(64,11,139,1) 17%, rgba(121,28,255,1) 65%);
+}
 
 .build-welcome h1 {
   font-size: 30px;
