@@ -30,6 +30,7 @@ Note: There are spaces in the schema map, but in the actual database they will n
 
 #### _Post-MVP_
   - User lists
+  - Ability for users to create multiple lists
   - Total price calculated on a user's parts list
   - Ability for users to submit pictures of their completed builds
   - Part compatibility detector
