@@ -93,6 +93,11 @@ Spec.destroy_all
     { name: 'MSI RX 560 AERO ITX 4G OC', part_type: 'vid_card' },
     { name: 'Zotac ZT-P10810F-10P', part_type: 'vid_card' },
     { name: 'MSI GTX 1080 TI SEA HAWK X', part_type: 'vid_card' },
+    { name: 'PNY GeForce GTX 1050 DirectX 12', part_type: 'vid_card' },
+    { name: 'GIGABYTE GeForce RTX 2070 GAMING OC WHITE 8G', part_type: 'vid_card' },
+    { name: 'GIGABYTE AORUS GeForce RTX 2070 DirectX 12 ', part_type: 'vid_card' },
+    { name: 'PNY GeForce GTX 1080 DirectX 12', part_type: 'vid_card' },
+    { name: 'EVGA GeForce GTX 1060 6GB SSC GAMING ACX 3.0', part_type: 'vid_card' },
 
   ])
 
@@ -687,6 +692,48 @@ Spec.destroy_all
     { attribute_name: 'Memory', attribute_value: '11GB', part_id: 66 },
     { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080 Ti', part_id: 66 },
     { attribute_name: 'Series', attribute_value: 'SEA HAWK X', part_id: 66 },
+
+    # --- PNY GeForce GTX 1050 DirectX 12  --- #
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.pny.com/geforce-gtx-1050-2gb', part_id: 67 },
+    { attribute_name: 'Price', attribute_value: 199.99, part_id: 67 },
+    { attribute_name: 'Core Clock', attribute_value: 1.35, part_id: 67 },
+    { attribute_name: 'Memory', attribute_value: '2GB', part_id: 67 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1050', part_id: 67 },
+    { attribute_name: 'Series', attribute_value: 'GTX 1050', part_id: 67 },
+
+    # --- GeForce RTX 2070 GAMING OC 8G --- #
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.gigabyte.com/Graphics-Card/GV-N2070GAMING-OC-8GC#kf', part_id: 68 },
+    { attribute_name: 'Price', attribute_value: 549.99, part_id: 68 },
+    { attribute_name: 'Core Clock', attribute_value: 1.74, part_id: 68 },
+    { attribute_name: 'Memory', attribute_value: '8GB', part_id: 68 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce RTX 1070', part_id: 68 },
+    { attribute_name: 'Series', attribute_value: 'RTX 2070', part_id: 68 },
+
+    # --- AORUS GeForce RTX 2070 8G --- #
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.gigabyte.com/Graphics-Card/GV-N2070AORUS-8GC#kf', part_id: 69 },
+    { attribute_name: 'Price', attribute_value: 849.99, part_id: 69 },
+    { attribute_name: 'Core Clock', attribute_value: 1.77, part_id: 69 },
+    { attribute_name: 'Memory', attribute_value: '8GB', part_id: 69 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce RTX 2070', part_id: 69 },
+    { attribute_name: 'Series', attribute_value: 'RTX 2070', part_id: 69 },
+
+    # --- PNY GeForce GTX 1080 DirectX 12 --- #
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16814133633', part_id: 70 },
+    { attribute_name: 'Price', attribute_value: 459.99, part_id: 70 },
+    { attribute_name: 'Core Clock', attribute_value: 1.62, part_id: 70 },
+    { attribute_name: 'Memory', attribute_value: '8GB', part_id: 70 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080', part_id: 70 },
+    { attribute_name: 'Series', attribute_value: 'GTX 1080', part_id: 70 },
+
+    # --- EVGA GeForce GTX 1060 6GB SSC GAMING ACX 3.0 --- #
+    { attribute_name: 'Buy Online', attribute_value: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16814487275', part_id: 71 },
+    { attribute_name: 'Price', attribute_value: 294.99, part_id: 71 },
+    { attribute_name: 'Core Clock', attribute_value: 1.57, part_id: 71 },
+    { attribute_name: 'Memory', attribute_value: '6GB', part_id: 71 },
+    { attribute_name: 'Chipset', attribute_value: 'GeForce GTX 1080 6GB', part_id: 71 },
+    { attribute_name: 'Series', attribute_value: 'SSC Gaming ACX', part_id: 71 },
+
+    
 
   ])
 
