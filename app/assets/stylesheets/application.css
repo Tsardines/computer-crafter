@@ -329,6 +329,10 @@ a.navbar-link.is-active.button, .navbar-item.has-dropdown.is-hoverable {
   margin-left: 10%;
 }
 
+.table td:hover {
+  color: #791cff;
+}
+
 .title {
   margin-left: 10%;
 }
