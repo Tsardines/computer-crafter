@@ -21,9 +21,12 @@ body {
   padding-top: 0.8em;
   position: relative;
   text-align: center;
-  transform: skewY(-6deg);
-  transform-origin: top left;
-  /* z-index: -10; */           /* creates white triangle thing */
+  /* transform: skewY(-6deg);
+  transform-origin: top left; */
+}
+
+.welcome-span {
+  font-size: 1.65em;
 }
 
 .box1, .box2, .box3 {
@@ -60,8 +63,8 @@ body {
   font-size: 30px;
   padding-left: 7em;
   position: absolute;
-  transform: skewY(6deg);
-  transform-origin: top left;
+  /* transform: skewY(6deg);
+  transform-origin: top left; */
   text-align: left;
   text-shadow: 2px 2px black;
   z-index: 40;
