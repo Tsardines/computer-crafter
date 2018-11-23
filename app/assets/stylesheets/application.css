@@ -12,6 +12,7 @@ body {
 .welcome {  /* Big Purple Hero */
   align-items: center;
   background-color: #791cff;
+  /* background-image: url("../images/diagmonds.png"); */
   display: flex;
   height: 60vh;
   justify-content: flex-start;
